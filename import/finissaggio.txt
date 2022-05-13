@@ -1,0 +1,594 @@
+Abiline	charmeuse b.co-nero		0,65		0		0		0		0		0		0
+Antares	interlock b.co-nero		1,98		0		0		0		0		0		0
+Antares	interlock tinto  x gucci	125/249	3,5	250	2,55		0		0		0		0		0
+Arianna pizzi	12201		4,18		0		0		0		0		0		0
+Arianna pizzi	1550		4,02		0		0		0		0		0		0
+Arredoquadro	radica 6 orizz.-micro graffi	0/500	15000	501/1000	14500	1001/1500	14000	1501/2000	13500	2001/2500	13000		0		0
+Arredoquadro	murale pieno-hyppo	0/500	16000	501/1000	15000	1001/1500	14000	1501/2000	13000	2001/2500	12000		0		0
+Arredoquadro	charro B/E	100/200	16500	201/700	12000	701/1000	10500	1001	10000		0		0		0
+Arredoquadro	asia	0/100	21500	101/200	20000	201/700	17500	701/1000	16000	1001/2999	14500	3000	12000		0
+Arredoquadro	safari	0/100	21500	101/200	20000	201/700	17500	701/1000	16000	1001/2999	14500	3000	12000		0
+Arredoquadro	radica	0/100	12000	101/200	11000	201/700	10000	701/1000	9000	1001/2999	8000		0		0
+Arredoquadro	mambo		6,2		0		0		0		0		0		0
+Artea	lav. N. 7		7		0		0		0		0		0		0
+artea	lav. N. 1		6,8		0		0		0		0		0		0
+Artea	cocco		6,7		0		0		0		0		0		0
+Artea	pitone righe plotter		10,7		0		0		0		0		0		0
+Artea	stampa pitone multicolor	10	10	11/100	3	101/500	2,1	501/99999	1,9		0		0		0
+Artigiana Ricami	forato	100	7500	101	6800		0		0		0		0		0
+Azimut	lav paper tr	20/50	8,12	51/150	7,54	151/299	6,96	300/9999	5,8		0		0		0
+Beccalli	kyko	100/200	4,05	201/300	3,25	301/500	2,5	501	2,45		0		0		0
+Beccalli	stampa monocolore fodera	300	0,36		0		0		0		0		0		0
+Beccalli	resinatura su fodera	300	0,34		0		0		0		0		0		0
+Beccalli	kyko nero		2,45		0	0	0	0	0		0		0		0
+Belpunto	lav sty 5573 elastic	0/149	7,8	150/399	6,8	400/99999	5,8		0		0		0		0
+Berofin	resinatura tipo P		1		0		0		0		0		0		0
+Berofin	resinatura + idro brics		0,82		0		0		0		0		0		0
+Berofin	spalmatura idro sul diritto		0,93		0		0		0		0		0		0
+Berofin	TIPO I	1/349	2,66	350/9999	2,05		0		0		0		0		0
+Berofin	TIPO F	1/499	1,3	500/99999	1		0		0		0		0		0
+Berofin	TIPO A	1/499	2,31	500/99999	1,77		0		0		0		0		0
+Berofin	TIPO L	1/499	1,38	500/99999	1,25		0		0		0		0		0
+Berofin	TIPO Q	1/499	1,8	500/99999	1,38		0		0		0		0		0
+Berofin	TIPO I speciale bric's stealth	1/100	2,47	101/9999	1,9		0		0		0		0		0
+Berofin	idro + resinatura	1/499	1,47	500/99999	1,13		0		0		0		0		0
+Berofin	acc.light x ileana senza idro	1/999	1,82	1000/99999	1,4		0		0		0		0		0
+Berofin	acc. art. Velluto	1/299	2,08	300/9999	1,6		0		0		0		0		0
+Berofin	acc. Per articolo rocket	1/499	1,77	500/9999	2,3		0		0		0		0		0
+Berofin	acc. In semplice diritto filo		1,6				0		0		0		0		0
+Berofin	tratt.idro acttive scuba	1/299	2	300/999999	1		0		0		0		0		0
+Berofin	tipo I gucci	1/349	1,67	350/9999	1,62		0		0		0		0		0
+Berofin	accoppiatura+diritto filo + idro	1/500	2,34	501	1,8		0		0		0		0		0
+Berofin	resina+dir.filo+idro sost. Croserio		1,08				0		0		0		0		0
+Berofin	solo resina sostit. Expert antisfilo		0,68				0		0		0		0		0
+Berofin	tratt. WR+RESINA ACC. H.M. X GEOX	1/349	2,54	350/9999	1,95		0		0		0		0		0
+Berofin	resina+idro WF		0,8		0		0		0		0		0		0
+Berofin	acc. Hot melt rete + tela		2,23				0		0		0		0		0
+Berofin	acc. Hot melt a Rete sul diritto		1,3				0		0		0		0		0
+Berofin	hot melt x tech runner		1,1		0		0		0		0		0		0
+Berofin	acc.TIPO I senza WR	1/349	2,3	350/99999	1,77		0		0		0		0		0
+Berofin	WR + RESIN+ACC. H.M. sex stretch	1/349	2,53	350/99999	1,95		0		0		0		0		0
+Berofin	trattamento W.R. NON USARE  PIU'	1/349	1,3	350/99999	1		0		0		0		0		0
+Berofin	W.R. + RESINATURA acrilica	1/349	1,47	350/99999	1,13		0		0		0		0		0
+Berofin	RESINATURA ciclo R048 jacq. Gold markiaro	1/349	1,01	350/99999	0,78		0		0		0		0		0
+Berofin	trattamento W.R. idro  a cascata	1/9999999	1				0		0		0		0		0
+Berofin	trattamento W.R. idro  a pieno bagno	1/99999999	0,6				0		0		0		0		0
+Berofin	TIPO I + passaggio schiumato bianco Tod's	1/349	3,21	350/9999	2,67		0		0		0		0		0
+Berofin	nuova resina poliuretanica x fendi dal1/1/2011	5000	2,5		0		0		0		0		0		0
+Berofin	nuova resina poliuretanica x fendi fino al31/12/10	5000	2,27		0		0		0		0		0		0
+Berofin	nuova accoppiat poliuretano	5000	2,85		0		0		0		0		0		0
+Berofin	hot melt + idro		1,7		0		0		0		0		0		0
+Berofin	idro+dir.filo		0,7		0		0		0		0		0		0
+Berofin	active resinato prova 1		1,1		0		0		0		0		0		0
+Berofin	active resinato prova 2		1,5		0		0		0		0		0		0
+Berofin	acc x neoprene gucci		3		0		0		0		0		0		0
+Calosfil	light bco/nero		1,15		0		0		0		0		0		0
+Carvico	morea colorato		4,25		0		0		0		0		0		0
+Carvico	stretch		0		0		0		0		0		0		0
+Carvico	malaga 190 stretch pesante		5,22		0		0		0		0		0		0
+Carvico	lycra Roby lucida		4,2		0		0		0		0		0		0
+Carvico	stretch nero		3,76		0		0		0		0		0		0
+Castagna	F 103 art. brick's idro +resin+caland.	1/100	1,78	101/200	1,52	201/999	0,89		0		0		0		0
+Castagna	F 104 art. escada resina +calandra	1/100	1,44	101/200	1,23	201/999	0,72		0		0		0		0
+Castagna	F 106 art.justin e altri  resinatura	1/100	1,34	101/200	1,14	201/999	0,67		0		0		0		0
+Castagna	stampa su jeanxy bianco escada	100/200	2,91	201/450	2,25	451/700	1,59	701/980	1,37	981/9999999	1,15		0		0
+Castagna	F 131 finissaggio top gun	1/100	1,66	101/200	1,41	201/999	0,83		0		0		0		0
+Castagna	F 130 art. kyko	1/100	1,72	101/200	1,46	201/999	0,86		0		0		0		0
+Castagna	art tartan  resinatura/dritto filo/+ calandra	1/100	1,6	101/200	1,36	201/999	0,8		0		0		0		0
+Ciemme	grazia		1,8		0		0		0		0		0		0
+Ciemme	grazia pesante		2		0		0		0		0		0		0
+Clementi	webber tinto	120/240	4,4	241/480	4,14	481	3,92		0		0		0		0
+Clementi	panama city nero	1000	6700		0		0		0		0		0		0
+Clementi	fod. Derby	200/300	3,54	301/500	3,05	501/1000	2,7	1001	2,19		0		0		0
+Colombo	fam. 2 rocket/jet black	60	4,66	100/170	2,8	171/400	1,65	401/600	1,45	601/9999	1,2		0		0
+Colombo	famiglia 1 active/stealh/maverick/jeff/playground	60	4,66	100/194	2,8	195/400	1,45	401/600	1,3	601/99999	0,97		0		0
+Colombo	termifisso	0/1000	0,35	1000/99999	0,3		0		0		0		0		0
+Corti	art roller topazio		3,65		0		0		0		0		0		0
+Corti	art roller+accoppiatura eurofiniss		5,4		0		0		0		0		0		0
+Corti	3430 jet black		3,06		0		0		0		0		0		0
+Corti	active		4,9		0		0		0		0		0		0
+Croma	art. cheienne dis. 3467	50	7,45		0		0		0		0		0		0
+Croserio	resina + dirittofilo + calandra		0,9				0		0		0		0		0
+Croserio	resina + dirittofilo + idro		0,9				0		0		0		0		0
+Croserio	resina + dirittofilo		0,8		0		0		0		0		0		0
+Croserio	res.+drittofilo+idro gucci		0,88		0		0		0		0		0		0
+Cst	lavaggio tumbler+ram vaporizzo	18/99999	1,2		0		0		0		0		0		0
+Cst	PURGA	100/9999	0,6		0		0		0		0		0		0
+Dalmatex	charme		4,97		0		0		0		0		0		0
+Dalmatex	 venix STRETCH	51/150	10,52	151/300	9,64	301/9999	8,77		0		0		0		0
+Diana Print	stampa tradizionale	35	7,4	70/105	5,55	140/175	4,44	210	3,7		0		0		0
+Dinamica Tessile	rete prateria		8,7		0		0		0		0		0		0
+Erco Pizzi	pizzo 657R solo bianco/nero		3,1		0		0		0		0		0		0
+Erco Pizzi	pizzo 831		6,2		0		0		0		0		0		0
+Erco Pizzi	black diamont (art.771 viscosa smerl)		4,65		0		0		0		0		0		0
+Ermete	ricamo dis.306971 basi pesanti	1/160	20,23	161/9999	19,52	0	0		0		0		0		0
+Ermete	ricamo dis.306971 basi leggere	1/160	17,58	161/9999	16,89	0	0		0		0		0		0
+Ermete	ricamo dis.306153	1/160	20,9	161/9999	18,54	0	0		0		0		0		0
+Ermete	ricamo dis.304549		31,62		0		0		0		0		0		0
+Essezeta	rombo 2-10+supporto	0/60	15	61/9999	10,8		0		0		0		0		0
+Euro Tex	stampa a cilindro	0/50	2000	51/150	1500	151/999	1200	1000	1000		0		0		0
+Euro Tex	stampa transfer su poliestere	0/500	0,52						0		0		0		0
+Euro Tex	stampa transfer su cotoni	0/500 x var.	1,5	501 x var.	1,4		0		0		0		0		0
+Euro Tex	resina + stampa transfer x cotoni	100/499	1,75	500	1,65		0		0		0		0		0
+Euro Tex	resina + stampa transfer x St.Tropez	100/499	1,95	500	1,75		0		0		0		0		0
+Euro Tex	lamina crack		3,2		0		0		0		0		0		0
+Euro Tex	resina + stampa transfer x double juta		2,47				0		0		0		0		0
+Euro Tex	crack fine + transf.poliestere	1/999999	3,2		0	0	0		0		0		0		0
+Euro Tex	ceratura + calandra		1,8						0		0		0		0
+Euro Tex	accoppiatura tessuti stretch		0						0		0		0		0
+Euro Tex	lavoraz. Delave' 2 passi		1,6						0		0		0		0
+Euro Tex	lavoraz. ns. art. akash	0/500	2,41	501/9999999	2,21				0		0		0		0
+Euro Tex	stampa transfer su cotoni pesanti	0/500 x var.	2,41	501 x var.	2,21		0		0		0		0		0
+Euro Tex	stampa transfer su village/nisha	0/500	3,68	501	3,48		0		0		0		0		0
+Euro Tex	accoppiatura elastica		1,8						0		0		0		0
+Euro Tex	termofix		0,77						0		0		0		0
+Euro Tex	stampa transfer + crack fine x black leo	0/200	4,99	201/300	4,49	301/99999	3,99		0		0		0		0
+Eurofiniss	lucertola trasparente		0		0		0		0		0		0		0
+Eurofiniss	brinatura lamina oro/argento + vaporizzo		3,81		0		0		0		0		0		0
+Eurofiniss	brinatura lamina colorata + vaporizzo		4,01		0		0		0		0		0		0
+Eurofiniss	stropicciatura		0,95		0		0		0		0		0		0
+Eurofiniss	spianatura/asciugatura		0,13		0		0		0		0		0		0
+Eurofiniss	vaporizzo		0,21		0		0		0		0		0		0
+Eurofiniss	sanforizzo		0,18		0		0		0		0		0		0
+Eurofiniss	sanforizzo		0,18		0		0		0		0		0		0
+Eurofiniss	antigoccia (idrorepellente)		0,6		0		0		0		0		0		0
+Eurofiniss	spianare finiss- forte		0,33		0		0		0		0		0		0
+Eurofiniss	morbido		0,18		0		0		0		0		0		0
+Eurofiniss	stropiccio		0,95		0		0		0		0		0		0
+Eurofiniss	brinatura oro/argento		3,6		0		0		0		0		0		0
+Eurofiniss	mano rigida		0		0		0		0		0		0		0
+Eurofiniss	spazzolatura		0,36		0		0		0		0		0		0
+Eurofiniss	unito x pulipell		0,32		0		0		0		0		0		0
+Eurofiniss	lavoraz. antigoccia idro		0,6		0		0		0		0		0		0
+Eurofiniss	llavorazione teflon a immersione		0,6		0		0		0		0		0		0
+Eurofiniss	llav.foratura tipo sbattuto art.brad		3,1		0		0		0		0		0		0
+Eurofiniss	foro + sbatt.+strop.+brinatura oro/arg.		0		0		0		0		0		0		0
+Eurofiniss	foro + sbatt.+strop.+brinatura colorata.		0		0		0		0		0		0		0
+Eurofiniss	lamina dis.3152 oro/argento puntinato + vaporizzo		4,21		0		0		0		0		0		0
+Eurofiniss	lamina dis.3152 colorato puntinato + vaporizzo		4,61		0		0		0		0		0		0
+Eurofiniss	termofiso e vaporizzo		0,5		0		0		0		0		0		0
+Eurofiniss	morbido + sanforizzo		0,36		0		0		0		0		0		0
+Eurofiniss	mano sostenuta (rigida)		0,31		0		0		0		0		0		0
+Eurofiniss	termofisso		0,39		0		0		0		0		0		0
+Eurofiniss	lamina oro/argento + euro tx acc. elast.+ vaporizz		0		0		0		0		0		0		0
+Eurofiniss	lamina colorata + euro tex acc. elast.+vaporizzo		0		0		0		0		0		0		0
+Eurofiniss	unito e sanford		0,35		0		0		0		0		0		0
+Eurofiniss	lamina colorata + spianatura + stropiccio		4,86		0		0		0		0		0		0
+Eurofiniss	lamina oro/arg + spianatura + stropiccio		4,66		0		0		0		0		0		0
+Eurofiniss	accoppiatura		1,75		0		0		0		0		0		0
+Eurofiniss	airo + morbido		0,44		0		0		0		0		0		0
+Eurofiniss	unito e lamina eff.puntinato		0		0		0		0		0		0		0
+Eurofiniss	stampa a transfer		0,38		0		0		0		0		0		0
+Eurofiniss	stropiccio + taglio termico		1,23		0		0		0		0		0		0
+Eurofiniss	antigoccia (idrorepellente) + vaporizzo		0,81		0		0		0		0		0		0
+Eurofiniss	cinzatura		0,5		0		0		0		0		0		0
+Eurofiniss	lamina dis.3152 puntinato bianca		4,4		0		0		0		0		0		0
+Eurofiniss	lamina totale oro/argento puntinato + vaporizzo		4,21		0		0		0		0		0		0
+Eurofiniss	lamina totale  colorato puntinato + vaporizzo		4,61		0		0		0		0		0		0
+Eurofiniss	lavoraz. Laser pieghe allover		4,3		0		0		0		0		0		0
+Eurofiniss	lav.laser dis. Gamba jeans		4,3		0		0		0		0		0		0
+Eurofiniss	brinatura lamina colorata		3,8		0		0		0		0		0		0
+Eurofiniss	airo/follone		0,44		0		0		0		0		0		0
+Eurofiniss	airo + vaporizzo		0,64		0		0		0		0		0		0
+Eurofiniss	lav.laser + buco laser + stropiccio		0		0		0		0		0		0		0
+Eurofiniss	lamina dis.3152 oro/argento puntinato		4		0		0		0		0		0		0
+Eurofiniss	lamina dis.3152 colorato puntinato		4,4		0		0		0		0		0		0
+Eurofiniss	stampa a transfer + stropiccio		1,33		0		0		0		0		0		0
+Eurofiniss	pelle ovo nappalan		0		0		0		0		0		0		0
+Eurofiniss	unito + calandra		0,27		0		0		0		0		0		0
+Eurofiniss	cinzatura permanente		1,15		0		0		0		0		0		0
+Eurofiniss	calandra		0,09		0		0		0		0		0		0
+Eurofiniss	vaporizzo  a tappeto		0,2		0		0		0		0		0		0
+Eurofiniss	cinzatura		0,5		0		0		0		0		0		0
+Eurofiniss	jamison colorati	0	0	0	0	0	0	0	0	0	0	0	0		0
+Eurofiniss	chambers + brinatura lamina colorata + vaporizzo		0		0		0		0		0		0		0
+Eurofiniss	colla arredamento		5		0		0		0		0		0		0
+Eurofiniss	brinatura colorata per justin steel		3,8		0		0		0		0		0		0
+Eurofiniss	brinatura oro e colorati satinati		4,3		0		0		0		0		0		0
+Eurofiniss	antigoccia (idror.)red berry		0,8		0		0		0		0		0		0
+Eurofiniss	spianatura a vapore		0,2		0		0		0		0		0		0
+Eurofiniss	spianatura + calandra		0		0		0		0		0		0		0
+Eurofiniss	doppia cinzatura		1		0		0		0		0		0		0
+Eurofiniss	laser/brinatura oro/arg.+ strop.		7,65		0		0		0		0		0		0
+Eurofiniss	laser/brinatura oro/arg satinato .+ strop.		8,35		0		0		0		0		0		0
+Eurofiniss	apretto vinilico mano sostenuta x reti		0,7		0		0		0		0		0		0
+Eurofiniss	appretto +accoppiatura		2,45		0		0		0		0		0		0
+Eurofiniss	brinatura vernice colorata		5		0		0		0		0		0		0
+Eurofiniss	brinatura satinata + stropiccio		5,25		0		0		0		0		0		0
+Eurofiniss	appretto+accoppiatura+lam satinata doppia		11,55		0		0		0		0		0		0
+Eurofiniss	accoppiatura con protezione per black legend		2,25		0		0		0		0		0		0
+Eurofiniss	appretto+accoppiatura per black legend		2,95		0		0		0		0		0		0
+Eurofiniss	cesto con enzimi		0,93		0		0		0		0		0		0
+Eurofiniss	morbido cesto + calandra 130		0,61		0		0		0		0		0		0
+Eurofiniss	lavorazione enercy (turbang)		0,64		0		0		0		0		0		0
+Eurofiniss	lamina puntinata oro/arg		4		0		0		0		0		0		0
+Eurofiniss	lamina puntinata+lamina tsq		6,5		0		0		0		0		0		0
+Eurofiniss	lavorazione lucido permanente		2,5		0		0		0		0		0		0
+Eurofiniss	brinatura oro/arg e colorata satinata+resistenza s		5,15		0		0		0		0		0		0
+Eurofiniss	lamina totale colorat puntinat+vaporiz+resist sf		5,46		0		0		0		0		0		0
+Eurofiniss	resina resistenza abrasione		0,5		0		0		0		0		0		0
+Eurofiniss	multiplus		0,84		0		0		0		0		0		0
+Eurofiniss	stropiccio+brinatura satinata		4,9		0		0		0		0		0		0
+Eurofiniss	laser+airo+stropiccio		4,05		0		0		0		0		0		0
+Eurofiniss	taglio termico		0,28		0		0		0		0		0		0
+Eurofiniss	mano sostenuta +idro		1,1		0		0		0		0		0		0
+Eurofiniss	laser + airo		3,1		0		0		0		0		0		0
+Eurofiniss	energy x tekno blue		0,4		0		0		0		0		0		0
+Eurofiniss	laser+airo+stropicc+accopiatura		5,8		0		0		0		0		0		0
+Eurofiniss	lam 3152 satinata		4,7		0		0		0		0		0		0
+Eurofiniss	brinatura satinata+delave'		4,78		0		0		0		0		0		0
+Eurofiniss	resina morbida		0,62		0		0		0		0		0		0
+Eurotex	lamina crack fine nero su art black leo	0/200	4,47	201/300	3,97	301/99999	3,47		0		0		0		0
+Expert	normale		1,22		0		0		0		0		0		0
+Expert	lattice vulcanizzato		0,87		0		0		0		0		0		0
+Expert	transfer/film		1,96		0		0		0		0		0		0
+Expert	antisfilo normale		0,62		0		0		0		0		0		0
+Expert	resinatura super morbida		0,49		0		0		0		0		0		0
+Expert	resinatura per stampa		0,49		0		0		0		0		0		0
+Expert	normale + tela bianca		1,87		0		0		0		0		0		0
+Expert	normale + tela nera		1,87		0		0		0		0		0		0
+Expert	normale morbida		1,4		0		0		0		0		0		0
+Ferradini	goffratura stampa		1		0		0		0		0		0		0
+Ferradini	stampato sintetico rigato testai	1/50	2,32	51/9999	1,23		0		0		0		0		0
+Ferradini	lavorazione twister/ombek/cocco enny	1/50	2,62	51/999	1,58		0		0		0		0		0
+Ferradini	st.treccia europa-treccina-treccia bottega ven-coc	1/50	2,62	51/999	1,58		0		0		0		0		0
+Frigerio	port louis		8,9		0		0		0		0		0		0
+Furlana	moana		4,05		0		0		0		0		0		0
+Furpile	moore	1/299	6,63	300/99999	5,1		0		0		0		0		0
+Furpile	mongolia	100/299	6,11	300/99999	4,7		0		0		0		0		0
+Furpile			0		0		0		0		0		0		0
+Griffine	glove		8,9		0		0		0		0		0		0
+Ielmini	cimatura		1,9		0		0		0		0		0		0
+Il Foro	foratura	10/99	2,11	100	1,57		0		0		0		0		0
+Italdenim	red wind		5,25		0		0		0		0		0		0
+Italianfibre	stretch primetta		2,5		0		0		0		0		0		0
+Italplastic	punto tr iguana		6500		0		0		0		0		0		0
+Italplastic	stiffmetal strong		7500		0		0		0		0		0		0
+Italplastic	starglitter anticato bronzo	50/299	6,3	300	4,5		0		0		0		0		0
+Italplastic	marco polo magellano denim + wally glitter	50/299	7,49	300	5,35		0		0		0		0		0
+Italplastic	specchio oro argento	50/299	5,95	300	4,25		0		0		0		0		0
+Italplastic	specchio colorati	50/299	6,3	300	4,5		0		0		0		0		0
+Italplastic	bombardato	50/299	5,18	300	3,7		0		0		0		0		0
+Italplastic	cortez sahara	50/299	6,72	300	4,8		0		0		0		0		0
+Italplastic	trh anticato sahara	50/299	6,72	300	4,8		0		0		0		0		0
+Italplastic	total glitter	50/299	5,18	300	3,7		0		0		0		0		0
+Italplastic	specchio trasparente	50/299	5,46	300	3,9		0		0		0		0		0
+Italplastic	lav.pyton	50/299	6,16	300	4,4		0		0		0		0		0
+Italplastic	pyton	50/299	6,16	300	4,4		0		0		0		0		0
+Italplastic	new zealand	50/299	9,52	300	6,8		0		0		0		0		0
+Italplastic	starglitter stone wash 20	50/299	7,56	300	5,4		0		0		0		0		0
+Italplastic	veglitter	50/299	5,04	300	3,6		0		0		0		0		0
+Italplastic	specchio ologramma rubino arg.	50/299	9,17	300	6,55		0		0		0		0		0
+Italplastic	lavorazione las vegas	50/299	9,1	300	6,5		0		0		0		0		0
+Italplastic	flock di viscosa su tessuti	50/299	2,94	0/300	2,1		0		0		0		0		0
+Italplastic	lflock di tessuti su finta pelle	50/299	4,2	300	3		0		0		0		0		0
+Italplastic	specchio colorati + resin.pigmentata a dis.	50/299	8,4	300	6		0		0		0		0		0
+Italplastic	specchio oro/arg.+ resin.pigmentata a dis.	50/299	8,05	300	5,75		0		0		0		0		0
+Italplastic	resin.pigmentata  dis.7019 + dis.pelle anticata	50/299	4,2	300	3		0		0		0		0		0
+Italplastic	lavoraz.pvc lucido trasparente	50	7,2	51/199	4,68	200/9999	3,6		0		0		0		0
+Italplastic	kinder point	50/299	4,13	300/9999	2,95				0		0		0		0
+Italplastic	disegno maltinto	50/299	4,2	300	3		0		0		0		0		0
+Italplastic	lavoraz.costa smeralda dis. Galassi	50/300	6,16	301/9999	4,4		0		0		0		0		0
+Italplastic	pu lucido trasparente prova 1124/06 VE	100/299	5,88	300/9999	4,2		0		0		0		0		0
+Italplastic	pu solari trasparente prova 1124/06 VE	100/299	6,93	300/9999	4,95		0		0		0		0		0
+Italplastic	pu opaco trasparente prova 1124/06 VE	100/299	5,25	300/9999	3,75		0		0		0		0		0
+Italplastic	pvc lucido trasp.prova 9086/06 bis escada	1/50	4,8	51/199	3,12	200	2,4		0		0		0		0
+Italplastic	PU lucido trasparente jimix/double glass		4,33		0		0		0		0		0		0
+Jacchetti	delavaggio mimetico		1,3		0		0		0		0		0		0
+Jacchetti	del. Matrix + fin. Forte		1,45		0		0		0		0		0		0
+Jacchetti	stone wash + finiss.forte		1,68		0		0		0		0		0		0
+Jacchetti	stone wash + eurofiniss		1,56		0		0		0		0		0		0
+Jacchetti	lavaggio solo acqua		1,3		0		0		0		0		0		0
+Jacchetti	lavaggio a secco	0/69	1,1	70/9999	0,55		0		0		0		0		0
+Jacchetti	2 passaggi stone wash + eurofiniss		3,26		0		0		0		0		0		0
+Jacchetti	lavaggio new bambù		2		0		0		0		0		0		0
+Jacchetti	trattamento per red wind	0/69	4,2	70/9999	2,8		0		0		0		0		0
+Jacchetti	batik doppio colore x stone linus		4,4		0		0		0		0		0		0
+Jacchetti	batik doppio colore x cottonstone		6,6		0		0		0		0		0		0
+Jacchetti	spianatura		0,18		0		0		0		0		0		0
+Jacchetti	decolorazione x tintura the	0/69	2,03	70/999	1,35		0		0		0		0		0
+Jetex 2	lino finiss. airo asciutto		0,56		0		0		0		0		0		0
+Jetex 2	cotone  finiss. airo asciutto		0,56		0		0		0		0		0		0
+Jetex 2	lycra finissaggio		0,28		0		0		0		0		0		0
+Lange	tela juta gg nostro double juta		1,94		0	0	0		0		0		0		0
+Lange	ritorto malaga greggio		2,78		0		0		0		0		0		0
+Lange	denim nero		3		0		0		0		0		0		0
+Levati	glitter 008 fine su nostro drill		9,5		0		0		0		0		0		0
+Levati	glitter008 fine su loro drill		11,8		0		0		0		0		0		0
+Lomazzi	resina + idro brics		0,75		0		0		0		0		0		0
+Lomazzi	resina semplice		0,45		0		0		0		0		0		0
+Lomazzi	smeriglio/teflon/spazzolatura/confez.	200/300	1,96	301/400	1,67	401/500	1,47	501/600	1,28	601/9999999	0,98		0		0
+Lomazzi	tartan resinatura + diritto filo.	140/200	1,02	200/300	0,89	300/9999	0,68						0		0
+Lomazzi	resinatura + calandra		0,55		0		0		0		0		0		0
+Lomazzi	cimatura garza	120	1,45	250	0,35		0		0		0		0		0
+Longo	tela bianca		1,1		0		0		0		0		0		0
+Longo	tela nera		1,1		0		0		0		0		0		0
+Luce	stampa rotativa	100	5,5	300	4,7		0		0		0		0		0
+Luce	stampa a tavolo	210/70	3,88	800/4	3,7		3,08	1200/4	0		0		0		0
+Luce	stampa rotativa pig. Delavè	100	6,1	300	5,26	600	4,31	1200	2,98	2000	2,34	4000	2,05		0
+Luce	martina jersey 30/1 st. d.15843 1 col.	100	7,35	400/2	4,94	800/2	4,46	1200	3,52	2000	2,86		0		0
+Luce	west jersey 24/1 st. d.15843 1 col.	100	7,88	400/2	5,48	800/2	4,94	1200	4,01	2000	3,35		0		0
+Luce	stampa a tavolo 6 colori	210	6,6	800/4	3,1		0		0		0		0		0
+Luce	stampa rotariva d.189 fiore	100	6,13	4/800	4,75	2/1400	2,9	4/2000	2,5		0		0		0
+Luce	stampa rotariva d.081 riga	100	6,13	4/800	4,35	2/1400	2,75	4/2000	2,31		0		0		0
+Luce	stampa rotariva d.189 fiore monovariante	100	6,13	300/500	5,6	600	4,2		0		0		0		0
+Luce	stampa rotariva d.081 riga monovariante	100	6,13	300/500	5,2	600	3,9		0		0		0		0
+Luce	stampa rotativa legend d. 181	100	6,23	1000	2,95	2000	2,65	4000	2,6		0		0		0
+Luce	rotativa max 6 c. inf. 240 gr.	100	6,49	300/1	5,14	600/2	4,31	1200/2	3,13	1200/3	3,42	2000/3	2,72		0
+Luce	rotativa max 6 c. da 240 a 400 gr.	100	6,49	300/1	5,63	600/2	4,71	1200/2	3,41	1200/3	3,73	2000/3	2,96		0
+Luce	rotativa max 6 c. oltre 400  gr.	100	6,78	300/1	6,16	600/2	5,15	1200/2	3,72	1200/3	4,07	2000/3	3,21		0
+Luce	manomacchina max 6 c. inf. 240 gr.	100	10,37	300/1	7,13	800/2	3,81	1200/1	3,18	1200/3	3,31	2000/3	2,8		0
+Luce	manomacchina max 6 c. da 240 a 400 gr.	100	10,37	300/1	7,81	800/2	4,16	1200/1	3,47	1200/3	3,61	2000/3	3,05		0
+Luce	manomacchina max 6 c. oltre 400 gr.	100	10,84	300/1	8,56	800/2	4,53	1200/1	3,78	1200/3	3,93	2000/3	3,34		0
+Luce	rotativa max 8 c. oltre 400  gr.	100	7,02	300/1	6,4	600/2	5,39	1200/2	3,96	1200/3	4,31	2000/3	3,45		0
+Luce	stampa rotativa pig. Delavè x jimix	100	6,32	300	5,48	600	4,53	1200	3,2	2000	2,56	4000	2,05		0
+Luce	st. quadro monocolore su poliuretano	35/99	9,06	100/199	6,79	200 oltre	4,72		0		0		0		0
+Luce	stampa a tavolo dis. Fiore gucci	100	11,86	300/1	9,58	800/2	5,55	1200/2	4,95		0		0		0
+Luce	stampa rotativa su panama monocolore	1000/1999	2,95	2000/2999	2,65	3000/3999	2,6		0		0		0		0
+Luce	stampa ink jet	2/70	9,1	71/99999	8		0		0		0		0		0
+Luce	stampa rotativa BALLY	100 1 var..	7,18	300 1 var..	5,8	600 2 var.	4,96	1200 3 var.	3,4	2000 4 var	2,74		0		0
+Map	acc. 2c 224g	20/300	2,85	301	2,2		0		0		0		0		0
+Map	sist 240/g	0/300	2,85	301	1,9		0		0		0		0		0
+Map	sist  3 corpi sist.240/g	0/300	4,16	301	2,77		0		0		0		0		0
+Map	acc.2 corp. Sist 240	0/300	2,11	301	1,41		0		0		0		0		0
+Map	idro su beach		1,98		0		0		0		0		0		0
+Map	wally+lycra+mtp 1,5+lycra	0/99	12,07	100/9999	8,05		0		0		0		0		0
+Matra due	dis per bronze sky		7,41		0		0		0		0		0		0
+Matra due	Dis. Riga vert. 1		1,77		0		0		0		0		0		0
+Matra due	Dis. Quadro 3		2,14		0		0		0		0		0		0
+Matra due	Dis. Cerchio 1		4,61		0		0		0		0		0		0
+Matra due	dis rombo		2,25		0		0		0		0		0		0
+Matra due	dis 3872 paracadute		2,85		0		0		0		0		0		0
+Matra due	dis STY 6475		6,37		0		0		0		0		0		0
+Matra due	dis E101M coral sky		2,71		0		0		0		0		0		0
+Matra due	dis per orange sky		2,51		0		0		0		0		0		0
+Matra Due	dis. Rombo per natuzzi		1,94		0		0		0		0		0		0
+Matra due	diamante verticale	0/1999	3,5	2000	3		0		0		0		0		0
+Matra due	dis 7125 +mtp 5mm x white spirit		9,2		0		0		0		0		0		0
+Matra due	diamante verticale+mtp 5mm		4,71		0		0		0		0		0		0
+Matra due	lav rombo 7x7 +ovatta 100gr		4,11		0		0		0		0		0		0
+Matra due	dis quadro 1	30/99999	2,8		0		0		0		0		0		0
+Moplast	vapori d'alluminio	50	4,5	100/199	2,25	200/299	1,12	300/357	0,75	358/9999	0,48		0		0
+Morellino	stampe personalizzate GG/FF		5		0		0		0		0		0		0
+My Way	rufus+tintura		4,07		0		0		0		0		0		0
+My Way	justin pronto tinta	phedra pronto tinta)	2,4		0		0		0		0		0		0
+My Way	londra in natura		3,4		0		0		0		0		0		0
+My Way	light b/n+ eurofiniss		1		0		0		0		0		0		0
+Novaresin	adelchi	51/99	3,77	100/199	3,14	200	1,57		0		0		0		0
+Novaresin	secret	51/99	2,23	100/199	1,86	200	0,93		0		0		0		0
+Novaresin	secret su jeanxy	51/99	2,23	100/199	1,86	200	0,93		0		0		0		0
+Novaresin	goonies colorato	51/99	3,09	100/199	2,58	200	1,93		0		0		0		0
+Novaresin	secret biface x jimix - brad	51/99	3,14	100/199	2,62	200	1,31		0		0		0		0
+Novaresin	adelchi + pulip.+ eurof.x baker/jerome	51/99	5,79	100/199	5,06	200	3,25		0		0		0		0
+Novaresin	new bambu'	51/99	5,88	100/199	4,9	200	2,45		0		0		0		0
+Novaresin	secret + pulipel + eurofiniss	51/99	3,65	100/199	3,28	200	2,35		0		0		0		0
+Novaresin	secret solido	0/100	4,2	101/250	3,5	251/400	2,97	401/499	2,62	500/9999	1,75		0		0
+Novaresin	henric	51/99	6,24	100/199	5,2	200	2,6		0		0		0		0
+Novaresin	finiss. Anastasia x simon	0/100	5,76	101/250	4,8	251/300	4,08	301/99999	2,4				0		0
+Novaresin	lav. Scotchgard microdouble	51/99	1,22	100/199	1,02	200	0,51		0		0		0		0
+Novaresin	new bambu' x morris glitter	51/99	13,9	100/199	11,58	200	5,79		0		0		0		0
+Novaresin	secret per cult	51/99	2,88	100/199	2,4	200	1,2		0		0		0		0
+Novaresin	secret per stone	51/99	2,76	100/199	1,3	200	1,15		0		0		0		0
+Novaresin	finiss. Raffaello	51/99	7,22	100/199	6,02	200	3,01		0		0		0		0
+Novaresin	lavoraz. Brigitte	51/99	6,36	100/199	5,3	200	2,65		0		0		0		0
+Novaresin	lavoraz. Rembrandt	51/99	5,28	100/199	4,4	200	2,2		0		0		0		0
+Novaresin	secret solido + secret	51/99	3,6	100/199	3	200	1,5		0		0		0		0
+Novaresin	finiss. Anastasia per MACK	0/100	6,94	101/250	5,78	251/300	4,91	301/99999	2,89				0		0
+Novaresin	adelchi x kobson/bizzy/baker/jerome	51/99	4,49	100/199	3,74	200	1,87		0		0		0		0
+Novaresin	finiss. Secret ns. symply	0/100	3,12	101/250	2,6	251/400	2,21	401/499	1,95	500/9999	1,3		0		0
+Novaresin	lavoraz. Ignufugo	51/99	3,48	100/199	2,9	200	1,45		0		0		0		0
+Novaresin	secret per air kat	51/99	2,52	100/199	2,1	200	1,05		0		0		0		0
+Novaresin	lavoraz. Ns. west sand	51/99	3,12	100/199	2,6	200	1,3		0		0		0		0
+Novaresin	fin. camel trophy ns. art. truck	51/99	6,84	100/199	5,7	200	2,85		0		0		0		0
+Novaresin	fin. secret biface ns. art. porter	51/99	4,2	100/199	3,5	200	1,75						0		0
+Novaresin	fin. camel trophy ns. art. brando	51/99	6,12	100/199	5,1	200	2,55		0		0		0		0
+Novaresin	fin. Funkytarro ns. art. hunter	51/99	5,28	100/199	4,4	200	2,2		0		0		0		0
+Novaresin	finiss. francy	51/99	3,91	100/199	3,26	200	1,63		0		0		0		0
+Novaresin	finiss. secret biface per derek	51/99	3,6	100/199	3	200	1,5		0		0		0		0
+Novaresin	secret solido biface per jimix	51/99	4,68	100/199	3,9	200	1,95		0		0		0		0
+Novaresin	secret  1 lato + pulipel + eurofiniss tela buddha	51/99	4,3	100/199	3,82	200	2,62		0		0		0		0
+Novaresin	finiss. secret 1 lato jimix	51/99	2,4	100/199	2	200	1		0		0		0		0
+Novaresin	finiss. secret 1 lato jimix + pulipel+ eurofiniss	51/99	3,7	100/199	3,32	200	2,37		0		0		0		0
+Novaresin	fin. secret biface ns. art. porter+pulipel+eurofin	51/99	5,5	100/199	4,82	200	3,12		0		0		0		0
+Novaresin	finissaggio pel	51/99	4,56	100/199	3,8	200	1,9		0		0		0		0
+Novaresin	supervernice pigmentato	51/99	6,26	100/199	5,22	200	2,61		0		0		0		0
+Novaresin	finiss. full jack per big stone	51/99	7,1	100/199	5,92	200	2,96		0		0		0		0
+Novaresin	supervernice x jeanxy e stone flash	0/100	7,68	101/250	6,4	251/400	5,44	401/499	4,8	500/99999	3,2		0		0
+Novaresin	future brain new	51/99	7,92	100/199	6,6	200	3,3		0		0		0		0
+Novaresin	finiss. full jack per white rock	51/99	5,64	100/199	4,7	200	2,35		0		0		0		0
+Novaresin	lav. Rainbow special	51/99	8,16	100/199	6,8	200	3,4		0		0		0		0
+Novaresin	lav.ignifugo+cigarette e match tess	51/99	3,96	100/199	3,3	200	1,65		0		0		0		0
+Novaresin	lav. Ignifugo per crib 5	51/99	5,04	100/199	4,2	200	2,1		0		0		0		0
+Novaresin	imp.+antisfilo x jacq,brics	51/99	2,04	100/199	1,7	200	0,85		0		0		0		0
+Novaresin	dunkscuba finiss. Ignif. Immers.BS5852/1	51/99	3,12	100/199	2,6	200/300	1,95	301/99999	1,3		0		0		0
+Novaresin	canvas finiss ignifugo spalm BS5852/1	51/99	3,72	100/199	3,1	200/300	2,32	301/99999	1,55		0		0		0
+Novaresin	secret biface	51/99	3,36	100/199	2,1	200	1,4		0		0		0		0
+Novaresin	lav oluveli	0/100	4,27	101/250	3,56	251/400	3,02	401/499	2,67	500/9999	1,78		0		0
+Novaresin	lav bastard	0/100	5,83	101/250	4,86	251/300	4,13	301/99999	2,43				0		0
+Novaresin	lav. Brunc per street tech	0/100	5,72	101/250	4,76	251/400	4,05	401/499	3,57	500/9999	2,38		0		0
+Novaresin	passaggio in ram		0,18		0		0		0		0		0		0
+Novaresin	finissaggio opilux	51/99	7,56	100/199	6,3	200	3,15		0		0		0		0
+Novaresin	supervernice black iron	51/99	6,24	100/199	5,2	200	2,6		0		0		0		0
+Novaresin	secret x white ocean/sand bay	51/99	2,11	100/199	1,76	200/9999	0,88		0		0		0		0
+Novaresin	supervernice tech runner	51/99	5,28	100/199	4,4	200	2,2		0		0		0		0
+Novaresin	anastasia per grunge	0/100	7,68	101/250	6,4	251/300	5,44	301/99999	3,2				0		0
+Novaresin	inzuppato x kyko	0/100	2,76	101/250	2,3	251/400	1,95	401/499	1,72	500/9999	1,15		0		0
+Novaresin	inzuppato x microsuede	0/100	3	101/250	2,5	251/400	2,12	401/499	1,87	500/9999	1,25		0		0
+Novaresin	lav stick	0/100	3,12	101/250	2,6	251/400	2,21	401/499	1,96	500/9999	1,3		0		0
+Novaresin	metal wash	0/100	3,96	101/250	3,3	251/400	2,8	401/499	2,47	500/9999	1,65		0		0
+Novaresin	tornado oil	0/100	3,36	101/250	2,8	251/400	2,38	401/499	2,1	500/9999	1,4		0		0
+Novaresin	supervernice x irish	0/100	7,2	101/250	6	251/400	5,1	401/499	4,5	500/9999	3		0		0
+Novaresin	delavone x sanded	0/100	3,24	101/250	2,7	251/400	2,29	401/499	2,02	500/9999	1,35		0		0
+Novaresin	delavone x drillstone	0/100	3,79	101/250	3,16	251/400	2,68	401/499	2,37	500/9999	1,58		0		0
+Novaresin	secret beface x jimix  nuovi supplementi	0/100	3,14	101/250	2,62	251/400	2,22	401/499	1,96	500/99999	1,31		0		0
+Novaresin	maluco 1	0/100	6,24	101/250	5,2	251/400	4,42	401/499	3,9	500	2,6		0		0
+Novaresin	maluco 2	0/100	9,48	101/250	7,9	251/400	6,71	401/499	5,92	500	3,95		0		0
+Novaresin	secret bianco	51/99	3,36	100/199	2,8	200	1,4		0		0		0		0
+Novaresin	Lav arcoiris per berneda	0/100	4,8	101/250	4	251/400	3,4	401/499	3	500/9999	2		0		0
+Omniapiega	plissè dis. 8604	0/30	5,5	31/100	2,75	101/500	1,95	501/1000	1,85	1001/3000	1,75	>3000	1,7		0
+Omniapiega	accopp.ns. supporto		1,8												0
+Omniapiega	lavoraz. BC379	0/30	6,5	31/100	4,2	101/500	3,59	501/1000	3,43	1001/3000	3,28	>3000	3,12		0
+Omniapiega	rafel 1cm	0/30	6,6	31/100	3,3	101/500	2,6	501/1000	2,3	1001/3000	2,2		0		0
+Omniapiega	vert.+ rafel 6cm	0/30	7,9	31/100	3,95	101/500	3,55	501/1000	3,3	1001/3000	3,2		0		0
+Omniapiega	piega piatta 4mm+ loro tela	31/100	14,85	101/500	12,87	501/1000	12	1001/3000	2,42		0		0		0
+Omniapiega	rafel 1cm + 50%	0/30	13,2	31/100	6,6	101/500	5,2	501/1000	4,6	1001/3000	4,4		0		0
+Omniapiega	corteccia minimale mm 2 ades tela	31/100	21	101/500	18,03	501/1000	17,57	1001/3000	17,04		0		0		0
+Omniapiega	corteccia minim mm2	31/100	5	101/500	4,1	501/1000	3,96	1001/3000	3,8		0		0		0
+Omniapiega	tela adesivata calzatura		4,5		0		0		0		0		0		0
+Orefice	trasferire James Brasco Sonny		500		0		0		0		0		0		0
+Orefice	cinzare 2 pass.+ ram		1300		0		0		0		0		0		0
+Orefice e Corti	garzatura+spianatura		0,6		0		0		0		0		0		0
+Piave	wally colorato	80/160	11,8	161/240	11,37	241/600	10,62	601/1000	10,15		0		0		0
+Piave	wally bianco	50/299	8,09	300	7,35		0		0		0		0		0
+Piave	wally nero	50/299	8,36	300	7,6		0		0		0		0		0
+Pozzi	rete raptor gg 2307		1,44		0		0		0		0		0		0
+Pozzi	rete pistons 2335		1,8		0		0		0		0		0		0
+Pozzi	rete 2331 nera		2,4				0		0		0		0		0
+Pulipell	delavaggio H2O + EUROFINISS		1,52		0		0		0		0		0		0
+Pulipell	delavaggio  wingo candeggina gold stone		1,5		0		0		0		0		0		0
+Pulipell	delavaggio H2O		1,2		0		0		0		0		0		0
+Pulipell	delavaggio H2O + fin.forte eurofiniss		1,52		0		0		0		0		0		0
+Pulipell	lavoraz. Brab boy pulipel/eurofiniss		4,2		0		0		0		0		0		0
+Pulipell	delav.hot stone- spianat.brinat.bronzo+vap.eurof.		6,16		0		0		0		0		0		0
+Pulipell	delavag.hot stone+ spianat.eurofiniss		1,42		0		0		0		0		0		0
+Pulipell	lavaggio ipoclorito		2		0		0		0		0		0		0
+Pulipell	lavaggio a secco		1,2		0		0		0		0		0		0
+Pulipell	H2O+eurof x tatto-gotanbeac-whiteocean-blue sand-s		1,71		0		0		0		0		0		0
+Ricamificio 2G	ricamo 4206		7,15		0		0		0		0		0		0
+Ricamificio 2g	lavoraz.pizzo tagliato dis.4696		18		0		0		0		0		0		0
+Ricamificio 2G	art.6634 trapunta		6,8		0		0		0		0		0		0
+Ricamificio 2G	art.6835 ricamo filo in tinta+LOFT	1/300	9,9	301/1000	9,7	1001/9999	9,35		0		0		0		0
+Ricamificio 2G	6974 ricamo ns. articolo lamb		8,6		0		0		0		0		0		0
+Ricamificio 2G	art 1562 filo elastico		8,5		0		0		0		0		0		0
+Ricamificio 2G	atr 1562 filo elastico+vapo		9,5		0		0		0		0		0		0
+Ricamificio 2G	art 7335		6,3		0		0		0		0		0		0
+Ricamificio 2G	lav  6731		8,5		0		0		0		0		0		0
+Ricamificio 2G	lav  6705		8,8		0		0		0		0		0		0
+Ricamificio 2G	lav 7427		12,2		0		0		0		0		0		0
+Ricamificio 2G	lav 7428		8,8		0		0		0		0		0		0
+Ricamificio 2G	lav 7231 x shalimar		8,7		0		0		0		0		0		0
+Ricamificio 2G	lav 2859  x seymour		5,8		0		0		0		0		0		0
+Ricamificio 2G	RICAMO 6835	1/300	8,6	301/1000	8,4	1001/9999	8,05		0		0		0		0
+Ricamificio 2G	lav 7525 sinclair		7,3						0		0		0		0
+Ricamificio 2G	lav 7759 gotan beach		5,45		0		0		0		0		0		0
+Ricamificio 2G	lav 7313 tattoo		5,45		0		0		0		0		0		0
+Ricamificio 2G	ricamo 8884		10		0		0		0		0		0		0
+Ricamificio Ermete	art.3067385 x art. barry white	29/159	19,3	160/99999	18		0		0		0		0		0
+Ricamificio Ermete	art.3067385,5  x art. black soul	29/159	20,3	160/99999	18,5		0		0		0		0		0
+Ricamificio Ermete	art.3067387  x art. satin nine	29/159	24,1	160/99999	22,8		0		0		0		0		0
+Ricamificio Marini	ricamo+laser	10/100	105,3	101/500	101,5	501/99999	98		0		0		0		0
+Sami	dis. Sadun	70 X Var.	14650	280 in 2 var.	13100	1200 in 4 var.	8500		0		0		0		0
+Sat idea	jamaica gg	0/166	6,43	167/399	5	400/599	4,8	600/799	4,61	800/99999	4,3		0		0
+Sdc	eolo		1,04		0		0		0		0		0		0
+Sdc	stampa cilindro monocol	300	5500		0		0		0		0		0		0
+Sdc	vaporizzo		0,3		0		0		0		0		0		0
+Sdc	stampa Jet		13,79		0		0		0		0		0		0
+Sdc	morbido		0,28		0		0		0		0		0		0
+Sdc	panama city tinto	60	7,22	120/240	5,19	241/480	4,85	481	4,42		0		0		0
+Sdc	purga + morbido + calandra	500	0,7		0		0		0		0		0		0
+Sdc	tela tinta in pezza	60	5,1	120/240	3,3	241/480	2,98	481/1050	2,48	1050/9999	2,13		0		0
+Selva	idrorepellente x spalmatura	50/999	0,59	1000	0,56		0		0		0		0		0
+Selva	ovatta 60 gr	10/499	1,6	500	1,5		0		0		0		0		0
+Selva	accoppiatura semplice	0/50	2	51/99999	1		0		0		0		0		0
+Selva	doppia accoppiatura	0/50	2,2	51/9999	1,84		0		0		0		0		0
+Soft	lavorazione velluto seta	0/50	2	51/100	1,5	101/150	1,2	151/9999999	1		0		0		0
+St'one	reina + stampa transfer cot.		2,45		0		0		0		0		0		0
+St'one	st 3134 oro lucido		3,45		0		0		0		0		0		0
+St'one	st 3134 bronzo opaco canna di fucile		4,4		0		0		0		0		0		0
+St'one	vintage arruffato		5,4		0		0		0		0		0		0
+St'one	st 3145  dusty trasp. Nero		2,68		0		0		0		0		0		0
+St'one	dis.3152 arg.oro.bianco nero		3,9		0		0		0		0		0		0
+St'one	st 3145  dusty trasp. Nero + vaporizzo		2,88		0		0		0		0		0		0
+St'one	st dis. 5052 wallyweve		1,81		0		0		0		0		0		0
+St'one	dis.3152 + laminati + vaporizzo		4,7		0		0		0		0		0		0
+St'one	trasferimento carta	0/200	0,64	201/1000	0,54	1001	0,44		0		0		0		0
+St'one	dis.3152 + pulipel + eurofiniss		5,51		0		0		0		0		0		0
+St'one	stampa trans. con loro carta	0/200	2,16	201/1000	2,06	1001	1,96		0		0		0		0
+St'one	stampa su pvc con loro carta		3,09		0		0		0		0		0		0
+St'one	stampa trans.su cotone con nostra carta		1,52		0		0		0		0		0		0
+St'one	stampa trans.su cotone con loro carta		3,06		0		0		0		0		0		0
+St'one	dis.54474/54439 trasferiti	0/200	2,02	201/1000	1,37	1001	1,19		0		0		0		0
+St'one	lamina totale oro/argento		3,5		0		0		0		0		0		0
+St'one	lamina totale colorati		4		0		0		0		0		0		0
+St'one	lavoraz. Total shane trasparente		3,9		0		0		0		0		0		0
+St'one	dis.3152 bronzo		4,55		0		0		0		0		0		0
+St'one	st 53435 v.13+st3139+ingrasso		5,44		0		0		0		0		0		0
+St'one	lav.st.3139 colorato		3,2		0		0		0		0		0		0
+St'one	lavoraz. ns.justin metal oro/argento		3,1		0		0		0		0		0		0
+St'one	lavoraz. ns.justin metal colorato		3,4		0		0		0		0		0		0
+St'one	lav. justin metal oro/argento + vaporizzo		3,3		0		0		0		0		0		0
+St'one	lav.justin metal colorato + vaporizzo		3,6		0		0		0		0		0		0
+St'one	stampa transfer su cotoni		1,72		0		0		0		0		0		0
+St'one	lav.st.3139 trasparente		2,8		0		0		0		0		0		0
+St'one	stampa trans. Con loro carta dis. Pois	150	1,96		0		0		0		0		0		0
+St'one	stampa trans. Con loro carta dis. Pied pull	150	1,96		0		0		0		0		0		0
+St'one	acc.map + brinatura stone	0/300	5,95	301	5		0		0		0		0		0
+St'one	stamp transfer carta quadricrom dis tropical/fiore	0/800	2,1	801/2000	2,06	2001/5000	2,02	oltre5000	1,98		0		0		0
+St'one	lav microvegetal		6,1		0		0		0		0		0		0
+St'one	lav.justin metal colorato + vaporizzo+JUSTIN		6		0		0		0		0		0		0
+St'one	dis 65 leopardo	0/100	4	101/9999	3,8		0		0		0		0		0
+St'one	stampa transf logo armani		2,16		0		0		0		0		0		0
+St'one	stamp transfer carta quadricrom	0/800	2,1	801/2000	2,06	2001/5000	2,02	oltre5000	1,98		0		0		0
+Sublistatic	chic flower dis. 65008/65010/65011		1,52		0		0		0		0		0		0
+Sublistatic	zen flower dis. 65002/65003/65006		1,52		0		0		0		0		0		0
+Sublitex	dis.52843 James	campionario	1,6	1000/2	0,97	1500/3	0,88	1000/1	0,72		0		0		0
+Sublitex	dis.52982/7 v.911 Tyler base fuxia	campionario	1,7	1000/1	0,91	1500/1	0,83		0		0		0		0
+Sublitex	dis.54198/5 v.903/905 Brandon	campionario	1,6	1000/2	0,97	1500/2	0,88	1000/1	0,72		0		0		0
+Sublitex	dis.54619/1 Color life	campionario	1,7	1000/2	1,03	1500/2	0,94	1000/1	0,78		0		0		0
+Sublitex	dis.54735/6 Pois	campionario	1,6	1000/2	0,71	1500/2	0,64	1000/1	0,51		0		0		0
+Sublitex	dis.52982/7 v.908 Tyler base bianca	campionario	1,6	1000/1	0,78	1500/1	0,72		0		0		0		0
+Sublitex	dis.54200	campionario	1,7	1000/2	0,97	1500/2	0,88	1000/1	0,72		0		0		0
+Sublitex	dis.54746	campionario	1,7	1000/2	0,97	1500/2	0,88	1000/1	0,72		0		0		0
+Sublitex	dis.53374 leopardo	campionario	1,6	1000/2	0,86	1500/3	0,78	1000/1	0,72		0		0		0
+Sublitex	dis.54072 zebra	campionario	1,6	1000/2	0,97	1500/3	0,88	1000/1	0,72		0		0		0
+Sublitex	dis.54474 cachemire	campionario	1,6	1000	0,85	1500	0,77	3000	0,69		0		0		0
+Sublitex	dis.54439 cachemire	campionario	1,6	1000	0,85	1500	0,77	3000	0,69		0		0		0
+Sublitex	dis.53374 leopardo + trasferimento stone	campionario	2,22	1000/2	1,38	1500/3	1,3	1000/1	1,24		0		0		0
+Sublitex	dis.fiore 55253 gucci	campionario	1,6	1000/2	0,97	1500/3	0,88	1000/1	0,72		0		0		0
+Sublitex	dis.fiore 55110	campionario	1,6	1000/2	0,97	1500/3	0,88	1000/1	0,72		0		0		0
+Sublitex	dis.54195/54692  hawaii	campionario	1,6	500/2	0,97	1500/2	0,88	1000/1	0,72	3000	0,67		0		0
+Sublitex	dis.90703/03	campionario	1,6	1000/2	0,86	1500/3	0,78	1000/1	0,65	3000	0,6		0		0
+Sublitex	dis.54945	campionario	1,6	1000/2	0,97	1500/3	0,88	1000/1	0,72	3000	0,67		0		0
+Sublitex	dis.53880/03	campionario	1,6	1000/2	0,86	1500/3	0,78	1000/1	0,65	3000/3	0,6		0		0
+Sublitex	Dis 55568 var.1/2/3/21	campionario	1,6	500/2	0,97	1500/3	0,78	1000/1	0,65	3000/3	0,6		0		0
+Sublitex	dis.55506 var.1/3/4/5	campionario	1,6	500/2	0,97	1000/1	0,72	1500/3	0,88				0		0
+Sublitex	dis.53563 var.1/4/6/8	campionario	1,6	500/2	0,97	3/500	0,88	1000/1	0,72	3000/1	0,67		0		0
+Sublitex	dis.54534 var.901/903	campionario	1,6	500/2	0,97	3/500	0,88	1000/1	0,72	3000/1	0,67		0		0
+Sublitex	dis.99824 var.32/33/31/54	campionario	1,6	500/2	0,97	3/500	0,88	1000/1	0,72	3000/1	0,67		0		0
+Sublitex	dis.53563 VAR.2/6/32/33	campionario	1,6	500/2	0,97	3/500	0,88	0	0,72	3000/1	0,67		0		0
+Sublitex	dis.54205	campionario	1,6	500/2	0,97	3/500	0,88	1000/1	0,85	1500/2750	0,77	3000	0,69		0
+Sublitex	dis.56517		1,6	500/2	0,97	3/500	0,88	1000/1	0,72	3000/1	0,67		0		0
+Sublitex	dis. 55946 funky	campionario	1,6	500/2	1,1	< 1000	1,01	< 3000	0,8		0		0		0
+Sublitex	dis.56140 hip hop	campionario	1,6	500/2	1,1	< 1000	1,01	< 3000	0,8		0		0		0
+Sublitex	dis 55851 baby	campionario	1,6	500/2	0,97	3/500	0,88	1000/1	0,85		0		0		0
+Sublitex	dis 99824 righe	campionario	1,6	500/2	0,97	3/500	0,88	1000/1	0,85		0		0		0
+Sublitex	51445 var 286 mimetico minimo acq 500 mt.		1,19		0		0		0		0		0		0
+Taborelli	L5531111 base legendary		3,7		0		0		0		0		0		0
+Taborelli	madras		4,25		0		0		0		0		0		0
+Taborelli	double funny + garzatura		7,5		0		0		0		0		0		0
+Taborelli	C8224957 plaid		5,75		0		0		0		0		0		0
+Taborelli	P8543557 JACQ VICHY		3,8		0		0		0		0		0		0
+Taborelli	organza  per reti		3,1		0		0		0		0		0		0
+Tailor	xena		8		0		0		0		0		0		0
+Tat	3202/140 stealth		5,45		0		0		0		0		0		0
+TCS	stampa digitale	30 x var	12	31/60 x var	10	61/120 x var	9	121/300 x var	8,5	301/9999	8		0		0
+Teco	maglina x 3		3,45		0		0		0		0		0		0
+Tft	garzatura + vaporizzo		0,26		0		0		0		0		0		0
+Tft	garzatura + spianatura		0,26		0		0		0		0		0		0
+Tft	garzatura + finissaggio		0,34		0		0		0		0		0		0
+Tintea	lavoraz. Baylin + erco pizzi	100/200	6,08	201/399	4,69	400/599	4,55	600/799	4,43	800/9999	4,21		0		0
+Tintea	tintura tela bianca + costo tela bianca	138/399	2,86	400/599	2,69	600/799	2,5	800/9999	2,31	1000/9999	2,02		0		0
+Tintea	25 famiglia trattamento teflon	1/219	1,03	220/999	1,54		0		0		0		0		0
+Tintea	tintura stealth	1/199	2,9	200/399	1,45	400/599	1,31	600/799	1,18	800/9999	0,97		0		0
+Tintea	lavaggio		0,77		0		0		0		0		0		0
+Tintea	1 famigli tintura x unito	60	5,5	100/214	3,3	215/399	1,8	400/599	1,64	600/799	1,49	800/99999999	1,26		0
+Transfertex	dis.93958/dis.93836	5/50	1,3		0		0		0		0		0		0
+Valli	metal mesh	art.2423 rete metallizzata	6,6		0		0		0		0		0		0
+Valli	zanzariera greggia	rete 024235 greggia	3,7		0		0		0		0		0		0
+Vibe	cimatura jacquard denim fendi		4,5		0		0		0		0		0		0
+Vidama	reps bianco		1,7		0		0		0		0		0		0
+Vierre	fam.3500J	60	3,7	61/119	2,8	120/140	1,81	241/480	1,78	481/9999	1,5		0		0
+Vierre	fam.3500 OF	60	3,7	61/119	3,3	120/160	2,86	161/240	2,46	241/600	1,75	601/999	1,38		0
+Vierre	lavoraz. Justin	60	3,7	61/119	2,96	120/240	2,23	241/480	1,6	481/1050	1,4	1050/9999	1,15		
+Vierre	fam.2000 OF	60/66	3,7	67/119	3,3	120/160	2,86	161/240	2,46	241/600	1,76	601/999	1,38		0
+Vierre	fam 5000j	60/73	3,7	74/119	3,02	120/240	2,33	241/480	2	481/9999	1,78		0		0

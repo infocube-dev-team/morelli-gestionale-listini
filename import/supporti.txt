@@ -1,0 +1,101 @@
+bruciato zero +light		2		0		0		0	abline
+mtp 3 + light		2,9		0		0		0	abline
+mtp 1,5 + maglina		1,85		0		0		0	abline
+circe nero/ns.loft		1,5		0		0		0	Antares
+circe bianco/ns loft		1,5		0		0		0	Antares
+interlock b.co-nero		1,98		0		0		0	Antares
+tipo I		1,64		0		0		0	Berofin
+interlock gucci nero		1,95		0		0		0	Calosfil
+interlock gucci bianco		2,2		0		0		0	Calosfil
+angale ns.jersey col.campione		2,29		0		0		0	Calosfil
+caterina		1		0		0		0	Calosfil
+angela ns.jersey bianco		1,99		0		0		0	Calosfil
+light bianco/nero		1,15		0		0		0	Calosfil
+extra light nero interlock piquet		0,85		0		0		0	Calosfil
+angela ns.jersey nero		1,95		0		0		0	Calosfil
+EXTRALIGHT		1,05		0		0		0	Calosfil
+lycra		4,25		0		0		0	Carvico
+lycra roby lucida		4,2		0		0		0	Carvico
+stretch nero		3,76		0		0		0	Carvico
+stretch 42 pronto stampa		3,55		0		0		0	Carvico
+regina velour stretch		3,6		0		0		0	Ciemme
+grazia		1,8		0		0		0	Ciemme
+grazia pesante		2		0		0		0	Ciemme
+interlock grazia		1,8		0		0		0	Ciemme
+reps bianco		1,06		0		0		0	Clementi
+panama city bianco		2,84		0		0		0	Clementi
+panama city colorato	200/299	4,32	300/499	3,83	500/999	3,48	1000	2,97	Clementi
+panama city nero		2,97		0		0		0	Clementi
+fod. Derby	200/299	3,54	300/499	3,05	501/999	2,7	1001	2,19	Clementi
+denim colorato	200/299	0	300/499	3,05	501/999	2,7	1000	2,19	Clementi
+denim gg		1,6		0		0		0	Clementi
+reps nero		1,14		0		0		0	Clementi
+denim bianco		1,7		0		0		0	Clementi
+denim nero		1,86		0		0		0	Clementi
+brembo		0,9		0		0		0	Croserio
+interlock poli		1,21		0		0		0	Croserio
+venix stretch		8,77		0		0		0	Dalmatex
+light nero		1,35		0		0		0	Di.Bi.Ci.
+loft		1,55		0		0		0	Di.Bi.Ci.
+light bianco		1,35		0		0		0	Di.Bi.Ci.
+interlock bianco		1,85		0		0		0	Di.Bi.Ci.
+interlock nero		1,95		0		0		0	Di.Bi.Ci.
+loft bianco		1,55		0		0		0	Di.Bi.Ci.
+moana/ns.garden		4,05		0		0		0	Ermapel
+castorino		4,05		0		0		0	Ermapel
+sensitive BFAQ		6,45		0		0		0	Eurojersey
+sensitiveBFAQ al campione	350	6,77	1400	6,45		0		0	Eurojersey
+sensitive goad		7,35		0		0		0	Eurojersey
+interlock bianco		2		0		0		0	Eusebio
+interlock nero		2,02		0		0		0	Eusebio
+tela 30/27 bianca		0,91		0		0		0	Expert
+autoadesivo con carta		0,75		0		0		0	Expert
+lycra nera supporto		2,79		0		0		0	Fillattice
+PFTLZ double felt		5,4		0		0		0	Fir spa
+peluche		6,63		0		0		0	Furpile
+jeans celine unito purgato		6,16		0		0		0	Gif
+irony		9,5		0		0		0	Griffine
+davis		9,5		0		0		0	Griffine
+pekine		13		0		0		0	Griffine
+stretch tinto		4,25		0		0		0	Italianfibre
+stretch nero		3,76		0		0		0	Italianfibre
+loft nero		1,5		0		0		0	Italianfibre
+loft bianco		1,5		0		0		0	Italianfibre
+denim nero		3		0		0		0	Lange
+denim greggio		1,77		0		0		0	Lange
+panama garzato gucci		2,69		0		0		0	Lange
+denim colori chiari		2,22		0		0		0	Lange
+st. tropez lavato		3,47		0		0		0	Lange
+reps bianco		1,17		0		0		0	Lange
+juta doppia		2,81		0		0		0	Lange
+denim bianco ottico		3		0		0		0	Lange
+reps nero		1,26		0		0		0	Lange
+tela nera		1,1		0		0		0	Longo
+nuovo drill		1,3		0		0		0	Longo
+reps bianco		1,7		0		0		0	Longo
+tela bianca		1,1		0		0		0	Longo
+reps nero		1,7		0		0		0	Longo
+extra light col.scuri		1,22		0		0		0	Meg Textile
+interlock colori scuri (argentina		1,5		0		0		0	Meg Textile
+extra light bianco		1		0		0		0	Meg Textile
+interlock bianco		1,32		0		0		0	Meg Textile
+lario		2,5		0		0		0	Monteoliveto
+light (pesca b/n)+EUROFINISS		1,02		0		0		0	My Way
+glass		3,3		0		0		0	My Way
+resca mascagni		2,1		0		0		0	My Way
+tela calzatura -60		2,45		0		0		0	Omniapiega
+tela calzatura		4,15		0		0		0	Omniapiega
+wally tinto		11,75							Piave
+410029 extra light bianco/nero		1		0		0		0	Riedel Textil
+410029 loft bianco		1,25		0		0		0	Riedel Textil
+42010 loft nero		1,3		0		0		0	Riedel Textil
+loft bianco		1,6		0		0		0	Ripa
+loft nero		1,68		0		0		0	Ripa
+smoke		9000		0		0		0	Sat Idea
+accoppiatura semplice		0,92		0		0		0	Selva
+maglina leggera		1		0		0		0	Selva
+inetrlock cotone bianco		1,85		0		0		0	Tessit.Cantarini
+interlock cotone grigio antracite		1,95		0		0		0	Tessit.Cantarini
+rete 024235		4,65		0		0		0	Valli
+reps bianco		1,7		0		0		0	Vidama
+reps nero		1,7		0		0		0	Vidama

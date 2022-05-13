@@ -1,0 +1,1102 @@
+Ambiente Uomo	seta indiana	venus	7,8		0		0		0	
+Ambiente Uomo	seta cangiante	artemis 35894	7,8		0		0		0	
+Ambiente Uomo	chill	gs 10035	18500		0		0		0	
+Ambiente Uomo	fygi	1285/1284/1274	16800		0		0		0	
+Ambiente Uomo	afroman	1275/1313/dsc 17	16800	V. 2/3	18500	V.1	0		0	
+Ambiente Uomo	baja	sl1697/camp n1	6,7		0		0		0	
+Ambiente Uomo	indian	sld 114	22850		0		0		0	
+Ambiente Uomo	nash	sl 1285/74/84	8,4		0		0		0	
+Ambiente Uomo	sukko	sl 1275	7,5		0	0	0		0	
+Ambiente Uomo	freeland	sl 35530.2059 dis.1	6,7		0		0		0	
+Ambiente Uomo	silk land	sl 35530.2060 dis.2	6,7		0		0		0	
+Ambiente Uomo	jayan	shantung barre sl 1527	6,9		0		0		0	
+Ambiente Uomo	kishan	shantung barre sl 1733	6,7		0		0		0	
+Ambiente Uomo	jamir	shantung barre jamir	6,7		0		0		0	
+Ambiente Uomo	wayland	sl2519	6,5		0		0		0	
+Ambiente Uomo	ashanti	sl 35530.1839	6,5		0		0		0	
+Ambiente Uomo	west	sl2521	6,5		0		0		0	
+Ambiente Uomo	gwen	sl2520	6,5		0		0		0	
+Ambiente Uomo	akil	46465 variante unica	6,5		0		0		0	
+Ambiente Uomo	sukko	sl 1313	6,7		0	0	0		0	
+Antares	interlock poli x gucci	interlock pl 370gr bianco pt e nero	1,98		0		0		0	
+Antares	glamour	evita	9,7		0	0	0		0	
+Antares	circe 1058 nero/ns.loft	loft	1,5		0	0	0		0	
+Antares	circe 1058bianco	loft bianco	1,45		0		0		0	
+Antares	circe colori speciali	loft colorati	2,05		0		0		0	
+Antares	ciro	123	1		0		0		0	
+Antares	maglia notturno	maglia lamè	5,5		0		0		0	
+Aquatex	ginzo	04165	6900		0		0		0	
+Aresia	herby	6055	16500	100/499	15000	500	0		0	
+Arianna pizzi	pizzo 12201	12201 b/n	4,18		0		0		0	
+Arianna pizzi	art 57 pe 12	12072	3,52		0		0		0	
+Armac.com srl	holdmerinos/hold skin	avirex col.nero/t.moro	8,8		0		0		0	
+Armac.com srl	cervo acc. Light	boot + arno acc. Light	12		0		0		0	
+Armac.com srl	cervo reps/semplice/old cervo	boot/el  in sempl.	10		0		0		0	
+Arnetta	gros grain	2943 party	2,98		0		0		0	
+Arnetta	chocolat	saia lamè	3,8		0		0		0	
+Asoltex	kassius	spaziato	16500		0		0		0	
+Asoltex	kassius	spaziato 4mm	18300		0		0		0	
+Barzaghi	gommato 3	osklen	10,9	100/300	10,79	500	10,68	1000	10,57	3000
+Barzaghi	gommato 3 bis	osklen bis	10,46	5000	10,35	10000	0		0	
+Barzaghi	gommato 3 piu' idro	osklen bis piu' idro	12,1	100/300	11,98	500	11,86	1000	11,74	3000
+Barzaghi	gommato 3 bis piu' idro	osklen 3  bis piu' idro	11,62	5000	11,5	10000	0		0	
+Beccalli	kiko offerta +1000	raso corsica tinto	2,45	1000/2000	0		0		0	
+Beccalli	crepe	basilea	4,18	100/200	3,41	201/300	2,63	301/500	2,58	501
+Beccalli	kykoTINTO	raso corsicaTINTO	4,5	100/200	3,5	201/300	2,7	301/500	2,6	501/1000
+Beccalli	kiko pronto tinta	corsica pronto tinta	2,28	500	2,2	1000	2,15	2000	0	
+Beccalli	perla tinto	perla tinto	2,15	500	0		0		0	
+Beccalli	perla pronto tinta	perla pronto tinta	1,9		0		0		0	
+Beccalli	kyko	corsica bianco ottico	2,37	500	0		0		0	
+Beccalli	white ground	alba	3,15		0		0		0	
+Beccalli	ocean	honda 6	3,86		0		0		0	
+Beccalli	smove	raso atene pronto stampa	2,1		0		0		0	
+Beccalli	gross grain pois reps	lucerna pronto tinta	3,45		0		0		0	
+Beccalli	kyko lux	raso atene	4,15		0		0		0	
+Beccalli	kiko pronto tinta MT.1000	corsica pronto tinta	2,2	MT.1000						
+Beccalli	kiko p.tinta MT.2000	corsica p.tinta	2,15	MT.2000						
+Beccalli	kyko x giser	raso corsicaa	2,45	300	2,35	500	2,25	1000/2000	0	
+Beccalli	pharaon	doppio raso seta	6	100/199	5,25	200/299	4,5	300/499	4,35	500
+Beccalli	satin lamè	raso zingara	6,35	100	5,55	200	4,8	300	4,7	500
+Berto spa	new denim	live pluss 11	4,2	1000	0		0		0	
+Berto spa	blue denim	tarkus 10	4	1000	0		0		0	
+Berto spa	metal denim	lady black	5,9		0		0		0	
+Berto spa	stripe denim	hot dog	5,6		0		0		0	
+Berto spa	new denim+ jimix	live pluss 11+ ritorto malaga	6,76	1000	0		0		0	
+Berto spa	premier denim	premier blu 11	4,8		0		0		0	
+Bonduel	jenox	miami	10350		0		0		0	502
+Borgini	athletic	25691/45691	7700	0/100	6700	101/300	6200	301/500	5200	501
+Borgini	marvin	jersey lamè	4,92							
+Bossi	irish/patrick	alcazar	7,15		0		0		0	
+Bossi	scottish	belt 7	5,2		0		0		0	
+Bossi	fustagno lancel	rex	10,5		0		0		0	
+Calosfil	light	caterina	1,15		0		0		0	
+Carvico	stretch	morea 170	4,25		0		0		0	
+Carvico	stretch pesante	malaga 190	5,22		0		0		0	
+Carvico	stretch 41	morea b/co stampa	3,55		0		0		0	
+Carvico	revolution	cuba	16500		0		0		0	
+Carvico	revolution b/co	cuba b/co stampa	15900		0		0		0	
+Carvico	silver	rodi	4,25		0		0		0	
+Carvico	fandango	rodi	4,25		0		0		0	
+Carvico	stretch X carlito	carlito	20000		0		0		0	
+Carvico	stretch nero	morea 170 nero	3,76		0		0		0	
+Carvico	velvet	361 panama bianco e tinti	8,88		0		0		0	
+Caslino	silk	saigon lux	3000		0		0		0	
+Caslino	satin lame	lumino	3400		0		0		0	
+Caslino	mano pesca	tela micro c 130 gg	2,57		0		0		0	
+Ciemme	double velour	regina in doppio	7,2		0		0		0	
+Ciemme	interlock x gucci	grazia	1,8		0		0		0	
+Ciemme	velour stretch/oil velour stretch	regina	3,6		0		0		0	
+Ciemme	jamiro stretch	grazia pesante	2		0		0		0	
+Cifra	fly gg	2196 LZ max	3,23		0		0		0	
+Cifra	shaggy gg	3200	3,31		0		0		0	
+Cioni	flannel	bob kd	9200		0		0		0	
+cippo	fghjkl	fghjkl	1		0		0		0	
+Clementi	panama city gg	castiglia greggio	1,6		0		0		0	
+Clementi	panama city bianco	castiglia bianco	2,84	500	0		0		0	
+Clementi	denim bianco	drill bianco	2,01		0		0		0	
+Clementi	fod. Derby	denim colorato	3,54	200/300	3,05	301/500	2,7	500/1000	2,19	1001
+Clementi	denim greggio	denim greggio	1,6		0		0		0	
+Clementi	panama city nero	castiglia nero	2,96	500	0		0		0	
+Clerprem	aquagom	clerglas/vetro	9,49	500	7,3	300	0		0	
+Clerprem	aquasmoke	clerglas/g10/m/o	18850	99	14500	100	0		0	
+Clerprem	krypton	clernet/g06/o	18850	99	14500	100	0		0	
+Clerprem	charms	clerglas m06/lux	16250	99	12500	100	0		0	
+Coronet	durango	premier city calf	6,75		0		0		0	
+Corti	SPACE RUNNER	G4760	5,8		0		0		0	
+Corti	TEKNO WHITE	G4759	5,8		0		0		0	
+Corti	Art 94	4725	5,1		0		0		0	
+Corti	naylony	1921 greggio	5100		0		0		0	
+Corti	sakka	2208 greggio	5350		0		0		0	
+Corti	shak	2652 greggio	4000		0		0		0	
+Corti	malko	arten greggio	2,2		0		0		0	
+Corti	gymbo	delta greggio	4600		0		0		0	
+Corti	lemon	lemon	2,35		0		0		0	
+Corti	playground	GPLAYG001A	4,55		0		0		0	
+Corti	player	GPLAYE001A	5,2		0		0		0	
+Corti	active	GACTIV001A	5,1		0		0		0	
+Corti	tracy	GTRACY001A	5		0		0		0	
+Corti	newport	GNEWPO001A	2,55		0		0		0	
+Corti	protec	protec tinto	5,3	150/199	4,78	200/299	4,52	300/799	4	800
+Corti	sixty tinto	legend tinto	6	150/199	5,48	200/299	5,22	300/799	4,7	800
+Corti	air tex	2862 450 J gg	2,35		0		0		0	
+Corti	sixty gg	legend gg	3,5		0		0		0	
+Corti	prova bally 1	2299 gg	1,55		0		0		0	
+Corti	prova bally 2	strong gg	2,93		0		0		0	
+Corti	niks	2936 gg	5,4		0		0		0	
+Corti	honey gg	megan 62 t	2,58		0		0		0	
+Corti	woody	arten greggio	2,28		0		0		0	
+Corti	honey	megan greggio	2,61		0		0		0	
+Corti	prova munro	2845 gg	2,7		0		0		0	
+Corti	timothy	nepal	3,2		0		0		0	
+Corti	davison	avoriaz	2,5		0		0		0	
+Corti	bear prada	bear greggio	2,2		0		0		0	
+Corti	3325 poly	julius gg	1,75		0		0		0	
+Corti	gibson	apache gg	4,85		0		0		0	
+Corti	3373 poli active	hindu	2,4		0		0		0	
+Corti	prova prada	tecli	1,4		0		0		0	
+Corti	spina brics liscio	g3480/81	3,9		0		0		0	
+Corti	spina brics cordura	g3482/83	4,45		0		0		0	
+Corti	blue pop gg	tank gg	5,55		0		0		0	
+Corti	trend	GTREND001A	2,85		0		0		0	
+Corti	loop	3735A001A VAR.1/2 GREGGIO	4,85		0		0		0	
+Corti	maverick/jamzero var.oro/arg.	3734A001A  VAR.1/2 GREGGIO	6,2		0		0		0	
+Corti	rocket	G37360001A	2,9		0		0		0	
+Corti	slamball	G37370001A	4,85		0		0		0	
+Corti	jet black	G34300001A	3,23		0		0		0	
+Corti	top gun	G38060001A 3806 GG	2,75		0		0		0	
+Corti	black jam gg	G38670001a  3867 gg	4,63		0		0		0	
+Corti	jam zero var. bronzo	G3734C001A VAR.3 GG	6,1		0		0		0	
+Corti	jam five	G38680001A	5		0		0		0	
+Corti	jacquard nylon geox	G2704001A 2704 GG.VERDE	5		0		0		0	
+Corti	magic/blue crinkle	3987 gg G39870001A	2,75		0		0		0	
+Corti	iverson	G22610001A	3,2		0		0		0	
+Corti	baltimore	G3526D001A	3,23		0		0		0	
+Corti	barkley	GGLORE001A glorenza gg.	4,35		0		0		0	
+Corti	jet blue	G42170001A	3,4		0		0		0	
+Corti	roller	GTOPAZ001A TOPAZIO GG	3,77		0		0		0	
+Corti	thunder	G42200001A	3,15		0		0		0	
+Corti	silverball	G4223001A	3,5		0		0		0	
+Corti	bullet	4096 greggio	3,83		0		0		0	
+Corti	jeff	4072 kyoto greggio	3,7		0		0		0	
+Corti	tekno satin	furs	3,1		0		0		0	
+Corti	spider	3737 trama nera	5,43		0		0		0	
+Corti	hornet   Art 69	4586/D	4,4		0		0		0	
+Corti	excalibur  Art 71	4577/D	4,26		0		0		0	
+Corti	raider   Art 73	4588/D	5,43		0		0		0	
+Corti	trevira	poli trevira	6,9		0		0		0	
+Corti	trevira x campionatura	trevira x campionatura	7,5		0		0		0	
+Corti	campione A bally	bayonne	5,2		0		0		0	
+Corti	stone twill	prado	3,6		0		0		0	
+Corti	art 49	4817/c	5		0		0		0	
+Corti	art 49  pe 12	4817/c	5		0		0		0	
+Corti	clipperp	clipper	3,6		0		0		0	
+Corti	runner	4817/A	5,6		0		0		0	
+Corti	big runner	4836/A	5,8		0		0		0	
+Corti	dayton	4702	4,45		0		0		0	
+Corti	tekno fluid	4725	5,1		0		0		0	
+Corti	rip stop D	3989	3,6		0		0		0	
+Corti	campione E	campione 190	3,8		0		0		0	
+Corti lanificio	darklight v. 6/7	florida bicolore	21300		0		0		0	
+Corti lanificio	darklight v. 6/7	florida bicolore	21300		0		0		0	
+Corti lanificio	darklight	florida mouline	20300		0		0		0	
+Corti lanificio	crunchy v.8	gold	14400		0		0		0	
+Corti lanificio	duke	aden	9,35	50/100	8,7	100/149	8,05	150/199	8,05	200
+Croma srl	blue baby	zaccaria	3,83		0		0		0	
+Croma srl	rete juta	art.juta dis.vbari	4,1		0		0		0	
+Croserio	logo fabric	diana	2350		0		0		0	
+Dalmatex	lemon charmeuse	lemon base charmeuse	5,45		0		0		0	
+Dalmatex	ziccky metal	crosta crack	8,14		0		0		0	
+Dalmatex	venix stretch	coa dalmakak stretch cotone	10,52	50/150	9,64	151/300	8,77	301/9999	0	
+Dalmatex	trapunte  e articoli vari	dalmalux charm	4,76		0		0		0	
+Dalmatex	jet sun	carbonium bielastico	9,45		0		0		0	
+Dalmatex	setiak	setian charm	5,36		0		0		0	
+Dalmatex	shamal	poro lak	10,71		0		0		0	
+Dalmatex	charme col fluo	dalmalak charm FL	4,97		0		0		0	
+Dalmatex	blue sky soft	dalmalak soft	6,2		0		0		0	
+Dalmatex	trapunte  e articoli vari X2	dalmalux charm X 2	9,52		0		0		0	
+Dalmatex	 charme snow	vernice +accoppiatura charme snow	7,5		0		0		0	
+Dalmatex	vernice metal	country met	9,96	50/150	9,13	151/300	8,3	301/9999	0	
+Dalmatex	specchio opaco	coa dalmalack op 3d	10,2	50/150	9,35	151/300	8,5	301/9999	0	
+Dalmatex	specchio lucido	coa club met	10,2	50/150	9,35	151/300	8,5	301/9999	0	
+Di.Bi.Ci.	loft	loft	1,55		0		0		0	
+Di.Bi.Ci.	extra light	extra light	1,09		0		0		0	
+Di.Bi.Ci.	lario	lario	2,44		0		0		0	
+Donghi	jutan	juta dis. 06 greggio	8700		0		0		0	
+Donghi	tribal	rafia dis. 10	20000		0		0		0	
+Donghi	logos	damasco	7150		0		0		0	
+Donghi	basket	u067 dis. L.	3,56		0		0		0	
+Erco Pizzi	havana	art.657 bianco/nero	3,1		0		0		0	
+Erco Pizzi	mood	art.831	6,2		0		0		0	
+Erco Pizzi	black diamont	art.771 viscosa smerl	4,65		0		0		0	
+Ermapel	beaver	castorino	4,05		0		0		0	
+Ermapel		opposum	13,8		0		0		0	
+Ermapel	woolly	tibet	5		0		0		0	
+Eurojersey	doppio scuba	sensitive goad	7,35		0		0		0	
+Eurojersey	base sensitive	sensitive BFAQ	6,45		0		0		0	
+Eurojersey	revolution	dzaq confort	17000		0		0		0	
+Eurojersey	penny	FOSH d.z124/2	22460	70	0		0		0	
+Eurojersey	metro	BFSN d.b550/1	19460	300	0		0		0	
+Eurojersey	haruky	confort fu 130 DZHP	31850		0		0		0	
+Eurojersey	moby	confort starglitter 130 DZCB	31950		0		0		0	
+Eurojersey	sensitive BFAQ colore a  campione	sensitive BFAQ colore a  campione	6,77	350	6,45	1400	0		0	
+Fillattice	stretch	mercurio/ks planet	4,05		0		0		0	
+Fillattice	rete wallymax	rete 4145	3,56		0		0		0	
+Fillattice	silver	apollo	3,72		0		0		0	
+Fillattice	base x bombardato	antares calandrato	4,8		0		0		0	
+Fipel	skyline	glass	3,55		0		0		0	
+Fir spa	doublefelt	PFTLZ	5,67		0		0		0	
+Fir spa	felt	PIXM	37,26		0		0		0	
+Forma	linium	ART.1672 LINO 100%	6,5		0		0		0	
+Forma	lino 100%	1611/SAIO 1611/BASKET	4,2		0		0		0	
+Forma	lino double	1626 dis.9344 v. 7	5,2		0		0		0	
+Forma	jampur stretch gg	1630 corelin dis.9344 greggio	6,5		0		0		0	
+Forma	stone desert	5557 cangiante	15900		0		0		0	
+Forma	mo	4447 erica tela	15000		0		0		0	
+Forma	twillim	4547 erica dis. 7490	7,8		0		0		0	
+Forma	lino spigato	5557 dis. 9294	17500		0		0		0	
+Forma	lino cangiante	5557 tela	17500		0		0		0	
+Forma	mitchell	antares	6,8		0		0		0	
+Forma	lenny	saio	4,08		0		0		0	
+Forma	coleman	1616 dis. 9326	16700		0		0		0	
+Forma	horace	sik 9726	5,8		0		0		0	
+Forma	linus	sik 9727/9728	5,8		0		0		0	
+Forma	lino magnum	oriente/2115	5,15		0		0		0	
+Forma	lino gucci gg	oriente/2115 lino gucci gg	4,5		0		0		0	
+Forma	lino gucci finito col.naturale	oriente/2115 gucci lino finito col. naturale	6		0		0		0	
+Forma	lino 3	senna 9292 var122 greggio	4,8		0		0		0	
+Forma	silver sand pe 12	1333 lino greggio pesanti	9,35		0		0		0	
+Forma	hot sand/hot desert/hot sea	16426/44426	7,15		0		0		0	
+Forma	lino 3	senna 4439 21 trame	4,75		0		0		0	
+Forma	lino 5	granada 1772	5,4		0		0		0	
+Forma	lino 7	2782	6,6		0		0		0	
+Forma	lino forma	lino forma	4		0		0		0	
+Frigerio	puerto paisley/port louis	TE8476PLB	11,13	0,30/20	8,9	21/9999			0	
+Frigerio	gold linus	TE8480PLB	9,63	0,30/20	7,7	21/9999			0	
+Frigerio	chic twill	TE8465PL9	12,25	0,30/20	9,8	21/9999			0	
+Frigerio	jacquard jordan doppia trama	jacquard jordan doppia trama	7,9		0		0		0	
+Frigerio	jordan 5 trame	jordan 5 trame	14,75	0,30/20	11,8	21/9999	0		0	
+Frigerio	jacquard harlem 1	jacquard doppia spina	4	0,30/20	3,2	21/99999	0		0	
+Frigerio	phantom	mimetico lurex	10,12	0,30/20	8,1	21/9999			0	
+Frigerio	linus	te 3198 pao	14900		0		0		0	
+Frigerio	tecno honey	te 605 pab gg	9500		0		0		0	
+Frigerio	kosmos	fod escada	4,38		0		0		0	
+Frigerio	bally co 100% 20000	bally cot. 20000	6,25		0		0		0	
+Frigerio	bally wo cardato 15000	bally wo cardato15000	8		0		0		0	
+Frigerio	bally bottonato	bally bottonato	9,2		0		0		0	
+Frigerio	bally visc. Lana	bally visc. Lana	6,5		0		0		0	
+Frigerio	art. 1	art. 1	5,6		0		0		0	
+Frigerio	art. 2/3/6/9/12	art. 2/3/6/9/12	6		0		0		0	
+Frigerio	art. 10 greggio	art. 10 greggio	3,8		0		0		0	
+Frigerio	art. 5/4	art. 5/4	7,7		0		0		0	
+Frigerio	art. 16	art. 16	4,5		0		0		0	
+Frigerio	art. 8 greggio	art. 8 greggio	5,5		0		0		0	
+Frigerio	art. 11	art. 11	10,9		0		0		0	
+Frigerio	art. 7	art. 7	5,5		0		0		0	
+Frigerio	art. 15	art. 15	5		0		0		0	
+Frigerio	art. 14 greggio	art. 14 greggio	3,9		0		0		0	
+Frigerio	art. 20 greggio	art. 20 greggio	4,6		0		0		0	
+Frigerio	art. 21	art. 21	4,1		0		0		0	
+Frigerio	art. 22 greggio	art. 22 greggio	4,5		0		0		0	
+Frigerio	art. 23	art. 23	4,3		0		0		0	
+Frigerio	art. 24	art. 24	6,7		0		0		0	
+Frigerio	art. 25	art. 25	3,8		0		0		0	
+Frigerio	art. 26	art. 26	3,7		0		0		0	
+Frigerio	jacquard jordan	jacquard jordan	8,75	0,30/20	7	21/9999			0	
+Frigerio	jewel	te 5811plb dis.17072	6,5		0		0		0	
+Frigerio	water	te5840plb dis.17838	7,2		0		0		0	
+Frigerio	fodera escada ny/vi	fodera escada ny/vi	4,1	500	3,95	1500	0		0	
+Frigerio	jacquard lotto	jacquard lotto 100% pa	4,9		0		0		0	
+Frigerio	jacquard lotto	jacquard lotto 100% pl	3,5		0		0		0	
+Frigerio	karmas	18143 tinto filo	6,5		0		0		0	
+Frigerio	boreas	18144 tinto filo	6,1		0		0		0	
+Frigerio	sumatra	18142 tinto filo	7,6		0		0		0	
+Frigerio	black africa	TE6061PL3N  DIS.18026	7,5		0		0		0	
+Frigerio	jacquard jordan lame'-metal	TE6266PL1M  lame'-metal	7,75	0,30/20	6,2	21/9999			0	
+Frigerio	jacquard jordan stretch	TE6228PLB stretch	4,3		0		0		0	
+Frigerio	jacquard suite var.1/2/3/4/5/6	TE6301PL9B	8,8		0		0		0	
+Frigerio	bulgari esterno	TE4285PL9M	6,8	1/999	0		0		0	
+Frigerio	bulgari fodera	TE6292PL9M	5,2	1/999	0		0		0	
+Frigerio	jacquard burberry	jacquard burberry	15	1/100	0		0		0	
+Frigerio	jacquard burberry x prod.	jacquard jordan x produz.	9,8		0		0		0	
+Frigerio	alma	art.6360 dis 18103	5,1		0		0		0	
+Frigerio	jacquard suite var.2/3/4/5/6/7/8/9/10	TE6301PL9M	12,63	0,30/20	10,1	21/9999			0	
+Frigerio	jacquard birkin	TE6533PL9M	10,13	0,30/20	8,1	21/9999			0	
+Frigerio	jacq.jordan mediterranea	jacquard jordan economico	5,2		0		0		0	
+Frigerio	jacq.jordan/small trama + bella	TE4285PL9/TE6533PL9T	7,2		0		0		0	
+Frigerio	jacq.birkin trama + bella	TE6533PL9	7,9		0		0		0	
+Frigerio	jacquard geox	TE6583PA9 (NYLON GEOX)	5,6		0		0		0	
+Frigerio	white lame'	TE6591 PL 3N DIS. 18792/791	9,37	0,30/20	7,5	21/9999	0		0	
+Frigerio	shakir	TE 6592 PL 3N DIS.18880	6,8		0		0		0	
+Frigerio	jacquard fendi	jacq. Frigerio dis. Fendi	6,8		0		0		0	
+Frigerio	jacq. birkin + € 4,00	TE6533PL9M+ € 4,00	11,2		0		0		0	
+Frigerio	non definito	luca 1	12,5		0		0		0	
+Frigerio	non definito	luca 2	10,6		0		0		0	
+Frigerio	non definito	luca 3	7,9		0		0		0	
+Frigerio	non definito	luca 4	5,9		0		0		0	
+Frigerio	jacquard cottonescada	TE6845PL3	9		0		0		0	
+Frigerio	jacquard lame'  cotton  escada	TE6846PL3	9,5		0		0		0	
+Frigerio	jacquard double' lame	jacquard double lame' frigerio	9		0		0		0	
+Frigerio	jacquard  double FRIGERIO	jacquard double  frigerio	8,1		0		0		0	
+Frigerio	jacquard small lame'	TE7124PL9B SMALL LAME NG	9,3		0		0		0	
+Frigerio	jacquard small desert	SMALL DESERT NG	8,2		0		0		0	
+Frigerio	jacquard riga dis. 2 H & B	TE7133PL9NA SMALL + LANCE'	6		0		0		0	
+Frigerio	jacq.jordan geox lance gasato	TE7152PL9M COTONE GASATO	8,2		0		0		0	
+Frigerio	jacq.jordan geox gasato normale	TE7151PL9M	7,8		0		0		0	
+Frigerio	gro marine	TE7024PLB 17283	6,3		0		0		0	
+Frigerio	metal sky	TE6791PL3N 8502	6,8		0		0		0	
+Frigerio	jacq.tube	jacq.poli78 19432	8,5	0,30/21	6,8	21/9999	0		0	
+Frigerio	jacq glam	TE7184PL9N	8,5		0		0		0	
+Frigerio	jacquard lame gp rombi	TE7125PL9B	8,9		0		0		0	
+Frigerio	jacquard birkin desert fxl	TE7222PL9M BIRKIN FXL	9,3		0		0		0	
+Frigerio	jacq.penguin	TE100AF	7	0,30/20	5,6	21/9999	0		0	
+Frigerio	jacq.barbados	TE100AF	7	0,30/20	5,6	21/9999	0		0	
+Frigerio	jacq.island	TE4285PL9B	7	0,30/20	5,6	21/9999	0		0	
+Frigerio	pyton cinz/silver pyton	TE7421PLB/N 19956	14	0,30/20	11,2	21/9999	0		0	
+Frigerio	"j. jordan ""GG"""	"j. jordan ""GG"""	6,8		0		0		0	
+Frigerio	jacquard small	jacquard small TE 6643PL9N	9,25	0,30/20	7,4	21/9999			0	
+Frigerio	jacquard spigato	TE7264PL9N DIS 19169	6,5		0		0		0	
+Frigerio	jacq glam	TE7184PL9N	10,62	0,30/20	8,5	21/9999	0		0	
+Frigerio	JACQUARD ZUCCA FENDI	JACQUARD ZUCCA FENDI	8,55	5000/9999						
+Frigerio	fodera nylon gucci	fodera nylon gucci	5,1	1000	4,9	5000	4,7	10000	0	
+Frigerio	lurex jacquard nuovo	lurex jacquard nuovo	10		0		0		0	
+Frigerio	jacq clive pl/cotone gg	jacq clive pl/cotone gg	3,1		0		0		0	
+Frigerio	jacq clive nylon/cotone	jacq clive nylon/cotone	4,1		0		0		0	
+Frigerio	jacq clive cotone/cotone	jacq clive cotone/cotone	3,6		0		0		0	
+Frigerio	jacquard gucci leggero patchwork	jacquard gucci leggero patchwork	4,7		0		0		0	
+Frigerio	jacquard gucci pesante patchwork	jacquard gucci pesante patchwork	4,4		0		0		0	
+Frigerio	jacq clive pl/co nero	jacq clive pl/co nero	4,3		0		0		0	
+Frigerio		luca 1	12,5		0		0		0	
+Frigerio	jacq. Star ng/geox colorato	jacq. Star ng/geox coloratoTE9391pl	16,75	0,30/20	13,4	21/9999			0	
+Frigerio	jacq. Buddha geox	jacq. Buddha geox	7,9		0		0		0	
+Frigerio	jacquard plume	TE 7564 PA4	5,87	0,30/20	4,7	21/9999			0	
+Frigerio	jacquard kid	TE7581PLN	8,1		0		0		0	
+Frigerio	jacq. Star ng/geox oro-argento	TE7562PL9B jacq. Star ng/geox oro-argento	15,5	0,30/20	12,4	21/9999	0		0	
+Frigerio	jacq. Buddha opaco oro/argento	jacq. Buddha opaco oro/argento	9,8		0		0		0	
+Frigerio	jacq buddha opaco colorato	jacq buddha opaco colorato	10,8		0		0		0	
+Frigerio	jacq star oro/argento	TE7562PL9B 36 trame tondino	12		0		0		0	
+Frigerio	jacq star colorati /nero	TE7562PL9N 36 trame tondino lamè	12,9		0		0		0	
+Frigerio	jacq hawk	TE 7646PL9M colorato	8,87	0,30/20	7,1	21/9999	0		0	
+Frigerio	jacq hawk	TE 7646PL9M oro/arg	7,25	0,30/20	5,8	21/9999	0		0	
+Frigerio	jacquard suite plus/extra	TE7622PL9N	9,5	0,30/20	7,6	21/9999	0		0	
+Frigerio	jacq. pellico new	jacquard pellico new	10		0		0			
+Frigerio	jacquard kilt fendi	dis. 20643	10		0		0		0	
+Frigerio	jacquard tartan fendi opaco	dis 20644 opaco	9,5		0		0		0	
+Frigerio	jacquard tartan fendi lucido	dis 20644 lucido	9,7		0		0		0	
+Frigerio	jacquard lana rotta fendi	dis 20631	7,2		0		0		0	
+Frigerio	jacquard cherry fendi	dis 20630	10		0		0		0	
+Frigerio	jacquard doublefendi	dis 20629	10		0		0		0	
+Frigerio	jacquard fil coupè fendi	dis 20647	8,2		0		0		0	
+Frigerio	jacquard tubico fendi opaco	dis 20632 dm opaco	14,5		0		0		0	
+Frigerio	jacquard tubico fendi lucido	dis 20632 dm lucido	9,7		0		0		0	
+Frigerio	campione N	20222	7,3		0		0		0	
+Frigerio	campione O	20238	5,3		0		0		0	
+Frigerio	campione P	7682 TCM 20223	7,8		0		0		0	
+Frigerio	jacquard ciniglia cavalli	jacq. ciniglia cavalli	7,2		0		0		0	
+Frigerio	jacquard smile	TT7633PA4	4,5	0,30/20	3,6	21/9999	0		0	
+Frigerio	jacquard canvas celine	TE 7990 PL 9M	8,2		0		0		0	
+Frigerio	jacquard chunky celine	TE 7989 PLN	8,5		0		0		0	
+Frigerio	jacquard FH poli 100	TE 8003PLN	4,8		0		0		0	
+Frigerio	fodera cotoneL	fodera dis 20930	3,5		0		0		0	
+Frigerio	jacquard gucci pettinato america	jacq. Gucci pettinato america	6,8		0		0		0	
+Frigerio	jacquard gucci mako egitto	jacq. Gucci mako egitto	7,4		0		0		0	
+Frigerio	jacquard hawk biasia/rafanelli	TE8034PL9	5,8		0		0		0	
+Frigerio	jacquard scottish	TE7490PLB 19870	4		0		0		0	
+Frigerio	jacquard cannes	TE7489PLB 20122	4,2		0		0		0	
+Frigerio	jacquard canvas celine	celine	9,9		0		0		0	
+Frigerio	jacq.denim doppia trama dis.zucca	articolo tipo denim doppia trama	15		0		0		0	
+Frigerio	jacquard tartan  fendi	dis 20628DM TE8045PLXR	12,75	0,30/20	10,2	21/9999	0		0	
+Frigerio	JACQUARD TWILL	TE8098PLSO fodera geox nuova	4	0,30/20	3,2	21/9999			0	
+Frigerio	jacq.denim  bis doppia trama dis.zucca	articolo tipo denim bis doppia trama	11		0		0		0	
+Frigerio	denim chevron -five- one	TE8097COD  21098	10,63	0,30/20	8,5	21/9999			0	
+Frigerio	spymaker	TE8034PL9N	7,2	20/99	6,1	100/99999	0		0	
+Frigerio	jacquard fendi euro 13,80	jacquard fendi  euro 13,80	13,8		0		0		0	
+Frigerio	luxury canvas	TE8491PL9	14,25	0,30/20	11,4	21/9999			0	
+Frigerio	Jacq lurex fendi prova A / L	TE8456PL9N	5,8		0		0		0	
+Frigerio	Jacq lurex fendi prova B / M	TE8457PL9N	5,9		0		0		0	
+Frigerio	Jacq lurex fendi prova C	TE8458PL9N	7,9		0		0		0	
+Frigerio	Jacq lurex fendi prova D	TE8459PL9N	6,4		0		0		0	
+Frigerio	Jacq lurex fendi prova E	TE8460PL9N	6,3		0		0		0	
+Frigerio	Jacq lurex fendi prova F	TE8461PL9N	7,2		0		0		0	
+Frigerio	Jacq lurex fendi prova G / 5	TE8462PL9N	7,6		0		0		0	
+Frigerio	Jacq lurex fendi prova H	TE8463PL9N	4,6		0		0		0	
+Frigerio	Jacq lurex fendi prova I	TE8464PL9N	7		0		0		0	
+Frigerio	Jacq lurex fendi prova 1	TE8465PL9N	9		0		0		0	
+Frigerio	Jacq lurex fendi prova 2	TE8466PL9N	8,1		0		0		0	
+Frigerio	Jacq lurex fendi prova 3	TE8467PL9N	12,2		0		0		0	
+Frigerio	Jacq lurex fendi prova 4	TE8468PL9N	7,8		0		0		0	
+Frigerio	jacq doppia trama carvela	jacq doppia trama carvela	7,5		0		0		0	
+Frigerio	ART 52 E 53 PE 12	TE9232PL DIS 16711	11,12	0,30/20	8,9	21/99999	0		0	
+Frigerio	pequin lurex oro scuro	TE9139P9NF	11,6		0		0		0	
+Frigerio	pequin lurex orochiaro e colorati	TE9246P9NF	9,4		0		0		0	
+Frigerio	GUCCI POLI 100%	TE9248P9M	8,1	500	7,3	1000	6,9	1500	6,5	2400
+Frigerio	pure metal	TE9140pl	14,63	0,30/20	11,7	21/9999	0		0	
+Frigerio	tekno ice	TE9203PL	7,75	0,30/20	6,2	21/9999	0		0	
+Frigerio	jacquard sand	TE9317CO7	8	0,30/20	6,4	21/9999	0		0	
+Frigerio	blue ocean	dis 19045	8,37	0,30/20	6,7	21/9999	0		0	
+Frigerio	blue reef/ blue bahia	TE8477PL3	6,5	0,30/20	5,2	21/9999			0	
+Frigerio	jacq suite royale	ins 18 dis 21979	7,25	0,30/20	5,8	21/9999			0	
+Frigerio	jacq deluxe 1	ins 18 dis 21948	5,8		0		0		0	
+Frigerio	jacq deluxe 2	ins 36 dis 21949	11,2		0		0		0	
+Frigerio	jacqu GG nastro	Gucci nastro 22135	8,75	0,30/20	7	21/9999	0		0	
+Frigerio	jacqu lurex GG	Jacq lurex GG 22184	7,75	0,30/20	6,2	21/9999	0		0	
+Frigerio	jacq sand	TE93170CO7 22432	8	0,30/20	6,4	21/99999	0		0	
+Frigerio	jacquard wool	TE6740PL	8,37	0,30/20	6,7	21/9999	0		0	
+Frigerio	jacquard raso GG	jacquard raso GG	9,37	0,30/20	7,5	21/9999	0		0	
+Frigerio	JACQUARD ZUCCA FENDI (7,00)	JACQUARD ZUCCA FENDI (7,00)	7	5000/9999	0		0		0	
+Frigerio	JACQUARD ZUCCA FENDI (7,10)	JACQUARD ZUCCA FENDI (7,10)	7,1	5000/9999	0		0		0	
+Frigerio	JACQUARD ZUCCA FENDI (7,20)	JACQUARD ZUCCA FENDI (7,20)	7,2	5000/9999	0		0		0	
+Frigerio	raso metallo	raso metallo	15	0,30/20	12	21/999	0		0	
+Frigerio	zucca fiocchettini fil coupè	dis 22685	15,25	0,30/20	12,2	21/99999	0		0	
+Frigerio	zucca tartan fil coupè	dis 22686	13,75	0,30/20	11	21/99999	0		0	
+Frigerio	zucca raso fil coupè	dis 22687	12,37	0,30/20	9,9	21/99999	0		0	
+Frigerio	pocho tweed	TE9567PLN	8,62	0,30/20	6,9	21/99999	0		0	
+Furlana	garden	moana	4,05		0		0		0	
+Furpile	moore	peluche	6,63	1/299	5,1	300/9999	0		0	
+Furpile	silver felt	cecilia	8,34	1/35	7,64	35/299	6,95	300	0	
+Furpile	brisè	citrus	11,45	0/299	8,8	300/999	0		0	
+Furpile	pelliccia paesaggio	pelliccia paesaggio	17,29	0/299	13,3	300/9999	0		0	
+Furpile	visone unito	pelliccia brescia	12,8	0/299	9,85	300/9999	0		0	
+Furpile Maglia	animalier	quasi	16,77	0/299	12,9	300/9999	0		0	
+Gallus	lino tuareg	cottonline bianco	6050		0		0		0	
+Gallus	lino tuareg	cottonline tinto	6250		0		0		0	
+Giardini	micronaplak	naplak micro stretch	12,05	nero	13,12	colorati	0		0	
+Giardini	nappamicr	nappa royal microstretch	13,66		0		0		0	
+Giardini	softy	nappa royal light stretch	8,68		0		0		0	
+Gif	kevin	tx 40 dis. 406	6100		0		0		0	
+Gif	transit	tx 40 dis. 810	6100		0		0		0	
+Gif	sleek	tx 40 dis. 815	6100		0		0		0	
+Gif	funk	tx 54 dis 890/896	2,5		0		0		0	
+Gif	jazz	tx 54 dis 895/	2,5		0		0		0	
+Gif	rowan	larvic	2,06		0		0		0	
+Gif	brian	tt 79/bis	3		0		0		0	
+Gif	JEANXY	TEMLIX	3,6		0	0	0		0	
+Gif	barkley	te 90 dis. 73	2,63		0		0		0	
+Gif	jacquard jeans celine	jacquard jeans celine	4,9		0		0		0	
+Gif	denim burberry	T89000	5,75	1000	0		0		0	
+Gif	denim burberry campion.	T89000 x campion.	8,5	camp.	0		0		0	
+Gif	jacquard jeans	T89000 gg	5,75	1000	0		0		0	
+Gitalia	corallo	corallo	8		0		0		0	
+Gover	ocean	poly musbrill	16500		0		0		0	
+Gover	norman	malysas	16300		0		0		0	
+Griffine	grant	anifirpull	10,21		0		0		0	
+Griffine	moon	anibrettapull	10,21		0		0		0	
+Griffine	perry	anidainopull	17,53		0		0		0	
+Griffine	mouse	anicrinkle	9,92		0		0		0	
+Griffine	cliff	anipull	10,21		0		0		0	
+Griffine	kidd	anifine	9,2		0		0		0	
+Griffine	calfy	anisoft	9,2		0		0		0	
+Griffine	griffith	anicasta graffiato	9,76		0		0		0	
+Griffine	buddha	anicasta graffpearl	10,07		0		0		0	
+Griffine	vintage	aniold	9,76		0		0		0	
+Griffine	mymetic	anijeep	10,06		0		0		0	
+Griffine	kokyto	aniby	10,21		0		0		0	
+Griffine	irony	anibretta m	10,35		0		0		0	
+Griffine	asphalt	anibitume	10,21		0		0		0	
+Griffine	sherman	anicervo	10,21		0		0		0	
+Griffine	teji	anitejus	10,21		0		0		0	
+Griffine	ray	calfane cervo	9,05		0		0		0	
+Griffine	allen	calfane tejus	9,05		0		0		0	
+Griffine	ryan	anicera	9,5		0		0		0	
+Griffine	donty	ani hauser	10,21		0		0		0	
+Griffine	wild	anibretta jean	8,6		0		0		0	
+Griffine	lerry	hs velar	10,21		0		0		0	
+Griffine	micronabuk	eurodaino	10,8		0		0		0	
+Griffine	scott	eurocera	10,25		0		0		0	
+Griffine	rock	anidust	9,5		0		0		0	
+Griffine	vinil	rainette	4,95		0		0		0	
+Griffine	pekine	stiss glass	13,65		0		0		0	
+Griffine	davis	skin glace	9,74		0		0		0	
+Griffine	piccadilly	skin brillant	9,5		0		0		0	
+Griffine	harrys	calfy lara	8,5		0		0		0	
+Griffine	smart	anicasta	9,2		0		0		0	
+Griffine	glove	anibretta	9,57		0		0		0	
+Griffine	lamb	anica 2	9,57		0		0		0	
+Griffine	wild moro/nero/panna	anibretta jeans	8,61		0		0		0	
+Griffine	double soft	anibretta nuvolato	9,9		0		0		0	
+Gtl	zoom	t 1327	8300	minimo 215	0		0		0	
+Heat Coat	wade	n1613 bianco e nero	2,96	0/999	2,66	1000/4999	2,55	5000/9999	2,44	10000/24999
+Heat Coat	warrick	n2593  bianco	16,14	0/999	14,53	1000/4999	13,9	5000/9999	13,3	10000/24999
+Heat Coat	nelson	N 1776 H	4,68		0		0		0	
+Heat Coat	chambers	N1265 colorato	7,25	0/999	0		0		0	
+Heat Coat	chambers	1265 bianco non tinto	6,63	0/999	0		0		0	
+Heat Coat	warrick	n2593 col.medi/scuri	12	0	0	0	0	0	0	0
+Heat Coat	warrick	n2593  gg	11	0	0	0	0	0	0	0
+Heat Coat	top sail	N1450Q	1,56		0		0		0	
+Il Foro	foratura	foratura	2,11	10/99	1,57	100	0		0	
+Italdenim	dejavu nero	super black	5800		0		0		0	
+Italdenim	dejavu blu	kansa	5500		0		0		0	
+Italdenim	aston/diker/nippon var.1/2/3/4	red wind /JEANXY	5,25		0		0		0	
+Italplastic	logos sand	art.6824 grana lino	8,95	300/2000	7,49	2001/99999	0		0	
+Italplastic	logos lemon	art.6824 grana foca	8,95	300/2000	7,49	2001/99999	0		0	
+Italplastic	logos lemon 1/150	art.6824 grana foca 1/150	10,74	1/150			0		0	
+Itam	active	4204 a greggio	7300		1000		0		0	
+Itam	playground	4243 a greggio	7950		0		0		0	
+Itam	player	4246 a greggio	9000		0		0		0	
+Itam	jo ja	9740 a greggio	8200		0		0		0	
+Itam	stealth	4227 a greggio	8500		0		0		0	
+Itam	gym	1204 a greggio	5000		0		0		0	
+Itam	niks	4213 a greggio	7200		0		0		0	
+Itam	malko	7122 a greggio	4350		0		0		0	
+Itam	luaka	7127 a greggio	7100		0		0		0	
+Itam	wak	2003 a greggio	4200		0		0		0	
+Itam	catwalk v.1	7142 a	4500		0		0		0	
+Itam	catwalk v.2	8015 a	4700		0		0		0	
+Itam	tenzo	9700 a greggio	6300		0		0		0	
+Itam Mi	stretch	tuareg	8800		0		0		0	
+Itam Mi	sun city	atomium	6,4		0		0		0	
+Itm	joe wild	georgette visc.	4,32		0		0		0	
+Jcr	kyaya	odeon	10000		0		0		0	
+Jersey Lomellina	genesis	nuage	22000	70	17700	minimo 360	0		0	
+Jersey Lomellina	cinz	gold	6,4	0/10	6,1	70/9999	0		0	
+Lamintess	tekno mymetic	TENYL163 Discovery mimetico	6,9	0/599	6,3	600/999	5,8	1000/99999	0	
+Lange	tela sand bianco stampa	telone rit. Juta bianco stampa	4,34		0		0		0	
+Lange	jutaland var 3 greggia	rustica rk 09 greggia	4,58		0		0		0	
+Lange	jutaland var 3 bianca x stampa	rustica rk 09 bianca x stampa	5,18		0		0		0	
+Lange	jutaland var 2  greggia	rustica rk13 greggia	4,21		0		0		0	
+Lange	jutaland var 2 bianca x stampa	rustica rk 13 bianca x stampa	4,75		0		0		0	
+Lange	tela tritone	moon tritone	3,44		0		0		0	
+Lange	greggio x biasia	reps sport GREGGIO	1,18		0		0		0	
+Lange	bootsy gg lavato	panamino cot/lino 9700	2,69		0		0		0	
+Lange	matrix	ritorto malaga	2,38		0		0		0	
+Lange	matrix pronto tinta	ritorto malaga bianco ottico	2,58		0		0		0	
+Lange	hines gg	ritorto 6/2	1,31		0		0		0	
+Lange	intreccio burberry	intreccio M p.tinta	4,05		0		0		0	
+Lange	spigato burberry	spigato M p.tinta	2,35		0		0		0	
+Lange	intreccio 1/4	intreccio 1/4	3,84		0		0		0	
+Lange	intreccio 3	intreccio 3	3,81		0		0		0	
+Lange	intreccio 2	intreccio 2	3,85		0		0		0	
+Lange	twill 1	drill A	3,26		0		0		0	
+Lange	twill 2	drill B	3,33		0		0		0	
+Lange	smash	rigati	1,41		0		0		0	
+Lange	twill 1 cotone	drill A cotone	1,55		0		0		0	
+Lange	chicco	chicco	4,51		0		0		0	
+Lange	derek pronto tinta	toledo pronto tinta	1,74		0		0		0	
+Lange	chuk pronto tinta	montegi prontp tinta	1,5		0		0		0	
+Lange	zipper pronto tinta	donington pronto tinta	1,79		0		0		0	
+Lange	etan pronto tinta	panama 2/2 pronto tinta	1,79		0		0		0	
+Lange	fubuk pronto tinta	drill 3/1 pronto tinta	1,79		0		0		0	
+Lange	terrel bianco stampa	panamone ritorto pesante	4,73	bianco st.	0		0		0	
+Lange	bootsy gg CO 100%	panamino cot/cot 9700	1,44		0		0		0	
+Lange	fod.pronto tinta	race 300 dis. 17 pronto tinta	1,44		0		0		0	
+Lange	etan nero	panama 2/2 nero race 400	2,02		0		0		0	
+Lange	nasty pronto tinta	ritorto 952 pronto tinta	3,48		0		0		0	
+Lange	nasty gg	ritorto 952 gg	3,14		0		0		0	
+Lange	ortiz pronto tinta	drill ortiz 3/1 pronto tinta	4,38		0		0		0	
+Lange	ortiz gg	drill ortiz 3/1 gg	4,04		0		0		0	
+Lange	matrix nero	ritorto malaga nero	2,94		0		0		0	
+Lange	matrix ottico	ritorto malaga ottico	2,58		0		0		0	
+Lange	denim bianco	drill nuovo cordoba  bianco ottico/P TINTA	3		0		0		0	
+Lange	denim nero	drill nuovo cordoba col.nero	3		0		0		0	
+Lange	denim colorato	drill nuovo cordoba col.scuri	3		0		0		0	
+Lange	raso pronto tinta	raso pronto tinta	1,72		0		0		0	
+Lange	natural	slegato d.162	3,2		0		0		0	
+Lange	rusty	slegato d.131	3,2		0		0		0	
+Lange	natural greggio	slegato d.162 greggio	2,93		0		0		0	
+Lange	rusty greggio	slegato d.131 greggio	2,93		0		0		0	
+Lange	matrix greggio	ritorto malaga greggio	2,43		0		0		0	
+Lange	st.tropez gg	ritorto 12/2 li/co gg	3,21		0		0		0	
+Lange	jutan	juta batavia lavata	2,17		0		0		0	
+Lange	matrix greggio lavato	ritorto malaga greggio lavato	0		0		0		0	
+Lange	brad greggio	panama jimmy greggio	3,6		0		0		0	
+Lange	brad pronto tinta	jimmy pronto tinta bianco stampa	4,83		0		0		0	
+Lange	double juta greggia	tela juta greggia scozia	1,94		0		0		0	
+Lange	st.tropez gg	ritorto 12/2 li/co gg	3,21		0		0		0	
+Lange	blue bay gg	juta co fiammato lurex	2,86		0		0		0	
+Lange	denim gg	drill.nuovo cordoba gg	1,32		0		0		0	
+Lange	jutaland	rustika rk-09 lavaggio e sodatura	5,08		0		0		0	
+Lange	st.tropez lavato	ritorto 12/2 li/co lavato	3,18		0		0		0	
+Lange	juta tela doppia	juta tela doppia gg	2,5		0		0		0	
+Lange	juta tela doppia	juta tela doppia lavata	2,81		0		0		0	
+Lange	denim bianco/jeans	drill jeanxy	2,35		0		0		0	
+Lange	brad strong	jimmy pasante gg	3,31		0		0		0	
+Lange	brad strong	jimmy pasante bianco x stampa	3,63		0		0		0	
+Lange	brad strong	jimmy pasante lavato	3,61		0		0		0	
+Lange	brad strong	jimmy pasante bianco ottico	3,65		0		0		0	
+Lange		drill jeanxy beige 2	2,94		0		0		0	
+Lange	n.55/65/67/	telone ritorto juta gg	3,8		0		0		0	
+Lange	panama city	siviglia gg.	3,18		0		0		0	
+Lange	panama city	siviglia bianco stampa	4,48		0		0		0	
+Lange	akash/gold bay/tela budda/tela sand	telone ritorto juta bianco stampa	4,26		0		0		0	
+Lange	panama city	siviglia bianco ottico	3,52		0		0		0	
+Lange	panama city	siviglia  tinto nero	3,9		0		0		0	
+Lange	safari	juta linaccio 3000 lavato rk08	8,22		0		0		0	
+Lange	cocoa	juta linaccio tela doppia	10,73		0		0		0	
+Lange	cayman	telone juta/lame' gg	10,22		0		0		0	
+Lange	cayman	telone juta/lame' lavato	10,64		0		0		0	
+Lange	st. maxim	garibaldi greggio gr-06	3,72		0		0		0	
+Lange	st.barth = st.tropez in doppio	ritorto 12/2 li/co gg st. tropez in doppio	5,68		0		0		0	
+Lange	cargo lavato	rete variante tela lavata	4,94				0		0	
+Lange	city blues	juta/lana bott27 tratt.soft	7,32	100/999	7,23	1000	0		0	
+Lange	cargo/(porter gg	rete variante tela gg	6,08		0	0	0		0	
+Lange	derek	ritorto compatto var.131 lavata	3,4		0	0	0		0	
+Lange	baya azul/playa/orange bay	rigato linco gg.	6,83	100/999	6,77	1000	0		0	
+Lange	key west	tessuto rigato oxford	1,84		0		0		0	
+Lange	eldorado	telone roma gg	3,29		0		0		0	
+Lange	natural sun/gold island	telone roma/rafia gg	13,92	100/999	13,84	1000	0		0	
+Lange	natural bay	telone roma linaccio gg	7,19	100/999	7,12	1000	0		0	
+Lange	gold natural	rete rafia variante tela	14,89	100/999	14,8	1000	0		0	
+Lange	gold sun	rete rafia variante 134	14,89	100/999	14,8	1000	0		0	
+Lange	natural sun	rete roma rafia	13,92		0		0		0	
+Lange	eldorado greggio	rete roma cotone greggio	3,29	100/999	3,23	1000	0		0	
+Lange	jimix	ritorto malaga greggio lavato 1	3,69		0		0		0	
+Lange	jeanxy col.beige chiaro/scuro	drill 3/1 col.beige ch/scuro purgato	4,09		0		0		0	
+Lange	white canvas	siviglia fifty panamino2/1	2,92		0		0		0	
+Lange	blue sand/white sand	safari barre' trattamento soft	8,22		0		0		0	
+Lange	big sand/silver sand/wild sand	tela rigata B14	1,48		0		0		0	
+Lange	jeanxy col.beige chiaro/scuro lavaggio+sanforizzo	drill 3/1 col.beige ch/scuro sanforizzato	3,9		0		0		0	
+Lange	canvas a	tela mimosa	1,05		0		0		0	
+lange	canvas b	tela primula	0,79		0		0		0	
+Lange	terrel greggio	panamone terrel greggio	3,74		0		0		0	
+Lange	jimix b.co stampa	malaga bco stampa	4,02		0		0		0	
+Lange	panama city colorato	siviglia colorato x ord. Sup. a mt 300	3,04		0		0		0	
+Lange	macro canvasvar 1	siviglia juta prova 1-2	4,26		0		0		0	
+Lange	macro canvas var 2	siviglia juta prova 3	4,85		0		0		0	
+Lange	new canvascerato	tela europa bianco st	4,19		0		0		0	
+Lange	wild sand	siviglia juta spigatino lino	4,55		0		0		0	
+Lange	lino melange	tela rigenerata b 14	1,49		0		0		0	
+Lange	lino benphy	tela cl-97	2,51		0		0		0	
+Lange	mini jimix gg	telone tanita gg	1,58		0		0		0	
+Lange	mini jimix p. tinta/ottico	telone tanita p.tinta/ottico	1,83		0		0		0	
+Lange	lino 9	panama 2/2	4,36		0		0		0	
+Lange	new canvas cerato	tela europa GG	3,74		0		0		0	
+Lange	brad greggio	jimmy greggio	4,48		0		0		0	
+Lanificio del Casentino	jimin	2530635	16730		0		0		0	
+Lanificio di soci	feltus	1573	8		0		0		0	
+Lanificio di soci	white felt	2810	6,2		0		0		0	
+Lazzati	teknosail	51877	4,51		0		0		0	
+Lazzati	tekno panama	51340	5,88		0		0		0	
+Lazzati	tekno chevron	51962	4,1		0		0		0	
+Lazzati	art nuovo	art nuovo	4,5		0		0		0	
+Lazzati	clipper	63344	3,57		0		0		0	
+Lazzati	fast race	51875	4,62		0		0		0	
+Lazzati	perkins	4721	4,56		0		0		0	
+Lazzati	norton	51753	4,9		0		0		0	
+Lazzati	tekno black	51945	4,72		0		0		0	
+Lazzati	tecnico 7G	51880	5,55		0		0		0	
+Linea tess.italiana	jeanfly	10454 stone	30400		0		0		0	
+Linea tess.italiana	jaxx	10758 import	16600		0		0		0	
+Longo	tela bianca	tela bianca	1,1		0		0		0	
+Luce	martina/west	base	3		0		0		0	
+Lurago d'erba	newport	twill nylon greggio	4100		0		0		0	
+Magitex	chalk	1805 kilt gg	1,96		0		0		0	
+Magitex	tartan	1890 kilt gg	2,1		0		0		0	
+Magitex	gros grain/gro steel	2943 party	2,98		0		0		0	
+Magitex	raso peru'	raso peru'	3,8		0		0		0	
+Magitex	cannette'	F2981 tess. Party dis. 24	3,8		0		0		0	
+Magitex	cannettè steel	party 26 ggio	3,8		0		0		0	
+Magitex	white mexican/blue mexican	F3044 gerry	2,15		0		0		0	
+Maglificio Tgv	tender	rio gg.	3,9		0		0		0	
+Manifattura Baroli	articolo 1	210000	51	1/49	42,5	50/9999	0		0	
+Manifattura Baroli	articolo 2	103000	23,4	1/49	19,5	50/9999	0		0	
+Manifattura Baroli	articolo 3	220000	33,6	1/49	28	50/9999	0		0	
+Manifattura Baroli	articolo 4	105000	39,6	1/49	33	50/9999	0		0	
+Map	 solo accoppiatura	mtpAD	4,55		0		0		0	
+Mariani cinese	microsuede stretch	microfibra	4,25		0		0		0	
+Mariani cinese	baltimore gg	mini coby	7750		0		0		0	
+Mariani cinese	microdouble	microfibra in doppio	8,5		0		0		0	
+Marnate	moire	giada	12000		0		0		0	
+Marnate	pionter	eva	7500		0		0		0	
+Mectex	summer stripe	001451FTdomaso drill	9,1	0/299	7,6	300/99999	0		0	
+Meg Textile	light bianco	light	1		0		0		0	
+Meg Textile	light  nero	light n.	1,22		0		0		0	
+Miti	concept	montreal	2,75	400	2,5	800	0		0	
+Miti	walker nero	sky nero	1,8		0		0		0	
+Miti	walker bianco	sky bianco	1,65		0		0		0	
+Miti	raja col. stock	gamo  colori a stck	3,9		0		0		0	
+Miti	raja	gamo colori normali	6,7	370	6,5	720	0		0	
+Miti	stretch nero	S0023nero	3,3		0		0		0	
+Miti	strertch colore al campione	S0023colore	3,4		0		0		0	
+Mizar	pakhale	joker gg	4300		0		0		0	
+Mizar	sidney	panama l	2,17		0		0		0	
+Molteni	astrakan	astrakan	29400	100	27900	200	0		0	
+Molteni	cavallery	cavallino mottled	22600	100	21100	200	0		0	
+Molteni	cavallery gg	cavallino pronto stampa	19200	100	17700	200	0		0	
+Molteni	horse stretch	horse mottled	24500	100	23000	200	0		0	
+Molteni	astrakan greggio	astrakan greggio	16800	100	15300	200	0		0	
+Molteni	ungaro velluto operato	aral	29900		0		0		0	
+My Way	baleari pfd	base white choco	2,9		0		0		0	
+My Way	amber bianco	doriana	1,8		0		0		0	
+My Way	denzel pronto tinta	betty pronto tinta	3,2		0		0		0	
+My Way	jason pronto tinta	astrid pronto tinta	2,25		0		0		0	
+My Way	justin pronto tinta	phedra pronto tinta	3,2		0		0		0	
+My Way	raso bianco long champ	panama	2,65		0		0		0	
+My Way	resca	mascagni resca	2,1		0		0		0	
+My Way	simon	SUPERANITA	2,7		0		0		0	
+My Way	wallace	justin tinto	5	150/240	4,7	241/480	4,4	481/700	4,2	701/1050
+My Way	adam	haidi	3,4							
+My Way	moore	glass maglia tinto garzato	3,3							
+My Way	velluto seta	velluo odessa	6,6	100/99999						
+My Way	zone six	velluto foscolo	2,3							
+My Way	marlon	bettina velluto tinto t/str	2,3							
+My Way	justin pr. tinta+ mood erco pizzi	phedra+ art.831	0	0	0		0		0	
+My Way	white felt	freddy maglia tinto	4,6		0		0		0	
+My way	twin felt	freddy+freddy	9,2		0		0		0	
+My Way	jason	mustik	1,3		0		0		0	
+My Way	rufus	TEXAS organza pfd	0,85		0		0		0	
+MY Way	justin+tintura vierre	justin+tintura vierre	6,2		0		0		0	
+My Way	londra in natura	londra in natura	4,6		0		0		0	
+My Way	light+EUROFINISS	pesca	1		0		0		0	
+My Way	fodera prada	montebello	1,9		0		0		0	
+MY Way	berghen	berghen prezzo dato da luca	3		0		0		0	
+MY Way	belfast	belfast prezzo dato da luca	2,3		0		0		0	
+My Way	londra michael kors	londra michael kors	3,2		0		0		0	
+My way	ursula	ursula	1,1		0		0		0	
+MY Way	LINO A	LINO A MY WAY	4,75		0		0		0	
+My Way	papiro	papiro	3,75		0		0		0	
+My Way	rita in natura	rita in natura	3		0		0		0	
+My Way	rita pfd	rita pfd	2,6		0		0		0	
+My Way	lino A stock x 15000mt	lino A stock bergen	2,9		0		0		0	
+My Way	white land stock	londra in natura stock	3,6		0		0		0	
+Namsan Technology	ashlin	2281	5,5		0		0		0	
+Namsan Technology	glitter five	nsc100-422 01 glitter	11		0		0		0	
+Namsan Technology	red velvet	velluto 82/18	11,2	300/9999			0		0	
+Nero su Nero	broad	L066 Lace	16200	150/300	14800	301/500	13460	501	0	
+Ningbo Richtex	village	zc012	3,4		0		0		0	
+Papis	cachemire seta	80449	10,9		0		0		0	
+Perlini	tela anna	poli perlini	1,23		0		0		0	
+Piave	rico	6303 colori non disponibili da tingere	12,72	200	10,6	300	0		0	
+Piave	rico	art.6303 bianco/nero/colorati disponibili	10,6		0	0	0		0	
+Piave	gughi	711	11,93	150/299	10,85	300	0		0	
+Piave	wally nero	701 nero	8,36	150/299	7,6	300	0		0	
+Piave	jam	6277 bianco	3,87		0		0		0	
+Piave	rete grossa	8428	4,25		0		0		0	
+Piave	wally bianco	701 bianco	8,09	150/299	7,35	300	0		0	
+Piave	marlin bianco	r 283 bianco	7,95		0		0		0	
+Piave	marlin nero	r 283 nero	8,15		0		0		0	
+Piave	marlin colorato	r 283 colorato	8,97	150/299	8,15	300	0		0	
+Piave	adonis var.02(oro)	4549 var.02 oro	5,23	150/299	4,75	300	0		0	
+Piave	adonis var.01(argento)	4571var.01 argento	6,44	150/299	5,85	300	0		0	
+Pietro Mariani	yumi	6969	4,39		0		0		0	
+Pietro Mariani	karim	6968	4,39		0		0		0	
+Pietro Mariani	jammal	fiammato gg	4,39		0		0		0	
+Pietro Mariani	cottonwalk	diagonale gg	6500		0		0		0	
+Pietro Mariani	raider	rete gg	11000		0		0		0	
+Pietro Mariani	dayak	davos m/lino gg	5,69		0		0		0	
+Pietro Mariani	thai	ciniglia cotone gg	10000		0		0		0	
+Pietro Mariani	kaban	ciniglia viscosa gg	13500		0		0		0	
+Pietro Mariani	morgan	rigato	4,5		0		0		0	
+Pietro Mariani	red flower / cool bay	righe 3 colori qualità yumi	7		0		0		0	
+Pizval	broad stretch	jne 1403 gg	16210	tinto	19750		0		0	
+Pozzi	pistons gg	2335R150PT GG	1,9		0		0		0	
+Pozzi	pistons nero	2335R150PT NERO/BIANCO	2,33		0		0		0	
+Pozzi	jenkins	2378R150TI	2,52		0		0		0	
+Pozzi	red sunset	8700150GG	1,97		0		0		0	
+Pozzi	raptor gg	2307R150GG	1,52		0		0		0	
+Pozzi	raptor bianco	2307  lele finitoB	2,2		0		0		0	
+Pozzi	raptor nero	2307  lele finitoN	2,75		0		0		0	
+Pozzi	jenkins bianco	2378 finitoB	3,43		0		0		0	
+Pozzi	jenkins nero	2378 finitoN	3,81		0		0		0	
+Pozzi	rete 2331 nera	ART.63/64	2,54		0		0		0	
+Pozzi	NATURAL MESH pe 12	8705	3,7		0		0		0	
+Pozzi	WHITE MESH pe 12	8805	2,82		0		0		0	
+Radici Group	plume	piumino super	3,2	70/149	2,65	150/9999	0		0	
+Radici Group	jeff	blejan gg.	3,4		0		0		0	
+Radici Group	tekno satin	linsday gg.	3,95		0		0		0	
+Radici Group	bullet/white rock	anthea gg	3,45		0		0		0	
+Raion	tekno blue	5698	4,8		0		0		0	
+Raion Inveruno	malko	3295/10	10000		0		0		0	
+Raion Inveruno	jeanxy stretch	2509	15000	100	14000	500	0		0	
+Raion Inveruno	daku	art.sultano con trama alternata	17,4	50/99	14,7	100/9999	0		0	
+Raion Inveruno	wool stretch	5832	13,2		0		0		0	
+Raion Inveruno	pa/cot	5698	4,8		0		0		0	
+Raion Inveruno	blue sand pe 12	5574	8,9	0/160	7,9	161/99999	0		0	
+Raion Inveruno	cannettè nuovo	5806	4,6		0		0		0	
+Raion Inveruno	cannettè	dis 26 5813	5,3		0		0		0	
+Real	wesley	piuma silky	0,65		0		0		0	
+Redaelli	ashmyr	angelica	15,9		0	0	0	0	0	0
+Redaelli	tuxedo	capri	9,6		0		0		0	
+Redaelli	vesuvian	capri michelle	10,9		0		0		0	
+Redaelli		veronica	13,3		0	0	0	0	0	
+Redaelli	ashmyr col.al camp.cliente	angelica col.al campione	22,7	70	18,03	105	14,69	200	13,35	400
+Redaelli	velluto moire dba	angelica dis. 600	20,9	0/139	18,55	140/199	15,45	200/9999	0	0
+Ricamificio 2G	art 58 pe 12	8884 macramè	33		0		0		0	
+Ricamificio 2G	art 59 pe 12	8874 macramè	39		0		0		0	
+Ricamificio 2G	macramè fendi	macramè fendi	42		0		0		0	
+Ricamificio 2G	macrame' fendi colorato	macrame' fendi colorato	44		0		0		0	
+Riedel Textil	light nero/bianco	410029	1		0		0		0	
+Riedel Textil	loft naero	42010 loft nero	1,3		0		0		0	
+Ripa	melange per dior	C 3287	7,79		0		0		0	
+Ripa	delight	ta 530 colorato	11,23	50/249	7,49	250	0		0	
+Ripa	amaya	f 130/165	18500	100	16000	250	0		0	
+Ripa	loft nero	samanta nero	3000		0		0		0	
+Ripa	loft bianco	samanta bianco	2800		0		0		0	
+Ripa	nikko	diablo	16000	130	13500	330	0		0	
+Ripa	tosh	em 709	18000	100	15500	250	0		0	
+Ripa	delight	ta 530 gg	6,06		0		0		0	
+Romano'	tekno basket	lugano armaturato	4,9		0		0		0	
+Romano'	bellinzona	bellinzona	4,7		0		0		0	
+Sadun	metallic silver/magic /fashion	multistyle fashion	30,22	10/99999			0		0	
+Sadun	metallic antracite/brown /brass/red/grey	multistyle fashion scuri	34	10/99999			0		0	
+Sadun	metallic stampato gucci (da 10 a 199 mq)	metallic stampato gucci (da 10 a 199 mq)	101,31	10/29	93,53	30/49	89,12	50/99	76,16	100/199
+Sadun	metallic stampato gucci (oltre 200 mq)	metallic stampato gucci (oltre 200 mq)	74,86	200/299	73,3	300	0		0	
+Sadun	metallic unito 2x1 (rif.gucci)	sibu deco line brass	61,3	0/50	48,35	51/250	0		0	
+Salt 93	sokos	brixton pr.stampa	7500	300	0		0		0	
+Salt 93	velvet	ealing 200 r pr. Stampa	7500	300	0		0		0	
+Salt 93	stone velvet	1728 axa 1000r stretch cangiante	17000	200/350	16000	351	0		0	
+Sanesi	lana sand	cart	13500		0		0		0	
+Sanesi	urban	liguria unito	15400		0		0		0	
+Sanesi	crunchy	pigna	8,5	200	0		0		0	
+Sanesi	rustic tweed	boston 1000	10200		0		0		0	
+Sanesi	felty	beniamino	11,3	50/299	8,7	300	0		0	
+Sanesi	new seventy	duck	8,58	50/299	6,6	300	0		0	
+Santi	mabul	t 512/36 gg	5000		0		0		0	
+Santi	satin lame	t 512/29 gg	3200		0		0		0	
+Santi	tartan	P3749	1,6		0		0		0	
+Saratex	lime bianco	american	11,62	60/109	9,04	110/159	6,46	160/9999	0	
+Saratex	lime colorato	american tinto	15,94	60/109	12,4	110/159	8,86	150/9999	0	
+Sat idea	smoke	jamaica gg 300 mt.	5,05		0		0		0	
+Sat idea	smoke gg	jamaica gg	2,78		0		0		0	
+Sesana	primitif	69370 dis.62733	11000		0		0		0	
+Sesana	kaftan	76882 dis.60411	9500		0		0		0	
+Sharktex	red velvet	velluto 82/18 namsan	0		0		0		0	
+Sitip	kenny	ciclamino gg	5,9		0		0		0	
+Sitip	dexter	k 026	5,11		0		0		0	
+Sitip	carver	k 0119	4,4		0		0		0	
+Sitip	stoner	KO71 purgato	3,16		0		0		0	
+Sitip	scuba b&b	cometa nero/colorato	2,05		0		0		0	
+Star	artlab	sahara d.109402	5,9	100	0		0		0	
+Star	leo	sahara d. 720 v.04s	11424	100	0		0		0	
+Star	snaky	sing sing	5	150	0		0		0	
+Stilnovo	daino micro	dainetto	2,7		0		0		0	
+Styletex	lana brisè	dimitri 300	5,8		0		0		0	
+Styletex	campione 2	soflan/panno	10,15	50/149	9,15	150/99999	0		0	
+Styletex	campione 3	sara/panno	9,05	50/149	8,05	150/99999	0		0	
+Sublistatic	chic flower	h350345 meadow flowers	1,52		0		0		0	
+Sublistatic	zen flower	h350349 cornflowers	1,52		0		0		0	
+Taborelli	mymetic wool	J8553382	4		0		0		0	
+Taborelli	dark ice	C0650191	7,45		0		0		0	
+Taborelli	double funny/feltish	J8553380	6,9		0		0		0	
+Taborelli	fodera gold/penny	C062542 FODERLUCA	3,62		0		0		0	
+Taborelli	kermit	art.5618	8,3		0		0		0	
+Taborelli	rudy	J9541114	6,3		0		0		0	
+Taborelli	star light	art.j9581497	8,5		0		0		0	
+Taborelli	tomoko	simor 9525 ciniglia barre'	7		0		0		0	
+Taborelli	pepper	j5105343	8,3		0		0		0	
+Taborelli	goa	j 9505441	7,5		0		0		0	
+Taborelli	lola	simor 9536 cot.	5		0		0		0	
+Taborelli	fodera brics nera	fodera brics nera tinto in filo	2,85		0		0		0	
+Taborelli	fodera brics greggia	fodera brics greggia	2,3		0		0		0	
+Taborelli	shoot	simor 3718 lp 300 lurex	15,1		0		0		0	
+Taborelli	shoot	J3710798	15,1		0		0		0	
+Taborelli	dream	j800051 dream	5,68		0		0		0	
+Taborelli	fod.escada/ugo/arci/pathos	FODERLUCA PL300	4,8		0		0		0	
+Taborelli	abbot	J5110787	6,9		0		0		0	
+Taborelli	gayle	J9510710	5,9		0		0		0	
+Taborelli	warhol	J9510482	5,8		0		0		0	
+Taborelli	saffy	J5109864	4,6		0		0		0	
+Taborelli	zeki	J8010667	7,7		0		0		0	
+Taborelli	pearl jam	J5811000	9		0		0		0	
+Taborelli	baby jam	J5810719	7,55		0		0		0	
+Taborelli	blue island	J9509920	4,9		0		0		0	
+Taborelli	paradise	J3109888	5,4		0		0		0	
+Taborelli	grunge	J5817130 var.1/2/3/4)	5,3		0		0		0	
+Taborelli	grunge	J3114217	4,09		0		0		0	
+Taborelli	paradise	J3109888 senza strappo	5,4		0		0		0	
+Taborelli	banjo	C0034837	12		0		0		0	
+Taborelli	bali	J8017779	9,1		0		0		0	
+Taborelli	rios	C0017602	10,8		0		0		0	
+Taborelli	jermain/jordy	J5137163	7,6		0		0		0	
+Taborelli	astraland	J8034614	8,3		0		0		0	
+Taborelli	xavier	J8478500	9,75		0		0		0	
+Taborelli	cool pix	C0637314	8,3		0		0		0	
+Taborelli	blue angel	J5117880	7,6		0		0		0	
+Taborelli	jacquard denim	jacquard denim	5,4		0		0		0	
+Taborelli	fodera ferragamo	C0670802	6,8		0		0		0	
+Taborelli	fodera bulgari	C0670799	4,4		0		0		0	
+Taborelli	fodera bulgari esterna	C0670800	5,3		0		0		0	
+Taborelli	lappon	J5117484	7,1		0		0		0	
+Taborelli	grisaglia flower	J8039748	7,7		0		0		0	
+Taborelli	fodera ferragamo	C0670802 bis x ferragamo	6		0		0		0	
+Taborelli	fodera ferragamo	C0670802 tris x ferragamo	6,46		0		0		0	
+Taborelli	jacquard denim stretch	J3114525	5		0		0		0	
+Taborelli	jacquard stretch lurex	J3142380	5,35		0		0		0	
+Taborelli	jacquard denim  fermo lurex	J3142582	4,25		0		0		0	
+Taborelli	jacquard bali nannini	J8042587	10,8		0		0		0	
+Taborelli	jacquard bulgari camp.1	C8269861	10,9		0		0		0	
+Taborelli	jacquard bulgari camp.2	C8271168	9,8		0		0		0	
+Taborelli	jacquard bulgari camp.3	C8271163	11,4		0		0		0	
+Taborelli	jacquard bulgari camp.4	C8271167	10,95		0		0		0	
+Taborelli	metal sun	65/65 acciaio L6540756	5		0		0		0	
+Taborelli	paradise bay	J5171084	6,85		0		0		0	
+Taborelli	jacquard bulgari	C8271565	9,9		0		0		0	
+Taborelli	apasio	J3242595	5,1		0		0		0	
+Taborelli	twill adpel	twill adpel	4,2		0		0		0	
+Taborelli	shant metal	J3242418	6,1		0		0		0	
+Taborelli	big twill	C0618302 CPV300 44 GG.DIS. 132017	4,2		0		0		0	
+Taborelli	grisaglia flower + lame'	J8018921	7,8		0		0		0	
+Taborelli	jacquard grunge celine full washed pl/cot	J5878694	4,95		0		0		0	
+Taborelli	jacq.grunge celine full washed cot	J5817130	4,35		0		0		0	
+Taborelli	nisha	J3271080+TINT.TINTEA	6,81	0/400	6,61	401/999	0		0	
+Taborelli	jacquard b	C8278962	12,45		0	0	0		0	
+Taborelli	jacquard c	C8278961	10,75		0	0	0		0	
+Taborelli	jacquard miriade rocco barocco	CP80 5640 POLI 300 L	6,85	1/100	0	0	0		0	
+Taborelli	red carpet	J8032017	7,9		0	0	0		0	
+Taborelli	shante'	C8232009 CP805634 VIFI L	6,35		0	0	0		0	
+Taborelli	blue berry/hamil	J8431484 CO 68 PC 32%	9,8		0	0	0		0	
+Taborelli	jumal	J5131869 LAMB ETRU CIN LUSTRO	5,95		0	0	0		0	
+Taborelli	diamond	C0631545 OM917	11,1		0	0	0		0	
+Taborelli	jacquard rocco barocco	CP805636 JAZZ L	6,7		0	0	0		0	
+Taborelli	jarvis	J5502613	5,1		0	0	0		0	
+Taborelli	corcovado/samoa/papete	J8504263	5,35		0	0	0		0	
+Taborelli	jacquard orange/cape code	C8204264	5,8		0	0	0		0	
+Taborelli	mystyc	L9504569	4,95		0	0	0		0	
+Taborelli	crepe silver	L5705909	7,8		0	0	0		0	
+Taborelli	white beach	C8281722 dis.405671	7,1		0		0		0	
+Taborelli	monterey	C8281722 dis.405672	7,1		0		0		0	
+Taborelli	cape code	C8204264 dis.405150	5,75		0		0		0	
+Taborelli	jacquard bally fondo raso	C8242015 taborelli jacq. Bally	3,8		0		0		0	
+Taborelli	jacquard logo  bally	taborelli  logo jacq. Bally	4,7		0		0		0	
+Taborelli	jacquard bally fondo tela	C8205005  jacq. Bally	5,3		0		0		0	
+Taborelli	jacquard bally fondo tela logo	 jacq. Bally logo 45 inserzioni	6,3		0		0		0	
+Taborelli	jacquard rafia nannini	rafia nannini	10,2		0		0		0	
+Taborelli	jacquard smoky	C8207403 M (ex C8207203)	5,85		0		0		0	
+Taborelli	orwell/motif	C8207786	6,7		0		0		0	
+Taborelli	jacquard c. var. beige nannini	J8003926	11,15		0	0	0		0	
+Taborelli	black sand	C8207812	6,2		0	0	0		0	
+Taborelli	metal plix	C8207814	7,6		0	0	0		0	
+Taborelli	Black barry	C8207203 unito	4,5		0		0		0	
+Taborelli	smoke stretch	J573839 150/elast	6,26		0		0		0	
+Taborelli	flamengo/jamaal	L8409255	7,6		0		0		0	
+Taborelli	art.15 biandolino	J8028181 CLOQUET ORO/ARG	10,9		0		0		0	
+Taborelli	art.16+ 16/bis+16/3  biandolino	J8034319 5628 JAZZ/PIATT	6,5		0		0		0	
+Taborelli	jacquard ng eco	P9811602 nuovo jacquard ng	4,75		0		0		0	
+Taborelli	base per jay	C82194590	5,1		0		0		0	
+Taborelli	base per blue kiwi	C8207203 idrofix	4,5		0		0		0	
+Taborelli	jacquard smoky X 3	C8207403 M (ex C8207203) X 3	17,55		0		0		0	
+Taborelli	jacquard oxide/base oxide	C8225262	10,5		0		0		0	
+Taborelli	swami	C8225613 dis 124129	10		0		0		0	
+Taborelli	white swami	C8225613 dis 112859	10		0		0		0	
+Taborelli	red pampero/blue falls	C0625882	9,1		0		0		0	
+Taborelli	sky stretch/sex stretch	C8225973	7,1		0		0		0	
+Taborelli	goldfire	C8224612	9,2		0		0		0	
+Taborelli	raja	L1907476	5,75		0		0		0	
+Taborelli	sex wave	C8225610	9,5		0		0		0	
+Taborelli	aspen/bailey	C8209139	7,5		0		0		0	
+Taborelli	joshua	C8226045	4,9		0		0		0	
+Taborelli	plaid/kilt	C8224957	5,75		0		0		0	
+Taborelli	jacquard lingot new h100	CP80 5630 bayer finito h 100	9,03	70/150	6,5	151/300	5,6	301	0	
+Taborelli	jacquard lingot new h130	wat CP80 5630 bayer finito h 130	11,94	70	11,05	71/150	8,44	151/300	6,8	301
+Taborelli	fodera chrome heart	FODERLUCA PL300	4	1500	0		0		0	
+Taborelli	jacquard club fendi	J8010511 0 408412	4,55						0	
+Taborelli	jacq. Camouflage FENDI	J840839	8,4		0		0		0	
+Taborelli	jacq. Camouflage	J8408396	8,5		0		0		0	
+Taborelli	lana bouclè	C 8222777 jazz	4,2		0		0		0	
+Taborelli	air tank	L8429258	7,6		0		0		0	
+Taborelli	jacq cabriolet fendi	C8229992	7,5		0		0		0	
+Taborelli	jacq picasso fendi	C8224599	7,55		0		0		0	
+Taborelli	campione A	C0018555 dis DM2654	30,4		0		0		0	
+Taborelli	campione B	J800701 dis 6513	6,35		0		0		0	
+Taborelli	campione C	J5118835 dis 132608	5,9		0		0		0	
+Taborelli	campione D	J5117840 dis 132558	6,4		0		0		0	
+Taborelli	campione E	J8025775 dis DM 4161	9,15		0		0		0	
+Taborelli	campione F	J8442627 dis DM 2724	11,25		0		0		0	
+Taborelli	campione G	J8025058 dis DM 3286	7,6		0		0		0	
+Taborelli	campione H	J808523 dis 6513	6,56		0		0		0	
+Taborelli	campione I	J808523 dis 6487	6,56		0		0		0	
+Taborelli	campione L	J5172155 dis 544830	5,8		0		0		0	
+Taborelli	campione M	J8025259 dis DM 3320	6,35		0		0		0	
+Taborelli	scozzese geox	jacq. Scozzese geox	4,6		0		0		0	
+Taborelli	jacq. Penny unito	penny jacquard unito	3,4		0		0		0	
+Taborelli	jacquard sunset / black sand COBRA	J 8439317	10,25		0		0		0	
+Taborelli	jacquard eclipse	J8432679	12		0		0		0	
+Taborelli	white lady	L 6531121	7,8		0		0		0	
+Taborelli	golden moon	L 6531120	6,5		0		0		0	
+Taborelli	black choco	J 8432368	10,1		0		0		0	
+Taborelli	white sensation	C8232799	5,6		0		0		0	
+Taborelli	pure black	J8432679	12		0		0		0	
+Taborelli	jacquard eclipse	J 8432679	12		0		0		0	
+Taborelli	jacquard jungle	J8408396	8,5		0		0		0	
+Taborelli	pyton tech	L8429258	7,6		0		0		0	
+Taborelli	hot stone	L8402756	7,7		0		0		0	
+Taborelli	twiggy/ black lady	L 5533254	3,35		0		0		0	
+Taborelli	soul lady	J3233252	5,4		0		0		0	
+Taborelli	jacquard sunrise	C8233932	7,4		0		0		0	
+Taborelli	fodera cotone A	J5835395	2,85		0		0		0	
+Taborelli	fodera cotone B	J5835393	3,35		0		0		0	
+Taborelli	fodera cotone C	J5835398	3,95		0		0		0	
+Taborelli	fodera cotone D	J5835399	4,95		0		0		0	
+Taborelli	fodera cotone E	J5835400	3,45		0		0		0	
+Taborelli	fodera cotone F	J5835401	4,95		0		0		0	
+Taborelli	fodera cotone G	J5835404	4,8		0		0		0	
+Taborelli	fodera cotone H	J5835403	3,1		0		0		0	
+Taborelli	fodera cotone I	J5835402	4,4		0		0		0	
+Taborelli	jacquard british	L5430411 dis67864 R1786	4,25		0		0		0	
+Taborelli	jacquard kilt	L5430411 dis67840 R1782	4,25		0		0		0	
+Taborelli	jacquard eclipse edil sport	C8236369	7,9		0		0		0	
+Taborelli	jacquard orange edil sport	C8227681	8,75		0		0		0	
+Taborelli	jacquard roccobarocco inverno	C 8203633 offerta	6,5		0		0		0	
+Taborelli	jacquard kilt/quadrettino	C8236586	4,8		0		0		0	
+Taborelli	jacquard kil edilspor/quadrettino	C8236586 bis edisport	11,8		0		0		0	
+Taborelli	summer ceck	C8227681	8,75		0		0		0	
+Taborelli	macoulage Art 5	L8411167 di raso	7		0		0		0	
+Taborelli	dark skin ART  54	L8402759	7,7		0		0		0	
+Taborelli	makostone ART   55	J5417511	7,8		0		0		0	
+Taborelli	zambalist ART 56	J8436755	8,9		0		0		0	
+Taborelli	kilt stretch ART 59	C8224747	5,95		0		0		0	
+Taborelli	pyton stretch Art 77	J1742969	7,7		0		0		0	
+Taborelli	lady passion Art 80	P3137634	11,5		0		0		0	
+Taborelli	chevron lana chevron	C8202300	5,95		0		0		0	
+Taborelli	black wool lana unita	C8243328	4,7		0		0		0	
+Taborelli	wool jazz lana rigata	C8242968	5,2		0		0		0	
+Taborelli	jacquard vichy	P8543557	3,8		0		0		0	
+Taborelli	sand shirt	L553111 base legendary	3,7		0		0		0	
+Taborelli	jacquard tekno	J8010511	4		0		0		0	
+Taborelli	serata greggio	J8546436	4		0		0		0	
+Taborelli	jacquard cotton m	J5846294	6,8		0		0		0	
+Taborelli	riga x bendel	C8248553	5,7		0		0		0	
+Taborelli	colour vichy/port orange/madras	L5430411	4,25		0		0		0	
+Taborelli	gold stretch/night lace	C8251997	8,85		0		0		0	
+Taborelli	gold wool	C8224525	6,9		0		0		0	
+Taborelli	dark croco	J1742969	7,1		0		0		0	
+Taborelli	base serata p stampa minimi	J8504263 minimi	5,35	0/299	4,8	300/999	4,5	1000/1500	0	
+Taborelli	denim gg	denim gucci	7		0		0		0	
+Taiana	jeans stretch	midway dis.9700079	18900		0		0		0	
+Taiana	ybibos	gamos	17100		0		0		0	
+Taiana	myake	plutone	17900		0		0		0	
+Taiana	kajur	nuits dis.6620072	16300		0		0		0	
+Taiana	orange solo rete	clips	7552		0		0		0	
+Tat	air ball	9442/140 gg	12300		0		0		0	
+Tat	teknostretch	9514/140C gg	5,6		0		0		0	
+Tat	new kumquat	9583/136b	8,75		0		0		0	
+Tat	stealth stretch	9515/140	12000		0		0		0	
+Tat	millenium	9555/140	19600		0		0		0	
+Tat	blue wing	s 6002/140	13900		0		0		0	
+Tat	orangin	9443/140	11800		0		0		0	
+Tat	red moon	9470/140	15500		0		0		0	
+Tat	new lingot	9551/136	8,5		0		0		0	
+Tat	jump	9702/140	14500		0		0		0	
+Tat	dennis stretch	342508140	5,85		0		0		0	
+Tat	stealth greggio	nuovo stealth	0		0		0		0	
+Tat	silk stretch	35622/140 tela ny ly	3,5		0		0		0	
+Tat	jaquard bally	inserire nuovo	8,5		0		0		0	
+Tat	ackley	3213/140	5,1		0		0		0	
+Tat	stealth	3202/139D	6,1		0		0		0	
+Tat	maxwell	3262/140	7,8		0		0		0	
+Tat	stealth OFF WHITE	3243/140* doppio subbio	6,79		0		0		0	
+Tat	jacquard lingot	9277/090 9299/090	6,6		0		0		0	
+Tat	satin one	art.9949 gg	5,4		0		0		0	
+Tat	satin party	satin 53110 pa/pl	4,95		0		0		0	
+Tat	fandango	satin 53110 pa/pl	4,95		0		0		0	
+Tat	fandango stretch	35543/147 hpettine 210 cm	6,9		0		0		0	
+Tat	skater	7869/140	4,5		0		0		0	
+Tat	stealth var 20	stealth var 20	6,79		0		0		0	
+Tat	blue jet Art 75	10271/140	5,15		0		0		0	
+Tat	chrono chic	12013/140B	4,59		0		0		0	
+Tat	silver sky	12112/140	4,99		0		0		0	
+Tesmo	gros grain	canette 3	3,36		0		0		0	
+Tessil Due	kanvas	panama co/pl	7,15		0		0		0	
+Tessil Due	silkus	millerighe pl/co	4,85		0		0		0	
+Tessile Operati	natural	c 2018 gg	10000		0		0		0	
+Tessile Operati	yak	c 2093 gg	18000		0		0		0	
+Tessile Operati	reef	335/b dis.66057	12600		0		0		0	
+Tessile Operati	prova 1	28 ins	5,15	500	0		0		0	
+Tessile Operati	prova 2	25 ins	5,05	500	0		0		0	
+Tex Fation	velvet pronto tinta	kazan 200r	3,9		0		0		0	
+Texal	shariz	pu 11968 dis.4080	15000		0		0		0	
+Texal	nepal	stretch nylon lycra	11100		0		0		0	
+Texal	ungaro cotone lame	prova cot.lame	17500		0		0		0	
+Toia	blue angel	viscosa lino T4817	7000		0		0		0	
+Toia	sunset	lino lurex T4449	10500		0		0		0	
+Toia	dream	T 1127	7100		0		0		0	
+Toia	sonic gg	1216	3,52		0		0		0	
+Toia	bluish gg	lino/viscosa tinto pasta	3,6		0		0		0	
+Toia	stripe	5246 dis.1/2	2,12		0		0		0	
+Transatex	harley nero	denim black	5165		0		0		0	
+Transatex	harley blu	denim blu	4650		0		0		0	
+Uboldi	nuovo kyko greggio	art 1045 greggio	1,45	0/999999			0		0	
+Uboldi	raso cotone	raso cotone	3,4		0		0		0	
+Uboldi	kyko tinto x 3.63	kyko tinto x 3.63mt	10,67		0		0		0	
+Uco	jeanxy 11	atlanta 18555/N 22	3,29		0		0		0	
+Uco	jeanxy 12	ancona 867 20555/N	4,2		0		0		0	
+Uco	jeanxy 01	ancona b/100	3,37		0		0		0	
+Uco	jeanxy altre	ancona 20555/N	4,2		0		0		0	
+Unotex	joy	pizzo	7300		0		0		0	
+Valli	zanz.tint.valli	rete 024235	5	colorati	0		0		0	
+Valli	zanzariera greggia	rete 024235 greggia	3,7		0		0		0	
+Valli	metal mesh	art.2423 rete metallizzata	7		0		0		0	
+Valli	gold mesh	2829 gnu'	28		0		0		0	
+Valli	blue moon	3383 dehli	7,1		0		0		0	
+Valli	zanzariera berneda	zanzariera berneda	7,7		0		0		0	
+Valli	rete longchamp	37555G rete disegno panama longchamp	4,7		0		0		0	
+Vision Land	okley gg	spandex suede satin	10650		0		0		0	
+Yong Tong	PL	satin stretch	4,3		0		0		0	

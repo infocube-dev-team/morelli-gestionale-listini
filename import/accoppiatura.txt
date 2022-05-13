@@ -1,0 +1,113 @@
+Tela mimosa co 100% pronto tinta		0,88		0		0		0	
+bruciato a zero		1,05		0		0		0	Abiline
+mtp 3 mm		1,5		0		0		0	Abiline
+bruciato a zero		1		0		0		0	Abiline
+mtp densita 40 finito 2 mm 1		1,2		0		0		0	Abiline
+mtp densita 40 finito 1,5		1,36		0		0		0	Abiline
+mtp 1,5  mm		1,25		0		0		0	Abiline
+mtp 1 mm spessore 2 mm/D26		1,3		0		0		0	Abiline
+mtp 2  mm spessore 1 mm/D26		1,2		0		0		0	Abiline
+mtp 1 densita 24 2 passaggi		1,4		0		0		0	Abiline
+mtp 1,50 densita '40 2 passaggi		1,36		0		0		0	Abiline
+mtp 1,50 densita '40 con light 1 pass.		1,2		0		0		0	Abiline
+acc. Mtp 2 pass loft		0,95		0		0		0	Abiline
+mtp 1,5 D 55		1,2		0		0		0	Abiline
+tipo A		2,6		0		0		0	Berofin
+tipo B		2,26		0		0		0	Berofin
+tipo C		1,76		0		0		0	Berofin
+tipo D		2,34		0		0		0	Berofin
+tipo E		3,48		0		0		0	Berofin
+tipo F		0,93		0		0		0	Berofin
+tipo G		1,54		0		0		0	Berofin
+tipo H		1,88		0		0		0	Berofin
+tipo I		2,31		0		0		0	Berofin
+tipo L		1,25		0		0		0	Berofin
+tipo M		1,38		0		0		0	Berofin
+tipo N		2,92		0		0		0	Berofin
+tipo O		2,15		0		0		0	Berofin
+tipo P		0,93		0		0		0	Berofin
+tipo Q		1,38		0		0		0	Berofin
+tipo R		1500		0		0		0	Berofin
+tipo S		1200		0		0		0	Berofin
+lavoraz. Seta cangiante		1,5	0	0		0		0	Berofin
+resinatura + idro x active		1,05	0	0		0		0	Berofin
+tipo I x bric's		1,9		0		0		0	Berofin
+lavoraz.lattice vulcanizzo + idro		1,93		0		0		0	Berofin
+accoppiatura + diritto filo		1,35		0		0		0	Berofin
+resinatura+ accopp.Tekno satin		1,5		0		0		0	Berofin
+accop. Hot melt - sostituz. Expert		1		0		0		0	Berofin
+accop. Hot melt rete + tela		2,23		0		0		0	Berofin
+accop. Rete sul diritto		1,3		0		0		0	Berofin
+quadrilaminato x gucci		3		0		0		0	Berofin
+accoppiatura a membrana x gucci		3,15		0		0		0	Berofin
+accoppiatura (tipo zucca fendi)		2,85		0		0		0	Berofin
+veinx stretc		8,77		0		0		0	Dalmatex
+accoppiatura		1,75		0		0		0	Eurofiniss
+vaporizzo		0,21		0		0		0	Eurofiniss
+laser + strop	laser + stropiccio	4,05		0		0		0	Eurofiniss
+brinatura lamina oro/argento + vaporizzo	brinatura lamina oro/argento + vaporizzo	3,81			0		0	0	Eurofiniss
+brinatura lamina colorati + vaporizzo	brinatura lamina colorata + vaporizzo	4,01		0		0		0	Eurofiniss
+stropiccio		0,95		0		0		0	Eurofiniss
+acc. Stretch elastica		0		0		0		0	Eurotex
+normale morbida 2C/EB60		1,51		0		0		0	Expert
+lattice vulcanizzato 2C/LV		1,15		0		0		0	Expert
+transfer/film 2c/TR		2,13		0		0		0	Expert
+antisfilo normale ATS/NORM		0,62		0		0		0	Expert
+resinatura super morbida ATS/SM		0,62		0		0		0	Expert
+resinatura per stampa		0,49		0		0		0	Expert
+stropiccio + normale 2C/EB60		2,69		0		0		0	Expert
+antisfilo ats/sm tessuti pesanti		0,67		0		0		0	Expert
+antisfilo ATS LV/PLUS		0,9		0		0		0	Expert
+termoadesivo HM x plisse'		0,78		0		0		0	Expert
+autoadesivo con carta TERMO 50 C/C		0,79		0		0		0	Expert
+normale morbida 2C/EB60 in doppio		2,64		0		0		0	Expert
+accop. ATS/SM + 2CPL		1,89		0		0		0	Expert
+accopp. + reps gg expert		2,3		0		0		0	Expert
+vaporizzo + normale 2C/EB60		1,53		0		0		0	Expert
+termoadesivo thm (senza carta)		0,88		0		0		0	Expert
+termoadesivo thm con carta THM		0,94		0		0		0	Expert
+2CPLB60/VEL X VELLUTI		2,39		0		0		0	Expert
+EB60+ATS/SM		1,97		0		0		0	Expert
+acc.2C/PL EB60+ latticiato		2		0		0		0	Expert
+3cPL EB60 + EB60		2,8		0		0		0	Expert
+soft/film		4500		0		0		0	Gielle
+T89000		5,75		0		0		0	Gif
+duetto P		1,7		0		0		0	Italplastic
+lavaggio a secco		0,5		0		0		0	Jacchetti
+tela mimosa lange' co 100% pronto tinta		0,88		0		0		0	Lange'
+ovatta 120 gr		2,35		0		0		0	Maglificio cris style
+sis.lattice		0,89		0		0		0	Map
+resinatura R1		0,72		0		0		0	Map
+mtp 2,5 AD		5,54		0		0		0	Map
+mtp 1,5 AD		5,09		0		0		0	Map
+mtp 3 AD		5,11		0		0		0	Map
+latticiatura/spalmatura		0,48		0		0		0	Map
+sis.240 2 corpi		3,24		0		0		0	Map
+sis.240 3 corpi		1,99		0		0		0	Map
+acc mtp 1,5 + resina		6,21		0		0		0	Map
+acc mtp 2,5 + resina		6,1		0		0		0	Map
+acc MTP 2,5 T 40  x gucci beach b.co		4,13		0		0		0	Map
+acc speciale wally+lycra+mtp1,5+lycra		8,28		0		0		0	Map
+alveolit030+doppia accoppiatura		4,13		0		0		0	Map
+lycra + mtp 1,5 ad + lycra		4,73		0		0		0	Map
+microfibra/microsuede		4,05		0		0		0	Mariani cinese
+rafel 1cm		1,8		0		0		0	Omniapiega
+delavaggio + spianatura		1,42		0		0		0	Pulipel
+delavaggio hot stone+spianat.eurofiniss		1,42		0		0		0	Pulipel
+membrana traspirante		3,5		0		0		0	Selva
+accoppiatura semplice		1,1	0/50	0,92	51/99999	0		0	Selva
+ovatta 60		1,6		0		0		0	Selva
+pentaglio su art.stretch		0,15		0		0		0	Selva
+doppia accoppiatura		1,84		0		0		0	Selva
+ovatta 80		2,05		0		0		0	Selva
+ovatta 120		2,35		0		0		0	Selva
+bruciato a zero		0,98		0		0		0	Sima
+mtp 2,5 d. 36		1,34		0		0		0	Sima
+mtp 3,5 d. 25		1,03		0		0		0	Sima
+mtp 2,8 d.26		0,92		0		0		0	Sima
+loft + loft		0,88		0		0		0	Sima
+carta tr. Dis.55428		1,4	500/2	0,97	3/500	0,88	1/1000	0,72	Sublitex
+rete 024235		4,65		0		0		0	Valli
+acc.2c 240g20/300		1,98				0		0	Vispa
+acc.2c 240g x301	301	1,32				0		0	Vispa
+acc. 2c 224	301	1,9	20/300	2,85		0		0	Vispa

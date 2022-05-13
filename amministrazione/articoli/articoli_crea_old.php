@@ -1,0 +1,1864 @@
+<head>
+<meta http-equiv="Content-Language" content="it">
+<link rel="stylesheet" type="text/css" href="../../style.css">
+
+
+
+
+<script type="text/javascript">
+function stopRKey(evt) {
+  var evt = (evt) ? evt : ((event) ? event : null);
+  var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+  if ((evt.keyCode == 13) && (node.type=="text"))  {return false;}
+  }
+document.onkeypress = stopRKey;
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="../ajax/jquery-ui.css">
+<script src="../ajax/jquery.min.js"></script>
+<script src="../ajax/jquery-ui.min.js"></script>
+</head>
+
+
+<?php
+session_start();
+$operatore = $_SESSION['utente'];
+$data = date('Y-m-d H:i:s');
+
+$id = $_GET['id'];
+
+
+if($id==NULL){
+ header("location: seleziona_articolo.php");
+}
+
+
+include("cat.php");
+//--------------------Seleziona Articolo dal Database-------------------
+$con = mysql_connect($localhost.":".$localporta,$locallogin,$localpass);
+if (!$con)
+  {
+  die('Could not connect: ' . mysql_error());
+   }
+ mysql_select_db($localnome, $con);
+
+
+//---------------Mofica Articolo-----------------
+$modifica_articolo = $_GET['Modifica_Articolo'];
+ if(isset($modifica_articolo)){
+
+  $nome = $_GET['nome'];
+  $codice = $_GET['codice'];
+  $collezione = $_GET['collezione'];
+  $composizione = $_GET['composizione'];
+  $altezza = $_GET['altezza'];
+  $altezza = str_replace(",", ".", $altezza);
+  $stampa = $_GET['stampa'];
+  $dettagli = $_GET['dettagli'];
+  $grmq = $_GET['grmq'];
+
+
+if($grmq==NULL){
+ $grmq = "0";
+}
+
+if($altezza==NULL){
+ $altezza = "0";
+}
+
+   $query = "UPDATE articoli SET codice='$codice', collezione='$collezione', composizione='$composizione', altezza='$altezza', stampa='$stampa', operatore='$operatore', data='$data', dettagli='$dettagli', grmq='$grmq' WHERE id='$id'";
+ 	$result = mysql_query($query);
+
+ }
+
+
+
+		//------------Seleziona articolo------------
+		$query  = "SELECT codice, nome, collezione, composizione, altezza, stampa, dettagli, grmq FROM articoli WHERE id = '$id'";
+		$result = mysql_query($query);
+			while($row = mysql_fetch_row($result))
+			{
+				$codice = $row[0];
+				$nome = $row[1];
+				$collezione = $row[2];
+				$composizione = $row[3];
+				$altezza = $row[4];
+				$stampa = $row[5];
+				$dettagli = $row[6];
+				$grmq = $row[7];
+			}
+
+
+
+
+
+
+//---------------------Apri elenco oggetti---------------
+if(isset($_GET['elenco'])){
+ $_SESSION['fornitore'] = $_GET['fornitore'];
+ $selezione = "Seleziona";
+ $pulsante = "Aggiungi";
+ 
+ echo "entro";
+?>
+
+<script language="javascript">
+	window.open('pop.php?tipo_lavorazione=<?php echo $tipo_lavorazione;?>','popup','width=500,height=500,scrollbars=yes,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=250,top=200');
+</script>
+
+<?php
+ }
+
+
+
+
+$seleziona = $_GET['Seleziona'];
+$aggiungi_elemento = $_GET['Aggiungi_elemento'];
+$modifica_elemento = $_GET['Modifica_elemento'];
+$modifica = $_GET['Modifica'];
+$id_modifica = $_GET['id_modifica'];
+$vocestato = $_GET['vocestato'];
+$delist = $_GET['delist'];
+$tipo_lavorazione = $_GET['tipo_lavorazione'];
+
+
+
+
+//-----------------Seleziona tipo di elemento-----------------
+if($tipo_lavorazione=="greggio"){
+ $suggest = "oggetto_greggio_suggest.php";
+}
+if($tipo_lavorazione=="accoppiatura"){
+ $suggest = "oggetto_accoppiatura_suggest.php";
+}
+if($tipo_lavorazione=="tintura"){
+ $suggest = "oggetto_tintura_suggest.php";
+}
+if($tipo_lavorazione=="supporti"){
+ $suggest = "oggetto_supporti_suggest.php";
+}
+if($tipo_lavorazione=="finissaggio"){
+ $suggest = "oggetto_finissaggio_suggest.php";
+}
+
+
+
+//-----------------Inserisci nuovi elementi---------------------
+if(isset($_GET['id_elemento'])){
+ $id_elemento = $_GET['id_elemento'];
+ $tipo_lav = $_GET['tipo_lav'];
+ $calo = $_GET['calo'];
+}
+
+if($aggiungi_elemento!=NULL AND $id_elemento!=NULL){
+
+ if($tipo_lav=="greggio"){
+  mysql_query("INSERT INTO combinazioni (id_articolo, id_greggio, stato, calo_greggio)
+   VALUES ('$id', '$id_elemento', 'ON', '$calo')");
+  
+    $query = "UPDATE articoli SET data='$data', operatore='$operatore' WHERE id='$id'";
+   $result = mysql_query($query);
+ }
+
+ if($tipo_lav=="tintura"){
+  mysql_query("INSERT INTO combinazioni (id_articolo, id_tintura, stato, calo_tintura)
+   VALUES ('$id', '$id_elemento', 'ON', '$calo')");
+
+    $query = "UPDATE articoli SET data='$data', operatore='$operatore' WHERE id='$id'";
+   $result = mysql_query($query);
+ }
+
+ if($tipo_lav=="finissaggio"){
+  mysql_query("INSERT INTO combinazioni (id_articolo, id_finissaggio, stato, calo_finissaggio)
+   VALUES ('$id', '$id_elemento', 'ON', '$calo')");
+
+    $query = "UPDATE articoli SET data='$data', operatore='$operatore' WHERE id='$id'";
+   $result = mysql_query($query);
+ }
+
+ if($tipo_lav=="accoppiatura"){
+  mysql_query("INSERT INTO combinazioni (id_articolo, id_accoppiatura, stato, calo_accoppiatura)
+   VALUES ('$id', '$id_elemento', 'ON', '$calo')");
+
+    $query = "UPDATE articoli SET data='$data', operatore='$operatore' WHERE id='$id'";
+   $result = mysql_query($query);
+ }
+
+ if($tipo_lav=="supporti"){
+  mysql_query("INSERT INTO combinazioni (id_articolo, id_supporti, stato, calo_supporti)
+   VALUES ('$id', '$id_elemento', 'ON', '$calo')");
+
+    $query = "UPDATE articoli SET data='$data', operatore='$operatore' WHERE id='$id'";
+   $result = mysql_query($query);
+ }
+
+
+}
+
+
+
+//--------------------------Modifica Elementi--------------------
+  if(isset($_GET['id_mod_elemento'])){
+   $id_mod_elemento = $_GET['id_mod_elemento'];
+  }else{
+   $id_mod_elemento = $_GET['id_modifica'];
+  }
+
+if(isset($modifica_elemento)){
+ $tipo_lav = $_GET['tipo_lav'];
+
+ $m1 = $_GET['m1'];
+ $m2 = $_GET['m2'];
+ $m3 = $_GET['m3'];
+ $m4 = $_GET['m4'];
+ $m5 = $_GET['m5'];
+ $m6 = $_GET['m6'];
+ $m7 = $_GET['m7'];
+ $m8 = $_GET['m8'];
+ $c1 = $_GET['c1'];
+ $c2 = $_GET['c2'];
+ $c3 = $_GET['c3'];
+ $c4 = $_GET['c4'];
+ $c5 = $_GET['c5'];
+ $c6 = $_GET['c6'];
+ $c7 = $_GET['c7'];
+ $c8 = $_GET['c8'];
+ $calo = $_GET['calo'];
+
+ if($tipo_lav=="greggio"){
+   $query = "UPDATE greggio SET m1='$m1', m2='$m2', m3='$m3', m4='$m4', m5='$m5', m6='$m6', m7='$m7', m8='$m8', c1='$c1', c2='$c2', c3='$c3', c4='$c4', c5='$c5', c6='$c6', c7='$c7', c8='$c8' WHERE id='$id_mod_elemento'";
+	$result = mysql_query($query);
+   $query = "UPDATE combinazioni SET calo_greggio='$calo' WHERE id_greggio='$id_mod_elemento' AND id_articolo='$id'";
+ 	$result = mysql_query($query);
+
+    $query = "UPDATE articoli SET data='$data', operatore='$operatore' WHERE id='$id'";
+   $result = mysql_query($query);
+ }
+ if($tipo_lav=="tintura"){
+   $query = "UPDATE tintura SET m1='$m1', m2='$m2', m3='$m3', m4='$m4', m5='$m5', m6='$m6', m7='$m7', m8='$m8', c1='$c1', c2='$c2', c3='$c3', c4='$c4', c5='$c5', c6='$c6', c7='$c7', c8='$c8' WHERE id='$id_mod_elemento'";
+	$result = mysql_query($query);
+   $query = "UPDATE combinazioni SET calo_tintura='$calo' WHERE id_tintura='$id_mod_elemento' AND id_articolo='$id'";
+ 	$result = mysql_query($query);
+
+    $query = "UPDATE articoli SET data='$data', operatore='$operatore' WHERE id='$id'";
+   $result = mysql_query($query);
+ }
+ if($tipo_lav=="finissaggio"){
+   $query = "UPDATE finissaggio SET m1='$m1', m2='$m2', m3='$m3', m4='$m4', m5='$m5', m6='$m6', m7='$m7', m8='$m8', c1='$c1', c2='$c2', c3='$c3', c4='$c4', c5='$c5', c6='$c6', c7='$c7', c8='$c8' WHERE id='$id_mod_elemento'";
+	$result = mysql_query($query);
+   $query = "UPDATE combinazioni SET calo_finissaggio='$calo' WHERE id_finissaggio='$id_mod_elemento' AND id_articolo='$id'";
+ 	$result = mysql_query($query);
+
+    $query = "UPDATE articoli SET data='$data', operatore='$operatore' WHERE id='$id'";
+   $result = mysql_query($query);
+ }
+ if($tipo_lav=="accoppiatura"){
+   $query = "UPDATE accoppiatura SET m1='$m1', m2='$m2', m3='$m3', m4='$m4', m5='$m5', m6='$m6', m7='$m7', m8='$m8', c1='$c1', c2='$c2', c3='$c3', c4='$c4', c5='$c5', c6='$c6', c7='$c7', c8='$c8' WHERE id='$id_mod_elemento'";
+	$result = mysql_query($query);
+   $query = "UPDATE combinazioni SET calo_accoppiatura='$calo' WHERE id_accoppiatura='$id_mod_elemento' AND id_articolo='$id'";
+ 	$result = mysql_query($query);
+
+    $query = "UPDATE articoli SET data='$data', operatore='$operatore' WHERE id='$id'";
+   $result = mysql_query($query);
+ }
+ if($tipo_lav=="supporti"){
+   $query = "UPDATE supporti SET m1='$m1', m2='$m2', m3='$m3', m4='$m4', m5='$m5', m6='$m6', m7='$m7', m8='$m8', c1='$c1', c2='$c2', c3='$c3', c4='$c4', c5='$c5', c6='$c6', c7='$c7', c8='$c8' WHERE id='$id_mod_elemento'";
+	$result = mysql_query($query);
+   $query = "UPDATE combinazioni SET calo_supporti='$calo' WHERE id_supporti='$id_mod_elemento' AND id_articolo='$id'";
+ 	$result = mysql_query($query);
+
+    $query = "UPDATE articoli SET data='$data', operatore='$operatore' WHERE id='$id'";
+   $result = mysql_query($query);
+ }
+}
+
+
+
+
+
+
+
+
+//------------------------MODIFICA STATO Elemento------------------
+if($vocestato=="ON"){
+ $cstate = "OFF";
+}
+if($vocestato=="OFF"){
+ $cstate = "ON";
+}
+ if(isset($vocestato) AND $tipo_lavorazione!=NULL){
+ $query = "UPDATE combinazioni SET stato='$cstate' WHERE id='$id_modifica'";
+ $result = mysql_query($query);
+
+    $query = "UPDATE articoli SET data='$data', operatore='$operatore' WHERE id='$id'";
+   $result = mysql_query($query);
+ }
+
+
+//------------------------Delista Elemento------------------
+ if(isset($delist)){
+   mysql_query("DELETE FROM combinazioni WHERE id = '$delist'");
+
+    $query = "UPDATE articoli SET data='$data', operatore='$operatore' WHERE id='$id'";
+   $result = mysql_query($query);
+ }
+?>
+
+<fieldset> <legend class="titoli">Inserimento Nuovi Articoli</legend>
+
+
+<form method="GET" action="articoli_crea.php">
+
+	<div align="center">
+		<table border="0" id="table1">
+
+			<tr>
+				<td align="center">
+				 &nbsp;</td>
+			</tr>
+
+
+			<tr>
+				<td align="center">
+				 <fieldset> <legend class="titoli">Articolo:&nbsp;&nbsp;&nbsp; (<?php echo $nome;?>)&nbsp;&nbsp;
+					<a target="_blank" href="articolo_stampa.php?id=<?php echo $id;?>">
+					<img border="0" src="../icone/stampa.gif"></a>&nbsp;&nbsp; </legend>
+				 
+					&nbsp;<div align="center">
+					<table border="0" cellspacing="0" id="table2">
+						<tr>
+							<td>
+				 			  <?php
+				 			   if($stampa=="ON"){
+				 			    $checked = "checked";
+				 			   }else{
+				 			    $checked = NULL;
+				 			   }
+				 			  ?>
+								<input type="checkbox" name="stampa" value="ON" style="float: right" <?php echo $checked;?>></td>
+								
+							<td colspan="2">Seleziona articolo per la stampa nel listino.</td>
+							
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td colspan="2">
+							&nbsp;</td>
+						</tr>
+						<tr>
+							<td>Nome Articolo:</td>
+							<td colspan="2">
+							<input type="hidden" name="id" size="45" id="id" value="<?php echo $id;?>">
+
+							<input disabled type="text" name="nome" size="76" id="nome" value="<?php echo $nome;?>"></td>
+						</tr>
+						<tr>
+							<td>Codice Articolo:</td>
+							<td>
+							<input type="text" name="codice" size="19" id="codice" value="<?php echo $codice;?>"></td>
+							<td rowspan="5">
+							<textarea rows="4" name="dettagli" cols="28"><?php echo $dettagli;?></textarea>Note</td>
+						</tr>
+						<tr>
+							<td>Collezione:</td>
+							<td>
+							<input type="text" name="collezione" size="19" id="collezione" value="<?php echo $collezione;?>"></td>
+						</tr>
+						<tr>
+							<td>Composizione:</td>
+							<td>
+							<input type="text" name="composizione" size="19" id="composizione" value="<?php echo $composizione;?>"></td>
+						</tr>
+						<tr>
+							<td>Gr.Mq.:</td>
+							<td>
+							<input type="text" name="grmq" size="7" id="altezza0" value="<?php echo $grmq;?>"></td>
+						</tr>
+						<tr>
+							<td>Altezza&nbsp; (cm):</td>
+							<td>
+							<input type="text" name="altezza" size="7" id="altezza" value="<?php echo $altezza;?>"></td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>
+							&nbsp;</td>
+							<td>
+							&nbsp;</td>
+						</tr>
+						
+						<tr>
+							<td colspan="3">
+							<p align="center">
+				<input type="submit" value="Modifica" name="Modifica_Articolo"></td>
+						</tr>
+						</table>
+				   </div>
+
+				 </fieldset>
+				</td>
+			</tr>
+
+
+			<tr>
+			 <td align="center" class="info">
+			   &nbsp;</td>
+			</tr>
+
+
+			<tr>
+			 <td align="center" class="info">
+			   <hr>
+				<p align="left">Aggiungi Elemento:&nbsp;
+							<select size="1" name="tipo_lavorazione">
+							<option selected><?php ?></option>
+							<option value="greggio">Greggio</option>
+							<option value="tintura">Tintura</option>
+							<option value="finissaggio">Finissaggio</option>
+							<option value="accoppiatura">Accoppiatura</option>
+							<option value="supporti">Supporti</option>
+							</select>&nbsp;
+				<input type="submit" value="Seleziona" name="Seleziona"></td>
+			</tr>
+
+
+			<tr>
+			 <td align="center">
+
+			   <?php
+		   
+			    if($seleziona!=NULL AND $tipo_lavorazione!=NULL){
+
+			    if(isset($id_modifica)){
+			     $pulsante = "Modifica";
+			     $disable = NULL;
+			    }else{
+			     $pulsante = "Aggiungi";
+			     $disable = "disabled";
+			    }
+
+
+				//------------Seleziona elemento per modifica------------
+				if(isset($id_modifica) AND $tipo_lavorazione!=NULL){
+
+					$query  = "SELECT descrizione, id_fornitore, m1, m2, m3, m4, m5, m6, m7, m8, c1, c2, c3, c4, c5, c6, c7, c8 FROM $tipo_lavorazione WHERE id='$id_modifica'";
+					$result = mysql_query($query);
+						$row = mysql_fetch_row($result);
+						{
+						  $tipo = $row[0];
+						  $id_fornitore = $row[1];
+						  $m1 = $row[2];
+						  $m2 = $row[3];
+						  $m3 = $row[4];
+						  $m4 = $row[5];
+						  $m5 = $row[6];
+						  $m6 = $row[7];
+						  $m7 = $row[8];
+						  $m8 = $row[9];
+						  $c1 = $row[10];
+						  $c2 = $row[11];
+						  $c3 = $row[12];
+						  $c4 = $row[13];
+						  $c5 = $row[14];
+						  $c6 = $row[15];
+						  $c7 = $row[16];
+						  $c8 = $row[17];
+						}
+
+					$query  = "SELECT calo_$tipo_lavorazione FROM combinazioni WHERE id_articolo='$id' AND id_$tipo_lavorazione='$id_mod_elemento'";
+					$result = mysql_query($query);
+						$row = mysql_fetch_row($result);
+						{
+						  $calo = $row[0];
+						}
+
+
+					//------------Descrizione fornitore------------
+					$queryf  = "SELECT ragione_sociale FROM fornitori WHERE id = '$id_fornitore'";
+					$resultf = mysql_query($queryf);
+						$rowf = mysql_fetch_row($resultf);
+						{
+							$fornitore = $rowf[0];
+						}
+
+				}
+
+
+			   ?>
+
+			   <fieldset> <legend class="titoli">Elemento da selezionare:</legend>
+				<div align="center">
+					<table border="0" cellspacing="0" id="table3">
+						<tr>
+							<td><b>Elemento:</b></td>
+							<td colspan="8" class="warn">
+							 <b> <?php echo strtoupper($tipo_lavorazione);?> </b>
+							 &nbsp;</td>
+						</tr>
+
+						<tr>
+							<td colspan="9">&nbsp;</td>
+						</tr>
+
+						<tr>
+							<td>Nome:</td>
+							<td colspan="8">
+							 <input type="hidden" name="id_elemento" size="3" id="id_elemento" value="<?php echo $id_elemento;?>">
+							 <input type="hidden" name="id_mod_elemento" size="3" id="id_mod_elemento" value="<?php echo $id_mod_elemento;?>">
+							 <input type="hidden" name="tipo_lav" size="3" value="<?php echo $tipo_lavorazione;?>">
+							 <input type="text" name="tipo" size="48" id="tipo" value="<?php echo $tipo;?>"> 
+							 
+
+						  <?php
+						   if($pulsante=="Aggiungi"){
+						   $_SESSION['tipo_lavorazione'] = $tipo_lavorazione;
+						  ?>
+							<input type="submit" value="+" name="elenco"> 
+						  <?php
+						   }
+						  ?>
+						
+						</td>
+							
+							
+							</td>
+								
+								
+							</td>
+
+						</tr>
+						<tr>
+							<td>Codice Art. Fornitore</td>
+							<td colspan="8">
+							 <input <?php echo $disable;?> type="text" name="cod_art_fornitore" size="48" id="cod_art_fornitore" value="<?php echo $cod_art_fornitore;?>"></td>
+						</tr>
+						<tr>
+							<td>Fornitore:</td>
+							<td colspan="8">
+							
+							<?php
+							 if(isset($_GET['fornitore'])){
+							  $fornitore = $_GET['fornitore'];
+							 }
+							?>
+							 <input type="text" name="fornitore" size="36" id="fornitore" value="<?php echo $fornitore;?>">
+								
+						  <?php
+						   if(!isset($id_modifica)){
+						  ?>						
+							<a href="articoli_crea.php?id=<?php echo $id;?>&tipo_lavorazione=<?php echo $tipo_lavorazione;?>&Seleziona=<?php echo $seleziona;?>">Reset</a></td>
+						  <?php
+						   }
+						  ?>
+						
+						</tr>
+						<tr>
+							<td>Calo lavorazione</td>
+							<td colspan="8">
+							 <input type="text" name="calo" size="7" id="m9" value="<?php echo $calo;?>">%</td>
+						</tr>
+						<tr>
+							<td>Metratura (mt.):</td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="m1" size="7" id="m1" value="<?php echo $m1;?>">
+							</td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="m2" size="7" id="m2" value="<?php echo $m2;?>">
+							</td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="m3" size="7" id="m3" value="<?php echo $m3;?>">
+							</td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="m4" size="7" id="m4" value="<?php echo $m4;?>">
+							</td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="m5" size="7" id="m5" value="<?php echo $m5;?>">
+							</td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="m6" size="7" id="m6" value="<?php echo $m6;?>">
+							 </td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="m7" size="7" id="m7" value="<?php echo $m7;?>">
+							 </td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="m8" size="7" id="m8" value="<?php echo $m8;?>">
+							</td>
+						</tr>
+						<tr>
+							<td>Costo (Euro):</td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="c1" size="7" id="c1" value="<?php echo $c1;?>">
+							</td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="c2" size="7" id="c2" value="<?php echo $c2;?>">
+							</td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="c3" size="7" id="c3" value="<?php echo $c3;?>">
+							</td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="c4" size="7" id="c4" value="<?php echo $c4;?>">
+							</td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="c5" size="7" id="c5" value="<?php echo $c5;?>">
+							</td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="c6" size="7" id="c6" value="<?php echo $c6;?>">
+							</td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="c7" size="7" id="c7" value="<?php echo $c7;?>">
+							 </td>
+							<td>
+							 <input <?php echo $disable;?> type="text" name="c8" size="7" id="c8" value="<?php echo $c8;?>">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="9">
+							<p align="center">
+
+							 <input type="submit" value="<?php echo $pulsante;?>" name="<?php echo $pulsante;?>_elemento"></td>
+							 
+						</tr>
+					</table>
+				</div>
+			   </fieldset>
+
+			   <?php
+			    }
+			   ?>
+
+
+
+			 </td>
+			</tr>
+
+
+			<tr>
+			 <td align="center">
+
+
+				<hr>
+
+
+			 </td>
+			</tr>
+
+
+			<tr>
+			 <td align="center">
+
+
+				<fieldset> <legend class="articolo"> (<?php echo strtoupper($nome);?>) </legend>
+
+
+
+
+
+
+	<?php
+			$tipologia = array("greggio"=>"greggio", "tintura"=>"tintura", "finissaggio"=>"finissaggio", "accoppiatura"=>"accoppiatura", "supporti"=>"supporti");
+			while(list($tipo,$valore)=each($tipologia)){
+	?>
+
+				<fieldset> <legend class="titoli"> <?php echo strtoupper($tipo)?>:</legend>
+
+				<div align="left">
+					<table border="0" cellspacing="3" cellpadding="3" id="table4">
+
+						<?php
+						 //------------Seleziona combinazioni------------
+						 ${$max."_".$tipo} = NULL;
+						 $metraggio_unico = NULL;
+						 ${$id."_".$tipo} = NULL;
+						 $query  = "SELECT id_$tipo, stato, id, calo_$tipo FROM combinazioni WHERE id_articolo='$id' AND id_$tipo!='0'";
+						 $result = mysql_query($query);
+							while($row = mysql_fetch_row($result))
+							{
+								$id_edb = $row[0];
+								$stato = $row[1];
+								$idcomb = $row[2];
+								$calo = $row[3];
+
+								 //------------Seleziona elemento ------------
+								 $queryx  = "SELECT descrizione, m1, m2, m3, m4, m5, m6, m7, m8, c1, c2, c3, c4, c5, c6, c7, c8 FROM $tipo WHERE id='$id_edb'";
+								 $resultx = mysql_query($queryx);
+								  $rowx = mysql_fetch_row($resultx);
+									{
+										$nome = $rowx[0];
+										$m1 = $rowx[1];
+										$m2 = $rowx[2];
+										$m3 = $rowx[3];
+										$m4 = $rowx[4];
+										$m5 = $rowx[5];
+										$m6 = $rowx[6];
+										$m7 = $rowx[7];
+										$m8 = $rowx[8];
+										$c1 = $rowx[9];
+										$c2 = $rowx[10];
+										$c3 = $rowx[11];
+										$c4 = $rowx[12];
+										$c5 = $rowx[13];
+										$c6 = $rowx[14];
+										$c7 = $rowx[15];
+										$c8 = $rowx[16];
+									}
+
+						?>
+
+							<tr>
+								<td class="warn">  <?php echo strtoupper($nome);?> </td>
+								<td> &nbsp; </td>
+								<td>
+								<a href="articoli_crea.php?id=<?php echo $id;?>&id_modifica=<?php echo $id_edb;?>&Seleziona=Seleziona&tipo_lavorazione=<?php echo $tipo;?>">Modifica</a></td>
+
+
+								<?php
+								 if($stato=="OFF"){
+								  $vocestato = "OFF";
+								  $colorstato = "#FF0000";
+								 }else{
+								  $vocestato = "ON";
+								  $colorstato = "#66FF33";
+								 }
+								?>
+								<td>
+								 <a href="articoli_crea.php?id=<?php echo $id;?>&vocestato=<?php echo $vocestato;?>&tipo_lavorazione=<?php echo $tipo;?>&id_modifica=<?php echo $idcomb;?>">
+								  <b> <font color="<?php echo $colorstato;?>"> <?php echo $vocestato;?> </font> </b> </a>
+								</td>
+
+
+								<td>
+								<a href="articoli_crea.php?id=<?php echo $id;?>&delist=<?php echo $idcomb;?>">
+								<font color="#FFFF00"> Delist </font> </a></td>
+							</tr>
+
+							<tr>
+								<td colspan="5">
+
+								<?php
+								 //------------------------------elaborazione-----------------------
+								 $m1 = explode("/", $m1);
+								 $m2 = explode("/", $m2);
+								 $m3 = explode("/", $m3);
+								 $m4 = explode("/", $m4);
+								 $m5 = explode("/", $m5);
+								 $m6 = explode("/", $m6);
+								 $m7 = explode("/", $m7);
+								 $m8 = explode("/", $m8);
+
+
+							   //----------Prezzi Unici------------------
+								 if($m2[0]==0){
+								  echo "Costo Unico";
+
+								  $metraggio_unico = "SI";
+								   for($i=1;$i<9;$i++)
+								      ${"c$i"} = $c1;
+
+								   $disegno_m1 = "No Metratura";
+
+									if(${$max."_".$tipo}==NULL){
+									    ${$id."_".$tipo} = $id_edb;
+								    }
+								 }
+
+
+
+								 //-------------------Prezzi con metraggi diversi cerca max------------------
+								 if($metraggio_unico!="SI"){
+
+								  //-----------aggiusto i metraggi--------------
+
+									for($i=1;$i<9;$i++){
+									    $j=$i+1;
+
+										if(${"m$j"}[0]==0){
+											${"m$i"}[1]=0;
+										}else{
+											${"m$i"}[1]=${"m$j"}[0]-1;
+										}
+									}
+
+								  echo "Costo Differenziato sulla metratura";
+								 }
+
+
+								//--------------creamo i disegni-------------------
+								$disegno_m1 = $m1[0]."/".$m1[1];
+								$disegno_m2 = $m2[0]."/".$m2[1];
+								$disegno_m3 = $m3[0]."/".$m3[1];
+								$disegno_m4 = $m4[0]."/".$m4[1];
+								$disegno_m5 = $m5[0]."/".$m5[1];
+								$disegno_m6 = $m6[0]."/".$m6[1];
+								$disegno_m7 = $m7[0]."/".$m7[1];
+								$disegno_m8 = $m8[0]."/".$m8[1];
+
+								?>
+
+								<div align="left">
+									<table border="0" cellspacing="3" id="table5" width="100%">
+										<tr>
+											<td> <b> <?php echo $disegno_m1;?> </b></td>
+
+										 <?php
+										  if($metraggio_unico!="SI"){
+
+											   if($m2[0]>0){
+											    if(${$max."_".$tipo}<2){
+											     ${$max."_".$tipo} = 2;
+											     ${$id."_".$tipo} = $id_edb;
+											    }
+											  ?>
+												<td> <b> <?php echo $disegno_m2;?> </b></td>
+											  <?php
+											   }
+											   if($m3[0]>0){
+											    if(${$max."_".$tipo}<3){
+											     ${$max."_".$tipo} = 3;
+											     ${$id."_".$tipo} = $id_edb;
+											    }
+											  ?>
+												<td> <b> <?php echo $disegno_m3;?> </b></td>
+											  <?php
+											   }
+											   if($m4[0]>0){
+											    if(${$max."_".$tipo}<4){
+											     ${$max."_".$tipo} = 4;
+											     ${$id."_".$tipo} = $id_edb;
+											    }
+											  ?>
+												<td> <b> <?php echo $disegno_m4;?> </b></td>
+											  <?php
+											   }
+											   if($m5[0]>0){
+											    if(${$max."_".$tipo}<5){
+											     ${$max."_".$tipo} = 5;
+											     ${$id."_".$tipo} = $id_edb;
+											    }
+											  ?>
+												<td> <b> <?php echo $disegno_m5;?> </b></td>
+											  <?php
+											   }
+											   if($m6[0]>0){
+											    if(${$max."_".$tipo}<6){
+											     ${$max."_".$tipo} = 6;
+											     ${$id."_".$tipo} = $id_edb;
+											    }
+											  ?>
+												<td> <b> <?php echo $disegno_m6;?> </b></td>
+											  <?php
+											   }
+											   if($m7[0]>0){
+											    if(${$max."_".$tipo}<7){
+											     ${$max."_".$tipo} = 7;
+											     ${$id."_".$tipo} = $id_edb;
+											    }
+											  ?>
+												<td> <b> <?php echo $disegno_m7;?> </b></td>
+											  <?php
+											   }
+											   if($m8[0]>0){
+											    if(${$max."_".$tipo}<8){
+											     ${$max."_".$tipo} = 8;
+											     ${$id."_".$tipo} = $id_edb;
+											    }
+											  ?>
+												<td> <b> <?php echo $disegno_m8;?> </b></td>
+											 <?php
+											  }
+
+										 }
+										 ?>
+
+										<tr>
+											<td> <?php echo $c1;?> </td>
+										 <?php
+										  if($metraggio_unico!="SI"){
+
+											  if($c2>0){
+											 ?>
+												<td> <?php echo $c2;?> </td>
+											 <?php
+											  }
+											   if($c3>0){
+											 ?>
+												<td> <?php echo $c3;?> </td>
+											 <?php
+											  }
+											   if($c4>0){
+											 ?>
+												<td> <?php echo $c4;?> </td>
+											 <?php
+											  }
+											   if($c5>0){
+											 ?>
+												<td> <?php echo $c5;?> </td>
+											 <?php
+											  }
+											   if($c6>0){
+											 ?>
+												<td> <?php echo $c6;?> </td>
+											 <?php
+											  }
+											   if($c7>0){
+											 ?>
+												<td> <?php echo $c7;?> </td>
+											 <?php
+											  }
+											   if($c8>0){
+											 ?>
+												<td> <?php echo $c8;?> </td>
+											 <?php
+											  }
+
+										  }
+										 ?>
+
+										</tr>
+									</table>
+								</div>
+
+								</td>
+							</tr>
+
+							<tr>
+							<?php
+							 if($calo==NULL){
+							  $calo = 0;
+							 }
+							?>
+
+								<td colspan="5" class="info">&nbsp; Calo: <?php echo $calo;?> %</td>
+							</tr>
+
+						<?php
+						 }
+						?>
+
+					</table>
+				</div>
+
+				</fieldset>
+
+	<?php
+		}
+	?>
+
+
+
+
+
+
+
+
+
+
+
+				</fieldset>
+
+
+			 </td>
+			</tr>
+
+
+			<tr>
+			 <td align="center">
+
+
+				<fieldset> <legend class="info"> Totali:</legend>
+
+				<?php
+				//-----------------Cerca indice massimo per le metrature--------------------------
+
+			$mylist = array("greggio" => ${$max."_".greggio}, "tintura"=> ${$max."_".tintura}, "finissaggio"=> ${$max."_".finissaggio}, "accoppiatura"=> ${$max."_".accoppiatura}, "supporti"=> ${$max."_".supporti});
+			$mylist_id = array("greggio" => ${$id."_".greggio}, "tintura"=> ${$id."_".tintura}, "finissaggio"=> ${$id."_".finissaggio}, "accoppiatura"=> ${$id."_".accoppiatura}, "supporti"=> ${$id."_".supporti});
+	        $tabella =NULL;
+
+				$maxvalue=max($mylist);
+				  while(list($key,$value)=each($mylist)){
+				    if($value==$maxvalue)$maxindex=$key;
+				  }
+
+
+				  //-----------------Cerca Id dell' indice massimo-------------------------------------
+				  while(list($key1,$value1)=each($mylist_id)){
+				    if($key1==$maxindex)$tabella=$value1;
+				  }
+
+
+						 //------------Seleziona Metrature elemento max ------------
+						 $queryx  = "SELECT m1, m2, m3, m4, m5, m6, m7, m8 FROM $maxindex WHERE id='$tabella'";
+						 $resultx = mysql_query($queryx);
+						  $rowx = mysql_fetch_row($resultx);
+							{
+							 $am1db = $rowx[0];
+							 $am2db = $rowx[1];
+							 $am3db = $rowx[2];
+							 $am4db = $rowx[3];
+							 $am5db = $rowx[4];
+							 $am6db = $rowx[5];
+							 $am7db = $rowx[6];
+							 $am8db = $rowx[7];
+							}
+
+								//-------metrature di riferimento--------------
+								 $am1db = explode("/", $am1db);
+								 $am2db = explode("/", $am2db);
+								 $am3db = explode("/", $am3db);
+								 $am4db = explode("/", $am4db);
+								 $am5db = explode("/", $am5db);
+								 $am6db = explode("/", $am6db);
+								 $am7db = explode("/", $am7db);
+								 $am8db = explode("/", $am8db);
+
+								$ac1db = 0;
+								$ac2db = 0;
+								$ac3db = 0;
+								$ac4db = 0;
+								$ac5db = 0;
+								$ac6db = 0;
+								$ac7db = 0;
+								$ac8db = 0;
+
+								for($i=1; $i<7; $i++)
+									${"c$i"."list"}=0;
+
+
+//---------------------------------------------Elabora i totali-------------------------------------
+
+			$tipologia = array("greggio"=>"greggio", "tintura"=>"tintura", "finissaggio"=>"finissaggio", "accoppiatura"=>"accoppiatura", "supporti"=>"supporti");
+			while(list($tipo,$valore)=each($tipologia)){
+
+						 $query  = "SELECT id_$tipo, stato, id FROM combinazioni WHERE id_articolo='$id' AND id_$tipo>'0'";
+						 $result = mysql_query($query);
+							while($row = mysql_fetch_row($result))
+							{
+								$id_edb = $row[0];
+								$stato = $row[1];
+								$idcomb = $row[2];
+								
+								 //------------Seleziona elemento ------------
+								 $queryx  = "SELECT descrizione, m1, m2, m3, m4, m5, m6, m7, m8, c1, c2, c3, c4, c5, c6, c7, c8 FROM $tipo WHERE id='$id_edb'";
+								 $resultx = mysql_query($queryx);
+								  $rowx = mysql_fetch_row($resultx);
+									{
+										$nome = $rowx[0];
+										$m1 = $rowx[1];
+										$m2 = $rowx[2];
+										$m3 = $rowx[3];
+										$m4 = $rowx[4];
+										$m5 = $rowx[5];
+										$m6 = $rowx[6];
+										$m7 = $rowx[7];
+										$m8 = $rowx[8];
+										$c1 = $rowx[9];
+										$c2 = $rowx[10];
+										$c3 = $rowx[11];
+										$c4 = $rowx[12];
+										$c5 = $rowx[13];
+										$c6 = $rowx[14];
+										$c7 = $rowx[15];
+										$c8 = $rowx[16];
+									}
+
+									$queryc  = "SELECT calo_$tipo FROM combinazioni WHERE id_articolo='$id' AND id_$tipo='$id_edb'";
+									$resultc = mysql_query($queryc);
+										$rowc = mysql_fetch_row($resultc);
+										{
+										  $calo = $rowc[0];
+										}
+
+
+								 $m1tmp = explode("/", $m1);
+								 $m2tmp = explode("/", $m2);
+								 $m3tmp = explode("/", $m3);
+								 $m4tmp = explode("/", $m4);
+								 $m5tmp = explode("/", $m5);
+								 $m6tmp = explode("/", $m6);
+								 $m7tmp = explode("/", $m7);
+								 $m8tmp = explode("/", $m8);
+
+
+							//--------------Calcolo prezzo metrature----------------
+
+								for($i=1; $i<9; $i++){
+
+								 for($j=1; $j<9; $j++){
+
+								  $perc = 0;
+
+								   //--Costo unico--------
+								   if( $m1tmp[1] == 0){
+									     ${"ac$i"."db"} = ${"ac$i"."db"} + ${"c$j"};
+
+								   }elseif($m1tmp[0] >= ${"am$i"."db"}[0]){
+											//verifico se ho un valore più piccolo del range più basso
+											${"ac$i"."db"} = ${"ac$i"."db"} + $c1;
+											break;
+									}elseif(${"m$j"."tmp"}[0] <= ${"am$i"."db"}[0] && ${"am$i"."db"}[0] <= ${"m$j"."tmp"}[1]){
+										 // ho individuato il range di metratura
+										 // devo verificare se il range successivo è di poco più grande
+
+										 $k=$j+1;
+										 $diff = ${"m$k"."tmp"}[0] - ${"am$i"."db"}[0];
+										 $soglia =(${"m$k"."tmp"}[0]*5)/100;
+										 if( $diff >0 && $diff < $soglia){
+											${"ac$i"."db"} = ${"ac$i"."db"} + ${"c$k"};
+										}else ${"ac$i"."db"} = ${"ac$i"."db"} + ${"c$j"};
+
+								   		}
+
+								  }
+								  $perc = round((${"ac$i"."db"}*$calo)/100, 2);
+									      ${"ac$i"."db"} = ${"ac$i"."db"} + $perc;
+								  }
+
+								  //------------individuo il prezzo di listino-------------
+								  
+								  //----------------------------Generazione listino-------------------
+
+								$m1list=31;
+								$m2list=100;
+								$m3list=200;
+								$m4list=300;
+								$m5list=400;
+								$m6list=500;
+
+								//--------inizializzo le variabili dei prezzi listino------------
+
+									
+									
+								for($i=1; $i<7; $i++){
+									for($j=1; $j<9; $j++){
+										
+										if($m2tmp[0]==0){
+											//se il costo è unico
+									     ${"c$i"."list"} = ${"c$i"."list"} + ${"c$j"};
+										 break;
+										}
+										elseif($m1tmp[0] >= ${"m$i"."list"}){
+											//verifico se ho un valore più piccolo del range più basso
+											${"c$i"."list"} = ${"c$i"."list"} + $c1;
+											break;
+										}elseif(${"m$j"."tmp"}[0] <= ${"m$i"."list"} && ${"m$i"."list"} <= ${"m$j"."tmp"}[1]){
+											// ho individuato il range di metratura
+											// devo verificare se il range successivo è di poco più grande
+											$k=$j+1;
+											$diff = ${"m$k"."tmp"}[0] - ${"m$i"."list"};
+											$soglia =(${"m$k"."tmp"}[0]*5)/100;
+											if( $diff >0 && $diff < $soglia){
+												${"c$i"."list"} = ${"c$i"."list"} + ${"c$k"};
+												break;
+											}else{ 
+												${"c$i"."list"} = ${"c$i"."list"} + ${"c$j"};
+											}
+										}
+									}
+									$perc = round((${"c$i"."list"}*$calo)/100, 2);
+									${"c$i"."list"} = ${"c$i"."list"} + $perc;
+								}
+							}
+				}
+
+
+
+				?>
+
+
+
+
+
+
+					<div align="center">
+						<table border="1" cellspacing="1" cellpadding="1" id="table6">
+
+						<tr>
+							<td><b>Metratura:</b> </td>
+
+							<td><?php echo $am1db[0]."/".$am1db[1];?></td>
+							<td><?php if($am2db[0]!=0) echo $am2db[0]."/".$am2db[1];?></td>
+							<td><?php if($am3db[0]!=0) echo $am3db[0]."/".$am3db[1];?></td>
+							<td><?php if($am4db[0]!=0) echo $am4db[0]."/".$am4db[1];?></td>
+							<td><?php if($am5db[0]!=0) echo $am5db[0]."/".$am5db[1];?></td>
+							<td><?php if($am6db[0]!=0) echo $am6db[0]."/".$am6db[1];?></td>
+							<td><?php if($am7db[0]!=0) echo $am7db[0]."/".$am7db[1];?></td>
+							<td><?php if($am8db[0]!=0) echo $am8db[0]."/".$am8db[1];?></td>
+						</tr>
+
+						<tr>
+							<td><b>Totali: </b></td>
+							<td><?php echo $ac1db;?></td>
+							<td><?php if($am2db[0]!=0) echo $ac2db;?></td>
+							<td><?php if($am3db[0]!=0) echo $ac3db;?></td>
+							<td><?php if($am4db[0]!=0) echo $ac4db;?></td>
+							<td><?php if($am5db[0]!=0) echo $ac5db;?></td>
+							<td><?php if($am6db[0]!=0) echo $ac6db;?></td>
+							<td><?php if($am7db[0]!=0) echo $ac7db;?></td>
+							<td><?php if($am8db[0]!=0) echo $ac8db;?></td>
+						</tr>
+
+						<tr>
+							<td><b>Ricarico 50%</b></td>
+							<td> <?php echo $ac1db+round(($ac1db*50/100), 2);?> </td>
+							<td> <?php if($am2db[0]!=0) echo $ac2db+round(($ac2db*50/100), 2);?> </td>
+							<td> <?php if($am3db[0]!=0) echo $ac3db+round(($ac3db*50/100), 2);?> </td>
+							<td> <?php if($am4db[0]!=0) echo $ac4db+round(($ac4db*50/100), 2);?> </td>
+							<td> <?php if($am5db[0]!=0) echo $ac5db+round(($ac5db*50/100), 2);?> </td>
+							<td> <?php if($am6db[0]!=0) echo $ac6db+round(($ac6db*50/100), 2);?> </td>
+							<td> <?php if($am7db[0]!=0) echo $ac7db+round(($ac7db*50/100), 2);?> </td>
+							<td> <?php if($am8db[0]!=0) echo $ac8db+round(($ac8db*50/100), 2);?> </td>
+						</tr>
+
+						<tr>
+							<td><b>Ricarico 55%</b></td>
+							<td> <?php echo $ac1db+round(($ac1db*55/100), 2);?> </td>
+							<td> <?php if($am2db[0]!=0) echo $ac2db+round(($ac2db*55/100), 2);?> </td>
+							<td> <?php if($am3db[0]!=0) echo $ac3db+round(($ac3db*55/100), 2);?> </td>
+							<td> <?php if($am4db[0]!=0) echo $ac4db+round(($ac4db*55/100), 2);?> </td>
+							<td> <?php if($am5db[0]!=0) echo $ac5db+round(($ac5db*55/100), 2);?> </td>
+							<td> <?php if($am6db[0]!=0) echo $ac6db+round(($ac6db*55/100), 2);?> </td>
+							<td> <?php if($am7db[0]!=0) echo $ac7db+round(($ac7db*55/100), 2);?> </td>
+							<td> <?php if($am8db[0]!=0) echo $ac8db+round(($ac8db*55/100), 2);?> </td>
+						</tr>
+
+						<tr>
+							<td><b>Ricarico 60%</b></td>
+							<td> <?php echo $ac1db+round(($ac1db*60/100), 2);?> </td>
+							<td> <?php if($am2db[0]!=0) echo $ac2db+round(($ac2db*60/100), 2);?> </td>
+							<td> <?php if($am3db[0]!=0) echo $ac3db+round(($ac3db*60/100), 2);?> </td>
+							<td> <?php if($am4db[0]!=0) echo $ac4db+round(($ac4db*60/100), 2);?> </td>
+							<td> <?php if($am5db[0]!=0) echo $ac5db+round(($ac5db*60/100), 2);?> </td>
+							<td> <?php if($am6db[0]!=0) echo $ac6db+round(($ac6db*60/100), 2);?> </td>
+							<td> <?php if($am7db[0]!=0) echo $ac7db+round(($ac7db*60/100), 2);?> </td>
+							<td> <?php if($am8db[0]!=0) echo $ac8db+round(($ac8db*60/100), 2);?> </td>
+						</tr>
+
+						<tr>
+							<td><b>Ricarico 65%</b></td>
+							<td> <?php echo $ac1db+round(($ac1db*65/100), 2);?> </td>
+							<td> <?php if($am2db[0]!=0) echo $ac2db+round(($ac2db*65/100), 2);?> </td>
+							<td> <?php if($am3db[0]!=0) echo $ac3db+round(($ac3db*65/100), 2);?> </td>
+							<td> <?php if($am4db[0]!=0) echo $ac4db+round(($ac4db*65/100), 2);?> </td>
+							<td> <?php if($am5db[0]!=0) echo $ac5db+round(($ac5db*65/100), 2);?> </td>
+							<td> <?php if($am6db[0]!=0) echo $ac6db+round(($ac6db*65/100), 2);?> </td>
+							<td> <?php if($am7db[0]!=0) echo $ac7db+round(($ac7db*65/100), 2);?> </td>
+							<td> <?php if($am8db[0]!=0) echo $ac8db+round(($ac8db*65/100), 2);?> </td>
+						</tr>
+
+						<tr>
+							<td><b>Ricarico 70%</b></td>
+							<td> <?php echo $ac1db+round(($ac1db*70/100), 2);?> </td>
+							<td> <?php if($am2db[0]!=0) echo $ac2db+round(($ac2db*70/100), 2);?> </td>
+							<td> <?php if($am3db[0]!=0) echo $ac3db+round(($ac3db*70/100), 2);?> </td>
+							<td> <?php if($am4db[0]!=0) echo $ac4db+round(($ac4db*70/100), 2);?> </td>
+							<td> <?php if($am5db[0]!=0) echo $ac5db+round(($ac5db*70/100), 2);?> </td>
+							<td> <?php if($am6db[0]!=0) echo $ac6db+round(($ac6db*70/100), 2);?> </td>
+							<td> <?php if($am7db[0]!=0) echo $ac7db+round(($ac7db*70/100), 2);?> </td>
+							<td> <?php if($am8db[0]!=0) echo $ac8db+round(($ac8db*70/100), 2);?> </td>
+						</tr>
+
+						<tr>
+							<td><b>Ricarico 75%</b></td>
+							<td> <?php echo $ac1db+round(($ac1db*75/100), 2);?> </td>
+							<td> <?php if($am2db[0]!=0) echo $ac2db+round(($ac2db*75/100), 2);?> </td>
+							<td> <?php if($am3db[0]!=0) echo $ac3db+round(($ac3db*75/100), 2);?> </td>
+							<td> <?php if($am4db[0]!=0) echo $ac4db+round(($ac4db*75/100), 2);?> </td>
+							<td> <?php if($am5db[0]!=0) echo $ac5db+round(($ac5db*75/100), 2);?> </td>
+							<td> <?php if($am6db[0]!=0) echo $ac6db+round(($ac6db*75/100), 2);?> </td>
+							<td> <?php if($am7db[0]!=0) echo $ac7db+round(($ac7db*75/100), 2);?> </td>
+							<td> <?php if($am8db[0]!=0) echo $ac8db+round(($ac8db*75/100), 2);?> </td>
+						</tr>
+
+						<tr>
+							<td><b>Ricarico 80%</b></td>
+							<td> <?php echo $ac1db+round(($ac1db*80/100), 2);?> </td>
+							<td> <?php if($am2db[0]!=0) echo $ac2db+round(($ac2db*80/100), 2);?> </td>
+							<td> <?php if($am3db[0]!=0) echo $ac3db+round(($ac3db*80/100), 2);?> </td>
+							<td> <?php if($am4db[0]!=0) echo $ac4db+round(($ac4db*80/100), 2);?> </td>
+							<td> <?php if($am5db[0]!=0) echo $ac5db+round(($ac5db*80/100), 2);?> </td>
+							<td> <?php if($am6db[0]!=0) echo $ac6db+round(($ac6db*80/100), 2);?> </td>
+							<td> <?php if($am7db[0]!=0) echo $ac7db+round(($ac7db*80/100), 2);?> </td>
+							<td> <?php if($am8db[0]!=0) echo $ac8db+round(($ac8db*80/100), 2);?> </td>
+						</tr>
+
+						<tr>
+							<td><b>Ricarico 85%</b></td>
+							<td> <?php echo $ac1db+round(($ac1db*85/100), 2);?> </td>
+							<td> <?php if($am2db[0]!=0) echo $ac2db+round(($ac2db*85/100), 2);?> </td>
+							<td> <?php if($am3db[0]!=0) echo $ac3db+round(($ac3db*85/100), 2);?> </td>
+							<td> <?php if($am4db[0]!=0) echo $ac4db+round(($ac4db*85/100), 2);?> </td>
+							<td> <?php if($am5db[0]!=0) echo $ac5db+round(($ac5db*85/100), 2);?> </td>
+							<td> <?php if($am6db[0]!=0) echo $ac6db+round(($ac6db*85/100), 2);?> </td>
+							<td> <?php if($am7db[0]!=0) echo $ac7db+round(($ac7db*85/100), 2);?> </td>
+							<td> <?php if($am8db[0]!=0) echo $ac8db+round(($ac8db*85/100), 2);?> </td>
+						</tr>
+
+						<tr>
+							<td><b>Ricarico 90%</b></td>
+							<td> <?php echo $ac1db+round(($ac1db*90/100), 2);?> </td>
+							<td> <?php if($am2db[0]!=0) echo $ac2db+round(($ac2db*90/100), 2);?> </td>
+							<td> <?php if($am3db[0]!=0) echo $ac3db+round(($ac3db*90/100), 2);?> </td>
+							<td> <?php if($am4db[0]!=0) echo $ac4db+round(($ac4db*90/100), 2);?> </td>
+							<td> <?php if($am5db[0]!=0) echo $ac5db+round(($ac5db*90/100), 2);?> </td>
+							<td> <?php if($am6db[0]!=0) echo $ac6db+round(($ac6db*90/100), 2);?> </td>
+							<td> <?php if($am7db[0]!=0) echo $ac7db+round(($ac7db*90/100), 2);?> </td>
+							<td> <?php if($am8db[0]!=0) echo $ac8db+round(($ac8db*90/100), 2);?> </td>
+						</tr>
+
+						<tr>
+							<td><b>Ricarico 95%</b></td>
+							<td> <?php echo $ac1db+round(($ac1db*95/100), 2);?> </td>
+							<td> <?php if($am2db[0]!=0) echo $ac2db+round(($ac2db*95/100), 2);?> </td>
+							<td> <?php if($am3db[0]!=0) echo $ac3db+round(($ac3db*95/100), 2);?> </td>
+							<td> <?php if($am4db[0]!=0) echo $ac4db+round(($ac4db*95/100), 2);?> </td>
+							<td> <?php if($am5db[0]!=0) echo $ac5db+round(($ac5db*95/100), 2);?> </td>
+							<td> <?php if($am6db[0]!=0) echo $ac6db+round(($ac6db*95/100), 2);?> </td>
+							<td> <?php if($am7db[0]!=0) echo $ac7db+round(($ac7db*95/100), 2);?> </td>
+							<td> <?php if($am8db[0]!=0) echo $ac8db+round(($ac8db*95/100), 2);?> </td>
+						</tr>
+
+						<tr>
+							<td><b>Ricarico 100%</b></td>
+							<td> <?php echo $ac1db+round(($ac1db*100/100), 2);?> </td>
+							<td> <?php if($am2db[0]!=0) echo $ac2db*2;?> </td>
+							<td> <?php if($am3db[0]!=0) echo $ac3db*2;?> </td>
+							<td> <?php if($am4db[0]!=0) echo $ac4db*2;?> </td>
+							<td> <?php if($am5db[0]!=0) echo $ac5db*2;?> </td>
+							<td> <?php if($am6db[0]!=0) echo $ac6db*2;?> </td>
+							<td> <?php if($am7db[0]!=0) echo $ac7db*2;?> </td>
+							<td> <?php if($am8db[0]!=0) echo $ac8db*2;?> </td>
+						</tr>
+
+
+					</table>
+				</div>
+
+				</fieldset>
+
+			 </td>
+			</tr>
+
+
+			<tr>
+			 <td align="center">
+
+
+
+
+
+				<fieldset> <legend class="info"> Listino:</legend>
+
+				<?php
+/*				//----------------------------Generazione listino-------------------
+
+				$m1list=31;
+				$m2list=100;
+				$m3list=200;
+				$m4list=300;
+				$m5list=400;
+				$m6list=500;
+
+				//--------inizializzo le variabili dei prezzi listino------------
+				for($i=1; $i<9; $i++)
+				   ${"c$i"."list"}=0;
+
+				//------------individuo il prezzo di listino-------------
+				for($i=1; $i<9; $i++){
+					 for($j=1; $j<9; $j++){
+
+						//se è compreso nel range
+						if(${"am$j"."db"}[0] <= ${"m$i"."list"} && ${"m$i"."list"} <= ${"am$j"."db"}[1] ){
+
+										$k=$j+1;
+										 $diff = ${"am$k"."db"}[0] - ${"m$i"."list"};
+										 if( $diff >0 && $diff < 15){
+											${"c$i"."list"} = ${"ac$k"."db"};
+										}else{
+										 ${"c$i"."list"} = ${"ac$j"."db"};
+										}
+
+						}elseif(${"m$i"."list"}<$am1db[0]){		//oppure è minore del primo range
+								${"c$i"."list"} = $ac1db;
+						}
+					}
+				}
+
+
+
+*/				
+
+
+
+//---------------metto il ricarico----------
+					//------------Seleziona ricarichi------------
+					$query  = "SELECT r31, r100, r200, r300, r400, r500 FROM opzioni_listino";
+					$result = mysql_query($query);
+						$row = mysql_fetch_row($result);
+						{
+							$r31 = "1.$row[0]";
+							$r100 = "1.$row[1]";
+							$r200 = "1.$row[2]";
+							$r300 = "1.$row[3]";
+							$r400 = "1.$row[4]";
+							$r500 = "1.$row[5]";
+						}
+
+				$c1listf = $c1list * $r31;
+				$c2listf = $c2list * $r100;
+				$c3listf = $c3list * $r200;
+				$c4listf = $c4list * $r300;
+				$c5listf = $c5list * $r400;
+				$c6listf = $c6list * $r500;
+	
+	
+	
+				$elem = array();
+				
+				//verifico se ci sono prezzi uguali ed applico una differenza di € 0,20
+				for($i=6;$i>0;$i--){
+					$k=$i-1;
+					if(${"c$i"."listf"}==${"c$k"."listf"}){
+//						echo $k." ";
+						array_push($elem, $k);
+//						echo $elem;
+						//${"c$k"."listf"}=${"c$k"."listf"}+0.2;
+						
+/*						for($n=1;$n<7;$n++){
+							$g=$n+1;
+							//echo " v".${"dec$k"}." ";
+							if(${"dec$k"} < ${"arr$n"}){
+								echo " a".${"arr$n"};
+								if($n==6){
+									${"dec$k"}=1+$arr1;
+									break;
+								}else{ 
+									${"dec$k"}=${"arr$g"};
+									break;
+								}
+							}
+						}
+						${"c$k"."listf"} = ${"intpart$k"} + ${"dec$k"};
+*/					}
+				}
+				
+				for($f=0;$f<count($elem);$f++){
+					$g=$f+1;
+					$k=$elem[$f];
+					${"c$k"."listf"}=${"c$k"."listf"}+($g*0.18);
+				}
+				
+				//---------arrotondamento----------
+
+				// ricavo la parte decimale
+//				$intpart = floor($c1list);
+//				$dec = $c1list-$intpart;
+
+				for($i=1;$i<7;$i++){
+					${"intpart$i"} = floor(${"c$i"."listf"});
+					${"dec$i"} = ${"c$i"."listf"}-${"intpart$i"};
+				}
+
+				$arr1=0.15;
+				$arr2=0.35;
+				$arr3=0.55;
+				$arr4=0.75;
+				$arr5=0.95;
+				$arr6=0.99;
+				
+				$arr = array(0 => '0.15', 1=>'0.35', 2=>'0.55', 3=>'0.75', 4=>'0.95', 5=>'0.99');
+				
+				for($n=1;$n<7;$n++){
+					for($i=1;$i<7;$i++){
+						$j=$i+1;
+						if(${"dec$n"} > ${"arr$i"} && ${"dec$n"} <= ${"arr$j"}){
+							${"dec$n"}=${"arr$j"};
+						}elseif(${"dec$n"}<$arr1)
+							${"dec$n"}=$arr1;
+
+						${"c$n"."listf"} = ${"intpart$n"} + ${"dec$n"};
+					}
+				}
+
+				
+
+				
+				?>
+
+				<div align="center">
+					<table border="2" cellspacing="1" id="table7">
+						<tr>
+							<td>Metrature:</td>
+							<td width="0"><?php echo $m1list."/".($m2list-1) ?></td>
+							<td><?php echo $m2list."/".($m3list-1) ?></td>
+							<td><?php echo $m3list."/".($m4list-1) ?></td>
+							<td><?php echo $m4list."/".($m5list-1) ?></td>
+							<td><?php echo $m5list."/".($m6list-1) ?></td>
+							<td><?php echo $m6list."/"."999" ?></td>
+						</tr>
+						<tr>
+							<td>Totali:</td>
+							<td align="center"><?php echo $c1list;?></td>
+							<td align="center"><?php echo $c2list;?></td>
+							<td align="center"><?php echo $c3list;?></td>
+							<td align="center"><?php echo $c4list;?></td>
+							<td align="center"><?php echo $c5list;?></td>
+							<td align="center"><?php echo $c6list;?></td>
+						</tr>
+						<tr>
+							<td>Ricarico:</td>
+							<td align="center"><?php echo $c1listf;?></td>
+							<td align="center"><?php echo $c2listf;?></td>
+							<td align="center"><?php echo $c3listf;?></td>
+							<td align="center"><?php echo $c4listf;?></td>
+							<td align="center"><?php echo $c5listf;?></td>
+							<td align="center"><?php echo $c6listf;?></td>
+						</tr>
+						
+						
+						
+						
+						
+			<?php
+	if(isset($_GET['Ricalcola'])){
+	   if($_GET['cm31']!=0){
+		$diff31 = $_GET['cm31']-$c1listf;
+	   }
+	   if($_GET['cm100']!=0){
+		$diff100 = $_GET['cm100']-$c2listf;
+	   }
+	   if($_GET['cm200']!=0){
+		$diff200 = $_GET['cm200']-$c3listf;
+	   }
+	   if($_GET['cm300']!=0){
+		$diff300 = $_GET['cm300']-$c4listf;
+	   }
+	   if($_GET['cm400']!=0){
+		$diff400 = $_GET['cm400']-$c5listf;
+	   }
+	   if($_GET['cm500']!=0){
+		$diff500 = $_GET['cm500']-$c6listf;
+	   }
+		
+	   $query = "UPDATE articoli SET cm31='$diff31', cm100='$diff100', cm200='$diff200', cm300='$diff300', cm400='$diff400', cm500='$diff500' WHERE id='$id'";
+	    $result = mysql_query($query);
+	}
+	
+	
+			//-------------------Definisco le differenze conti manuali------------
+					$query  = "SELECT cm31, cm100, cm200, cm300, cm400, cm500 FROM articoli WHERE id='$id'";
+					$result = mysql_query($query);
+						$row = mysql_fetch_row($result);
+						{
+						  $diff31 = $row[0];
+						  $diff100 = $row[1];
+						  $diff200 = $row[2];
+						  $diff300 = $row[3];
+						  $diff400 = $row[4];
+						  $diff500 = $row[5];
+						}
+
+			
+				if($diff31==0){
+				 $color1 = "66CCFF";
+					$diff31 = "0";
+				}else{
+				  if($diff31<0){
+				 	$color1 = "FF0000";
+				  }
+				  if($diff31>0){
+				 	$color1 = "00FF00";
+				  }
+				}
+
+				if($diff100==0){
+				 $color2 = "66CCFF";
+					$diff100 = "0";
+				}else{
+				  if($diff100<0){
+				 	$color2 = "FF0000";
+				  }
+				  if($diff100>0){
+				 	$color2 = "00FF00";
+				  }
+				}
+
+				if($diff200==0){
+				 $color3 = "66CCFF";
+					$diff200 = "0";
+				}else{
+				  if($diff200<0){
+				 	$color3 = "FF0000";
+				  }
+				  if($diff200>0){
+				 	$color3 = "00FF00";
+				  }
+				}
+
+				if($diff300==0){
+				 $color4 = "66CCFF";
+					$diff300 = "0";
+				}else{
+				  if($diff300<0){
+				 	$color4 = "FF0000";
+				  }
+				  if($diff300>0){
+				 	$color4 = "00FF00";
+				  }
+				}
+
+				if($diff400==0){
+				 $color5 = "66CCFF";
+					$diff400 = "0";
+				}else{
+				  if($diff400<0){
+				 	$color5 = "FF0000";
+				  }
+				  if($diff400>0){
+				 	$color5 = "00FF00";
+				  }
+				}
+
+				if($diff500==0){
+				 $color6 = "66CCFF";
+					$diff500 = "0";
+				}else{
+				  if($diff500<0){
+				 	$color6 = "FF0000";
+				  }
+				  if($diff500>0){
+				 	$color6 = "00FF00";
+				  }
+				}
+			?>
+			
+			
+
+						<tr>
+							<td>
+							<p align="right">Diff.</td>
+							<td align="center"> <font color="#<?php echo $color1;?>"> <?php echo $diff31;?> </font></td>
+							<td align="center"> <font color="#<?php echo $color2;?>"> <?php echo $diff100;?> </font> </td>
+							<td align="center"> <font color="#<?php echo $color3;?>"> <?php echo $diff200;?> </font> </td>
+							<td align="center"> <font color="#<?php echo $color4;?>"> <?php echo $diff300;?> </font> </td>
+							<td align="center"> <font color="#<?php echo $color5;?>"> <?php echo $diff400;?> </font> </td>
+							<td align="center"> <font color="#<?php echo $color6;?>"> <?php echo $diff500;?> </font> </td>
+						</tr>
+						
+						
+						
+						
+						
+						
+						
+						<tr>
+							<td>Modifiche Manuali:</td>
+							<td>
+							<input type="text" name="cm31" size="5" value="<?php echo $c1listf+$diff31;?>"></td>
+							<td>
+							<input type="text" name="cm100" size="5" value="<?php echo $c2listf+$diff100;?>"></td>
+							<td>
+							<input type="text" name="cm200" size="5" value="<?php echo $c3listf+$diff200;?>"></td>
+							<td>
+							<input type="text" name="cm300" size="5" value="<?php echo $c4listf+$diff300;?>"></td>
+							<td>
+							<input type="text" name="cm400" size="5" value="<?php echo $c5listf+$diff400;?>"></td>
+							<td>
+							<input type="text" name="cm500" size="5" value="<?php echo $c6listf+$diff500;?>"></td>
+						</tr>
+						</table>
+				</div>
+
+
+
+				</fieldset>
+
+			</td>
+
+
+
+			</tr>
+
+
+			</table>
+	</div>
+	<p>&nbsp;</p>
+	<p><input type="submit" value="Ricalcola" name="Ricalcola"></p>
+</form>
+
+
+
+</fieldset>
+
+
+<br>
+<br>
+
+
+<?php
+//----------------------------------------Aggiorno l' articolo e il listino per differenze manuali prezzi------------
+ mysql_close($con);
+ 
+
+
+
+
+if (isset($_GET['submit'])) {
+echo "<p>";
+    while (list($key,$value) = each($_POST)){
+    echo "<strong>" . $key . "</strong> = ".$value."<br />";
+    }
+echo "</p>";
+}
+?>
+
+
+<script>
+$(function() {
+
+      $("#nome").autocomplete({
+        source: "articoli_suggest.php",
+        minLength: 2,
+        select: function(event, ui) {
+         $('#nome_id').val(ui.item.id);
+         $('#value').val(ui.item.nome);
+         $('#codice').val(ui.item.codice);
+         $('#collezione').val(ui.item.collezione);
+         $('#composizione').val(ui.item.composizione);
+         $('#altezza').val(ui.item.altezza);
+        }
+       });
+
+      $("#tipo").autocomplete({
+        source: "<?php echo $suggest;?>",
+        minLength: 2,
+        select: function(event, ui) {
+         $('#id_elemento').val(ui.item.id);
+         $('#value').val(ui.item.descrizione);
+         $('#m1').val(ui.item.m1);
+         $('#m2').val(ui.item.m2);
+         $('#m3').val(ui.item.m3);
+         $('#m4').val(ui.item.m4);
+         $('#m5').val(ui.item.m5);
+         $('#m6').val(ui.item.m6);
+         $('#m7').val(ui.item.m7);
+         $('#m8').val(ui.item.m8);
+         $('#c1').val(ui.item.c1);
+         $('#c2').val(ui.item.c2);
+         $('#c3').val(ui.item.c3);
+         $('#c4').val(ui.item.c4);
+         $('#c5').val(ui.item.c5);
+         $('#c6').val(ui.item.c6);
+         $('#c7').val(ui.item.c7);
+         $('#c8').val(ui.item.c8);
+         $('#fornitore').val(ui.item.fornitore);
+        }
+       });
+
+      $("#fornitore").autocomplete({
+        source: "fornitore_suggest.php",
+        minLength: 2,
+        select: function(event, ui) {
+         $('#fornitore_id').val(ui.item.id);
+         $('#value').val(ui.item.ragione_sociale);
+        }
+       });
+
+});
+</script>
+
+
+
+
+
+
+
+<?php
+/*
+//----------------------------------GESTIONE PDF-----------------------------
+require('fpdf/fpdf.php');
+
+class PDF extends FPDF
+{
+function Header()
+{
+    global $title;
+
+    //Arial bold 15
+    $this->SetFont('Arial','B',8);
+    //Calculate width of title and position
+    $w=$this->GetStringWidth($title)+6;
+    $this->SetX((210-$w)/2);
+    //Colors of frame, background and text
+    $this->SetDrawColor(250,250,250);
+    $this->SetFillColor(230,230,230);
+    $this->SetTextColor(220,50,50);
+    //Thickness of frame (1 mm)
+    $this->SetLineWidth(1);
+    //Title
+    $this->Cell($w,8,$title,1,1,'C',true);
+    //Line break
+    $this->Ln(10);
+}
+
+function Footer()
+{
+    //Position at 1.5 cm from bottom
+    $this->SetY(-15);
+    //Arial italic 8
+    $this->SetFont('Arial','I',8);
+    //Text color in gray
+    $this->SetTextColor(128);
+    //Page number
+    $this->Cell(0,10,'Page '.$this->PageNo(),0,0,'C');
+}
+
+function ChapterTitle($num,$label)
+{
+    //Arial 12
+    $this->SetFont('Arial','',12);
+    //Background color
+    $this->SetFillColor(200,220,255);
+    //Title
+    $this->Cell(0,6,"Chapter $num : $label",0,1,'L',true);
+    //Line break
+    $this->Ln(4);
+}
+
+function ChapterBody($file)
+{
+    //Read text file
+    $f=fopen($file,'r');
+    $txt=fread($f,filesize($file));
+    fclose($f);
+    //Times 12
+    $this->SetFont('Times','',12);
+    //Output justified text
+    $this->MultiCell(0,5,$txt);
+    //Line break
+    $this->Ln();
+    //Mention in italics
+    $this->SetFont('');
+    $this->Cell(0,5,'(Listino Accessori P/E 2012 a partire dal 01/01/2011)');
+    $this->Cell(5,10,'(Testo Semplice)');
+}
+
+function PrintChapter($num,$title,$file)
+{
+    $this->AddPage();
+    $this->ChapterTitle($num,$title);
+    $this->ChapterBody($file);
+}
+}
+
+$pdf=new PDF();
+$title='LA MORELLI S.P.A. SI RISERVA DATA L ENORME INSTABILITA DEL COSTO DELLE MATERIE PRIME, DI ATTUARE EVENTUALI AUMENTI.';
+$pdf->SetTitle($title);
+$pdf->SetAuthor('MORELLI S.p.a.');
+$pdf->PrintChapter(1,'Listino Accessori P/E 2012 a partire dal 01/01/2011','20k_c1.txt');
+//$pdf->Write(5,'Listino Accessori P/E 2012 a partire dal 01/01/2011');
+//$pdf->Write(10,'Testo Semplice');
+//$pdf->PrintChapter(2,'THE PROS AND CONS','20k_c2.txt');
+$pdf->Output('out.pdf');
+
+*/
+?>
