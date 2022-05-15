@@ -1,6 +1,2 @@
 <?php
-$localhost="morelli_mysql_1";
-$localporta="3306";
-$localnome="gestionale";
-$locallogin="root";
-$localpass="123456";
+require __DIR__ . DIRECTORY_SEPARATOR . ".." . DIRECTORY_SEPARATOR . "conf" . DIRECTORY_SEPARATOR . "conf.php";
