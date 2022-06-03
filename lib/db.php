@@ -24,7 +24,7 @@ class DB {
 	 */
 	public static function getInstance() {
 		static $instance;
-		if(!$instance) {
+		if ( ! $instance ) {
 			$instance = new DB(
 				DB_HOST,
 				DB_PORT,
@@ -98,9 +98,32 @@ class DB {
 	/**
 	 * @return bool
 	 */
+	public function getRows( $sql ) {
+		$result = $this->query( $sql );
+		$return = [];
+
+		if ( $result ) {
+			if ( mysql_num_rows( $result ) == 0 ) {
+				return $return;
+			}
+
+			while ( $row = mysql_fetch_assoc( $result ) ) {
+				$return[] = $row;
+			}
+
+			return $return;
+
+		}
+
+		return $return;
+	}
+
+	/**
+	 * @return bool
+	 */
 	public function getRow( $sql ) {
-		$rows = $this -> query($sql);
-		if($rows) {
+		$rows = $this->getRows( $sql );
+		if ( $rows ) {
 			return $rows[0];
 		}
 
@@ -115,22 +138,43 @@ class DB {
 		if ( $this->conn ) {
 			$result = mysql_query( $sql, $this->conn );
 			if ( $result ) {
-
-				$return = [];
-				if (mysql_num_rows($result) == 0) {
-					return $return;
-				}
-
-				while ( $row = mysql_fetch_assoc( $result ) ) {
-					$return[] = $row;
-				}
-
-				return $return;
-
+				return $result;
 			}
 		}
 
 		return null;
+	}
+
+	public function update( $table, $object, $where, $noupdate = array() ) {
+
+		if ( is_object( $object ) ) {
+			$values = get_object_vars( $object );
+		} else if ( is_array( $object ) ) {
+			$values = $object;
+		}
+
+		if ( empty( $values ) ) {
+			return false;
+		}
+
+		$campi = "";
+		foreach ( $values as $key => $value ) {
+
+			// Se campo updatabile
+			if ( ! in_array( $key, $noupdate ) ) {
+				$campi .= ( $campi == "" ) ? "" : ",";
+
+				$campi .= "`" . $key . "`";
+				if ( is_null( $value ) ) {
+					$campi .= "=NULL";
+				} else {
+					$campi .= "='" . mysql_real_escape_string( $value, $this->conn ) . "'";
+				}
+
+			}
+		}
+
+		return $this->query( sprintf( "UPDATE %s SET %s WHERE %s", $table, $campi, $where ) );
 	}
 
 	/**

@@ -1,22 +1,7 @@
 <?php
-define( 'DS', DIRECTORY_SEPARATOR );
-define( 'BASE_DIR', realpath( __DIR__ . DS . ".." . DS . ".." ) );
-define( 'CONF_DIR', BASE_DIR . DS . "conf" );
-define( 'LIB_DIR', BASE_DIR . DS . "lib" );
-define( 'AMM_DIR', BASE_DIR . DS . "amministrazione" );
-
-/**
- * @var $localhost
- * @var $localporta
- * @var $locallogin
- * @var $localpass
- * @var $localnome
- */
-require_once CONF_DIR . DS . "conf.php";
-require_once LIB_DIR . DS . "load.php";
+include "../../bootstrap.php";
 
 $db = DB::getInstance();
-$db -> connect();
 $listiniHelper = ListiniHelper::getInstance();
 ?>
 
@@ -256,7 +241,7 @@ $listiniHelper = ListiniHelper::getInstance();
 					$cnt    = 0;
 					$query  = "SELECT id, nome, ordine FROM seq_accoppiature ORDER BY ordine";
 
-					$accoppiature = $db -> query($query);
+					$accoppiature = $db -> getRows($query);
 					foreach ($accoppiature as $accoppiatura) {
 
 						$id = $accoppiatura['id'];
@@ -320,4 +305,4 @@ $listiniHelper = ListiniHelper::getInstance();
     </fieldset>
 
 <?php
-DB::getInstance()->close();
+include "../../shutdown.php";
