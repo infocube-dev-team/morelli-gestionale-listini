@@ -54,11 +54,15 @@ if (!$con)
 		<tr>
 			<td align="center"><b><font style="font-size: 7pt">Articolo</font></b></td>
 			<td align="center"><b><font style="font-size: 7pt">ACC.</font></b></td>
-			<td align="center"><b><font style="font-size: 7pt">500 mt.</font></b><p><b>
+            <?php
+            /*
+            <td align="center"><b><font style="font-size: 7pt">500 mt.</font></b><p><b>
 			<font style="font-size: 7pt">x colore</font></b></td>
 			<td align="center"><b><font style="font-size: 7pt">400/499 mt.</font></b><p><b>
 			<font style="font-size: 7pt">x colore</font></b></td>
 			<td align="center"><b><font style="font-size: 7pt">300/399 mt.</font></b><p><b>
+			*/?>
+            <td align="center"><b><font style="font-size: 7pt">300 mt.</font></b><p><b>
 			<font style="font-size: 7pt">x colore</font></b></td>
 			<td align="center"><span style="font-size: 7pt"><b>200</b></span><b><font style="font-size: 7pt">/299 mt.</font></b><p>
 			<span style="font-size: 7pt"><b>x colore</b></span></td>
@@ -240,8 +244,12 @@ if($mt1>0.00){
 		<tr>
 			<td> <span style="font-size: <?php echo $font_dim;?>pt"> <font face="<?php echo $font;?>"> <?php echo $nome."&nbsp;&nbsp;&nbsp;".$alt;?> </font> </span> </td>
 			<td> <span style="font-size: <?php echo $font_dim;?>pt"> <font face="<?php echo $font;?>"> <?php echo $acc;?> </font> </span> </td>
-			<td> <span style="font-size: <?php echo $font_dim;?>pt"> <font face="<?php echo $font;?>"> <?php echo $mon500." ".$mt500;?> </font> </span> </td>
+            <?php
+            /*
+            <td> <span style="font-size: <?php echo $font_dim;?>pt"> <font face="<?php echo $font;?>"> <?php echo $mon500." ".$mt500;?> </font> </span> </td>
 			<td> <span style="font-size: <?php echo $font_dim;?>pt"> <font face="<?php echo $font;?>"> <?php echo $mon400." ".$mt400;?> </font> </span> </td>
+			*/
+            ?>
 			<td> <span style="font-size: <?php echo $font_dim;?>pt"> <font face="<?php echo $font;?>"> <?php echo $mon300." ".$mt300;?> </font> </span> </td>
 			<td> <span style="font-size: <?php echo $font_dim;?>pt"> <font face="<?php echo $font;?>"> <?php echo $mon200." ".$mt200;?> </font> </span> </td>
 			<td> <span style="font-size: <?php echo $font_dim;?>pt"> <font face="<?php echo $font;?>"> <?php echo $mon100." ".$mt100;?> </font> </span> </td>

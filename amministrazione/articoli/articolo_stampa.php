@@ -311,7 +311,7 @@ if (!$con)
 													$metratura[]=${"m$i"}[0];
 													//echo count($metratura)." ";
 												}else{
-													//valuto la differenza tra la metratura in esame e quelle già presenti
+													//valuto la differenza tra la metratura in esame e quelle giï¿½ presenti
 													for($j=0;$j<count($metratura);$j++){
 														if($metratura[$j]>${"m$i"}[0]){
 															$diff_ele[$j]=$metratura[$j]-${"m$i"}[0];
@@ -507,12 +507,12 @@ if (!$con)
 									    ${"ac$i"."db"} = ${"ac$i"."db"} + ${"c$j"};
 
 								   }elseif($m1tmp[0] >= ${"am$i"."db"}[0]){
-											//verifico se ho un valore più piccolo del range più basso
+											//verifico se ho un valore piï¿½ piccolo del range piï¿½ basso
 											${"ac$i"."db"} = ${"ac$i"."db"} + $c1;
 											break;
 									}elseif(${"m$j"."tmp"}[0] <= ${"am$i"."db"}[0] && ${"am$i"."db"}[0] <= ${"m$j"."tmp"}[1]){
 										 // ho individuato il range di metratura
-										 // devo verificare se il range successivo è di poco più grande
+										 // devo verificare se il range successivo ï¿½ di poco piï¿½ grande
 
 										 $k=$j+1;
 										 $diff = ${"m$k"."tmp"}[0] - ${"am$i"."db"}[0];
@@ -556,17 +556,17 @@ if (!$con)
 									for($j=1; $j<9; $j++){
 
 										if($m2tmp[0]==0){
-											//se il costo è unico
+											//se il costo ï¿½ unico
 									     ${"c$i"."list"} = ${"c$i"."list"} + ${"c$j"};
 										 break;
 										}
 										elseif($m1tmp[0] >= ${"m$i"."list"}){
-											//verifico se ho un valore più piccolo del range più basso
+											//verifico se ho un valore piï¿½ piccolo del range piï¿½ basso
 											${"c$i"."list"} = ${"c$i"."list"} + $c1;
 											break;
 										}elseif(${"m$j"."tmp"}[0] <= ${"m$i"."list"} && ${"m$i"."list"} <= ${"m$j"."tmp"}[1]){
 											// ho individuato il range di metratura
-											// devo verificare se il range successivo è di poco più grande
+											// devo verificare se il range successivo ï¿½ di poco piï¿½ grande
 											$k=$j+1;
 											$diff = ${"m$k"."tmp"}[0] - ${"m$i"."list"};
 											$soglia =(${"m$k"."tmp"}[0]*5)/100;
@@ -679,11 +679,11 @@ if (!$con)
 				//echo $c1listf." ".$c2listf." ".$c3listf." ".$c4listf." ".$c5listf." ".$c6listf."   ";
 
 
-				//verifico se ci sono prezzi uguali ed applico una differenza di € 0,20
+				//verifico se ci sono prezzi uguali ed applico una differenza di ï¿½ 0,20
 
 				$elem = array();
 
-				//verifico se ci sono prezzi uguali ed applico una differenza di € 0,20
+				//verifico se ci sono prezzi uguali ed applico una differenza di ï¿½ 0,20
 				for($i=6;$i>0;$i--){
 					$k=$i-1;
 					if(${"c$i"."listf"}==${"c$k"."listf"}){
@@ -760,9 +760,10 @@ if (!$con)
 							<td align="center"><b><?php echo $m1list."/".($m2list-1) ?></b></td>
 							<td align="center"><b><?php echo $m2list."/".($m3list-1) ?></b></td>
 							<td align="center"><b><?php echo $m3list."/".($m4list-1) ?></b></td>
-							<td align="center"><b><?php echo $m4list."/".($m5list-1) ?></b></td>
-							<td align="center"><b><?php echo $m5list."/".($m6list-1) ?></b></td>
-							<td align="center"><b><?php echo $m6list."/"."-->" ?></b></td>
+							<td align="center"><b><?php echo $m4list."/"."-->" ?></b></td>
+<!--							<td align="center"><b>--><?php //echo $m4list."/".($m5list-1) ?><!--</b></td>-->
+<!--							<td align="center"><b>--><?php //echo $m5list."/".($m6list-1) ?><!--</b></td>-->
+<!--							<td align="center"><b>--><?php //echo $m6list."/"."-->" ?><!--</b></td>-->
 						</tr>
 						<tr>
 							<td>Totali:</td>
@@ -771,8 +772,8 @@ if (!$con)
 							<td align="center"><?php echo $c2list;?></td>
 							<td align="center"><?php echo $c3list;?></td>
 							<td align="center"><?php echo $c4list;?></td>
-							<td align="center"><?php echo $c5list;?></td>
-							<td align="center"><?php echo $c6list;?></td>
+<!--							<td align="center">--><?php //echo $c5list;?><!--</td>-->
+<!--							<td align="center">--><?php //echo $c6list;?><!--</td>-->
 						</tr>
 						<tr>
 							<td>Ricarico:</td>
@@ -781,8 +782,8 @@ if (!$con)
 							<td align="center"><?php echo $c2listf;?></td>
 							<td align="center"><?php echo $c3listf;?></td>
 							<td align="center"><?php echo $c4listf;?></td>
-							<td align="center"><?php echo $c5listf;?></td>
-							<td align="center"><?php echo $c6listf;?></td>
+<!--							<td align="center">--><?php //echo $c5listf;?><!--</td>-->
+<!--							<td align="center">--><?php //echo $c6listf;?><!--</td>-->
 						</tr>
 
 
@@ -833,8 +834,8 @@ if (!$con)
 							<td align="center"> <font color="#<?php echo $color2;?>"> <?php echo round($differ[2]-$c2listf, 2);?> </font> </td>
 							<td align="center"> <font color="#<?php echo $color3;?>"> <?php echo round($differ[3]-$c3listf, 2);?> </font> </td>
 							<td align="center"> <font color="#<?php echo $color4;?>"> <?php echo round($differ[4]-$c4listf, 2);?> </font> </td>
-							<td align="center"> <font color="#<?php echo $color5;?>"> <?php echo round($differ[5]-$c5listf, 2);?> </font> </td>
-							<td align="center"> <font color="#<?php echo $color6;?>"> <?php echo round($differ[6]-$c6listf, 2);?> </font> </td>
+<!--							<td align="center"> <font color="#--><?php //echo $color5;?><!--"> --><?php //echo round($differ[5]-$c5listf, 2);?><!-- </font> </td>-->
+<!--							<td align="center"> <font color="#--><?php //echo $color6;?><!--"> --><?php //echo round($differ[6]-$c6listf, 2);?><!-- </font> </td>-->
 						</tr>
 
 
@@ -853,8 +854,8 @@ if (!$con)
 							<td align="center"><?php echo $differ[2];?></td>
 							<td align="center"><?php echo $differ[3];?></td>
 							<td align="center"><?php echo $differ[4];?></td>
-							<td align="center"><?php echo $differ[5];?></td>
-							<td align="center"><?php echo $differ[6];?></td>
+<!--							<td align="center">--><?php //echo $differ[5];?><!--</td>-->
+<!--							<td align="center">--><?php //echo $differ[6];?><!--</td>-->
 						</tr>
 						</table>
 				</div>

@@ -68,10 +68,11 @@
                     <td>
                         <input type="text" name="righe" size="5" value="<?php echo $righe;?>"></td>
                     <td>&nbsp;</td>
+                    <?php /*
                     <td>|</td>
                     <td>500 mt.</td>
                     <td>
-                        <input type="text" name="r500" size="3" value="<?php echo $r500;?>">%</td>
+                        <input type="text" name="r500" size="3" value="<?php echo $r500;?>">%</td>*/ ?>
                 </tr>
                 <tr>
                     <td>Ordina per </td>
@@ -79,9 +80,10 @@
                             <option value="nome">Nome Articolo</option>
                         </select></td>
                     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                    <?php /*
                     <td>|</td>
                     <td>400 mt.</td>
-                    <td><input type="text" name="r400" size="3" value="<?php echo $r400;?>">%</td>
+                    <td><input type="text" name="r400" size="3" value="<?php echo $r400;?>">%</td> */ ?>
                 </tr>
                 <tr>
                     <td>Mostra Altezza</td>

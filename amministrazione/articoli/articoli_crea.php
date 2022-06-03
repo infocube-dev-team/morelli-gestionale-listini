@@ -1353,9 +1353,10 @@ if(isset($delist)){
                                         <td align="center"><b><?php echo $m1list."/".($m2list-1) ?></b></td>
                                         <td align="center"><b><?php echo $m2list."/".($m3list-1) ?></b></td>
                                         <td align="center"><b><?php echo $m3list."/".($m4list-1) ?></b></td>
-                                        <td align="center"><b><?php echo $m4list."/".($m5list-1) ?></b></td>
-                                        <td align="center"><b><?php echo $m5list."/".($m6list-1) ?></b></td>
-                                        <td align="center"><b><?php echo $m6list."/"."-->" ?></b></td>
+                                        <td align="center"><b><?php echo $m4list."/"."-->" ?></b></td>
+<!--                                        <td align="center"><b>--><?php //echo $m4list."/".($m5list-1) ?><!--</b></td>-->
+<!--                                        <td align="center"><b>--><?php //echo $m5list."/".($m6list-1) ?><!--</b></td>-->
+<!--                                        <td align="center"><b>--><?php //echo $m6list."/"."-->" ?><!--</b></td>-->
                                     </tr>
                                     <tr>
                                         <td>Totali:</td>
@@ -1364,8 +1365,8 @@ if(isset($delist)){
                                         <td align="center"><?php echo $c2list;?></td>
                                         <td align="center"><?php echo $c3list;?></td>
                                         <td align="center"><?php echo $c4list;?></td>
-                                        <td align="center"><?php echo $c5list;?></td>
-                                        <td align="center"><?php echo $c6list;?></td>
+<!--                                        <td align="center">--><?php //echo $c5list;?><!--</td>-->
+<!--                                        <td align="center">--><?php //echo $c6list;?><!--</td>-->
                                     </tr>
                                     <tr>
                                         <td>Ricarico:</td>
@@ -1374,8 +1375,8 @@ if(isset($delist)){
                                         <td align="center"><?php echo $c2listf;?></td>
                                         <td align="center"><?php echo $c3listf;?></td>
                                         <td align="center"><?php echo $c4listf;?></td>
-                                        <td align="center"><?php echo $c5listf;?></td>
-                                        <td align="center"><?php echo $c6listf;?></td>
+<!--                                        <td align="center">--><?php //echo $c5listf;?><!--</td>-->
+<!--                                        <td align="center">--><?php //echo $c6listf;?><!--</td>-->
                                     </tr>
 
 
@@ -1456,8 +1457,8 @@ if(isset($delist)){
                                         <td align="center"> <font color="#<?php echo $color2;?>"> <?php echo round($diff[2]-$c2listf, 2);?> </font> </td>
                                         <td align="center"> <font color="#<?php echo $color3;?>"> <?php echo round($diff[3]-$c3listf, 2);?> </font> </td>
                                         <td align="center"> <font color="#<?php echo $color4;?>"> <?php echo round($diff[4]-$c4listf, 2);?> </font> </td>
-                                        <td align="center"> <font color="#<?php echo $color5;?>"> <?php echo round($diff[5]-$c5listf, 2);?> </font> </td>
-                                        <td align="center"> <font color="#<?php echo $color6;?>"> <?php echo round($diff[6]-$c6listf, 2);?> </font> </td>
+<!--                                        <td align="center"> <font color="#--><?php //echo $color5;?><!--"> --><?php //echo round($diff[5]-$c5listf, 2);?><!-- </font> </td>-->
+<!--                                        <td align="center"> <font color="#--><?php //echo $color6;?><!--"> --><?php //echo round($diff[6]-$c6listf, 2);?><!-- </font> </td>-->
                                     </tr>
 
 
@@ -1481,8 +1482,8 @@ if(isset($delist)){
                                         <td align="center"><input type="text" name="cm100" size="5" value="<?php echo $diff[2];?>"></td>
                                         <td align="center"><input type="text" name="cm200" size="5" value="<?php echo $diff[3];?>"></td>
                                         <td align="center"><input type="text" name="cm300" size="5" value="<?php echo $diff[4];?>"></td>
-                                        <td align="center"><input type="text" name="cm400" size="5" value="<?php echo $diff[5];?>"></td>
-                                        <td align="center"><input type="text" name="cm500" size="5" value="<?php echo $diff[6];?>"></td>
+<!--                                        <td align="center"><input type="text" name="cm400" size="5" value="--><?php //echo $diff[5];?><!--"></td>-->
+<!--                                        <td align="center"><input type="text" name="cm500" size="5" value="--><?php //echo $diff[6];?><!--"></td>-->
                                     </tr>
                                 </table>
                             </div>

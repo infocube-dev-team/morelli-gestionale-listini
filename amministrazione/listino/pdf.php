@@ -16,7 +16,7 @@ function Header()
     // Move to the right
     $this->Cell(30);
     // Title
-    $this->Cell(130,18,'La Morelli srl si riserva, data la enorme instabilità del costo delle materie prime, di attuare eventuali anumenti.',0,0,'C');
+    $this->Cell(130,18,'La Morelli srl si riserva, data la enorme instabilitï¿½ del costo delle materie prime, di attuare eventuali anumenti.',0,0,'C');
     // Line break
     $this->Ln(20);
 
@@ -40,7 +40,9 @@ function Header()
 	// ----------------
 	$this->SetFont('Arial','B',7);
 	// Colonne
-    $this->Cell(0,4,'ARTICOLO                                           Acc.        Altezza      500 mt.   400/499mt.  300/399mt.  200/299mt.  100/199mt.   min/99mt.   sott.min  Composizione     GR.ML.',1,1);
+
+//	$this->Cell(0,4,'ARTICOLO                                           Acc.        Altezza      500 mt.   400/499mt.  300/399mt.  200/299mt.  100/199mt.   min/99mt.   sott.min  Composizione     GR.ML.',1,1);
+    $this->Cell(0,4,'ARTICOLO                                           Acc.        Altezza      300 mt.  200/299mt.  100/199mt.   min/99mt.   sott.min        Composizione     GR.ML.',1,1);
 }
 
 
@@ -55,7 +57,7 @@ function Header()
 	    $this->SetY(-15);
 
 		// Scritta
-	    $this->Cell(10,0,'Per i sottominimi è previsto un supplemento del 20% rispetto al valore del minimo nelle opzioni.',0,0,'');
+	    $this->Cell(10,0,'Per i sottominimi ï¿½ previsto un supplemento del 20% rispetto al valore del minimo nelle opzioni.',0,0,'');
 	    // Arial italic 8
 	    $this->SetFont('Arial','I',7);
 
@@ -236,28 +238,21 @@ if($mt1>0.00){
 	$pdf->SetX(64);
     $pdf->Write(5,$altezza);
 
-	$pdf->SetX(76);
-    $pdf->Write(5,'€ '.$mt500);
+    $pdf->SetX(76);
+    $pdf->Write(5,'ï¿½ '.$mt300);
 
 	$pdf->SetX(87);
-    $pdf->Write(5,'€ '.$mt400);
+    $pdf->Write(5,'ï¿½ '.$mt200);
 
 	$pdf->SetX(101);
-    $pdf->Write(5,'€ '.$mt300);
+    $pdf->Write(5,'ï¿½ '.$mt100);
 
 	$pdf->SetX(115);
-    $pdf->Write(5,'€ '.$mt200);
-
-	$pdf->SetX(129);
-    $pdf->Write(5,'€ '.$mt100);
-
-	$pdf->SetX(143);
 	if ($minimo>0){
-		$pdf->Write(5,'('.$minimo.')'.'€ '.$mt31);
+		$pdf->Write(5,'('.$minimo.')'.'ï¿½ '.$mt31);
 	} else {
-		$pdf->Write(5,'€ '.$mt31);
+		$pdf->Write(5,'ï¿½ '.$mt31);
 	}
-    
 
 	if($mt1>0){
 		$euro = '('.$smin.')' . '<80> '.$mt1;
@@ -269,20 +264,18 @@ if($mt1>0.00){
 	//$pdf->Write(5,$euro);
 	if($sminmt>0 && $rsmin>0){
 		$_mt31 = str_replace(",", ".", $mt31);
-		$euro = '('.$smin.')' . '€ '.sprintf('%0.2f', ($_mt31*$rsmin/100)+$_mt31);
+		$euro = '('.$smin.')' . 'ï¿½ '.sprintf('%0.2f', ($_mt31*$rsmin/100)+$_mt31);
 	}else{
 		$euro = '- ';
 	}
-    $pdf->SetX(154);
+	$pdf->SetX(129);
     $pdf->Write(5,$euro);
 
 
-
-
-	$pdf->SetX(165);
+	$pdf->SetX(143);
     $pdf->Write(5,$composizione);
 
-	$pdf->SetX(192);
+    $pdf->SetX(164);
     $pdf->Write(5,$grmq);
 
 	$pdf->Cell(0,3,'',0,1);
@@ -295,7 +288,7 @@ if($mt1>0.00){
 	 $note_tag=array();
 	 		if(strlen($dettagli)>$max_char){
 				while(strlen($dettagli)>$max_char){
-					//se ho commenti più lunghi del rigo...taglio la stringa e stampo il primo pezzo
+					//se ho commenti piï¿½ lunghi del rigo...taglio la stringa e stampo il primo pezzo
 					$note_tag=TagliaStringa($dettagli, $max_char);
 					$pdf->SetFont('Times','B',5);
 					$pdf->Ln(1.7);
