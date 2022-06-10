@@ -2,6 +2,8 @@
 require('fpdf/fpdf.php');
 include("taglio.php");
 
+define('EURO',chr(128));
+
 class PDF extends FPDF
 {
 // Page header
@@ -16,7 +18,7 @@ function Header()
     // Move to the right
     $this->Cell(30);
     // Title
-    $this->Cell(130,18,'La Morelli srl si riserva, data la enorme instabilit� del costo delle materie prime, di attuare eventuali anumenti.',0,0,'C');
+    $this->Cell(130,18,utf8_decode('La Morelli srl si riserva, data la enorme instabilità del costo delle materie prime, di attuare eventuali anumenti.'),0,0,'C');
     // Line break
     $this->Ln(20);
 
@@ -57,7 +59,7 @@ function Header()
 	    $this->SetY(-15);
 
 		// Scritta
-	    $this->Cell(10,0,'Per i sottominimi � previsto un supplemento del 20% rispetto al valore del minimo nelle opzioni.',0,0,'');
+	    $this->Cell(10,0,utf8_decode('Per i sottominimi è previsto un supplemento del 20% rispetto al valore del minimo nelle opzioni.'),0,0,'');
 	    // Arial italic 8
 	    $this->SetFont('Arial','I',7);
 
@@ -239,19 +241,19 @@ if($mt1>0.00){
     $pdf->Write(5,$altezza);
 
     $pdf->SetX(76);
-    $pdf->Write(5,'� '.$mt300);
+    $pdf->Write(5,EURO.' '.$mt300);
 
 	$pdf->SetX(87);
-    $pdf->Write(5,'� '.$mt200);
+    $pdf->Write(5,EURO.' '.$mt200);
 
 	$pdf->SetX(101);
-    $pdf->Write(5,'� '.$mt100);
+    $pdf->Write(5,EURO.' '.$mt100);
 
 	$pdf->SetX(115);
 	if ($minimo>0){
-		$pdf->Write(5,'('.$minimo.')'.'� '.$mt31);
+		$pdf->Write(5,'('.$minimo.')'.EURO.' '.$mt31);
 	} else {
-		$pdf->Write(5,'� '.$mt31);
+		$pdf->Write(5,EURO.' '.$mt31);
 	}
 
 	if($mt1>0){
@@ -259,12 +261,12 @@ if($mt1>0.00){
 	}else{
         $euro = '- ';
     }
-	
+
 	//$pdf->SetX(154);
 	//$pdf->Write(5,$euro);
 	if($sminmt>0 && $rsmin>0){
 		$_mt31 = str_replace(",", ".", $mt31);
-		$euro = '('.$smin.')' . '� '.sprintf('%0.2f', ($_mt31*$rsmin/100)+$_mt31);
+		$euro = '('.$smin.')' . EURO.' '.sprintf('%0.2f', ($_mt31*$rsmin/100)+$_mt31);
 	}else{
 		$euro = '- ';
 	}
