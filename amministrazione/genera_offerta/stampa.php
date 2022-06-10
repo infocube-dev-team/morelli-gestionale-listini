@@ -175,17 +175,27 @@ if($altezza==0){
 			<td colspan="8"><b> <?php echo $articolo."  ".$seq_accoppiature;?> </b> </td>
 		</tr>
 		<tr>
-			<td>500mt./--&gt;</td>
+            <?php
+            /*
+            ?>
+            <td>500mt./--&gt;</td>
 			<td>400/499mt.</td>
 			<td>300/399mt.</td>
+			*/
+			?>
+            <td>300mt./--></td>
 			<td colspan="2">200/299mt.</td>
 			<td>100/199mt.</td>
 			<td>31/99mt. </td>
 			<td>1/30mt. </td>
 		</tr>
 		<tr>
+            <?php
+            /*
 			<td> <?php echo $mt500;?> </td>
 			<td> <?php echo $mt400;?> </td>
+			*/
+			?>
 			<td> <?php echo $mt300;?> </td>
 			<td colspan="2"> <?php echo $mt200;?> </td>
 			<td> <?php echo $mt100;?> </td>

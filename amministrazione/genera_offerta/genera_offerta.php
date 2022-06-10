@@ -364,7 +364,9 @@ if($_GET['Note_ON']!="ON") $dettagli="-";
 			<tr>
 				<td>
 				<p align="right">Listino mt.</td>
-				<td>
+                <?php
+                /*
+                <td>
 				 <b><input type="checkbox" name="da500" value="ON" checked>500/--&gt;</b></td>
 				<td>
 				 <b> 
@@ -372,6 +374,11 @@ if($_GET['Note_ON']!="ON") $dettagli="-";
 				<td>
 					<b> 
 					<input type="checkbox" name="da300" value="ON" checked>300/399</b></td>
+				*/
+                ?>
+				<td>
+					<b>
+					<input type="checkbox" name="da300" value="ON" checked>300/--></b></td>
 				<td>
 					<b> 
 					<input type="checkbox" name="da200" value="ON" checked>200/299</b></td>
@@ -387,9 +394,13 @@ if($_GET['Note_ON']!="ON") $dettagli="-";
 			</tr>
 			<tr>
 				<td>
-				<p align="right">Costo Listino</td>			
-				<td><input type="text" name="exdamt500" id="exdamt500" size="10" value=""></td>
+				<p align="right">Costo Listino</td>
+                <?php
+                /*
+                <td><input type="text" name="exdamt500" id="exdamt500" size="10" value=""></td>
 				<td><input type="text" name="exdamt400" id="exdamt400" size="10" value=""></td>
+				*/
+                ?>
 				<td><input type="text" name="exdamt300" id="exdamt300" size="10" value=""></td>
 				<td><input type="text" name="exdamt200" id="exdamt200" size="10" value=""></td>
 				<td><input type="text" name="exdamt100" id="exdamt100" size="10" value=""></td>
@@ -493,6 +504,7 @@ if($_GET['Note_ON']!="ON") $dettagli="-";
 				<tr>
 					<td align="right">Metratura:</td>
 					<?php
+                    /*
 					if($mt500>0){
 					?>
 					<td>500/--&gt;</td>
@@ -506,6 +518,12 @@ if($_GET['Note_ON']!="ON") $dettagli="-";
 					 if($mt300>0){
 					?>
 					<td>300/399</td>
+					<?php
+					}
+                    */
+                    if($mt300>0){
+					?>
+					<td>300/--></td>
 					<?php
 					}
 					if($mt200>0){
@@ -540,6 +558,7 @@ if($_GET['Note_ON']!="ON") $dettagli="-";
 				<tr>
 					<td align="right">Costo:</td>
 					<?php
+                    /*
 					 if($mt500>0){
 					?>
 					<td bgcolor="#414751"> <b> <?php echo $mt500;?> </b> </td>
@@ -550,6 +569,7 @@ if($_GET['Note_ON']!="ON") $dettagli="-";
 					<td bgcolor="#414751"> <b> <?php echo $mt400;?> </b> </td>
 					<?php
 					}
+					*/
 					if($mt300>0){
 					?>
 					<td bgcolor="#414751"> <b> <?php echo $mt300;?> </b> </td>
