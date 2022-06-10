@@ -1,6 +1,35 @@
+<?php
+
+include("cat.php");
+
+session_start();
+
+if(isset($_POST['reset']) && $_POST['reset']=="si"){
+	unset($_SESSION['id_cliente']);
+	unset($_SESSION['operatore']);
+	unset($_SESSION['damese']);
+	unset($_SESSION['daanno']);
+	unset($_SESSION['dagg']);
+	unset($_SESSION['amese']);
+	unset($_SESSION['aanno']);
+	unset($_SESSION['agg']);
+	if(!$_POST['nome']) unset($_POST['id']);
+}
+
+
+$con = mysql_connect($localhost.":".$localporta,$locallogin,$localpass);
+if (!$con)
+  {
+  die('Could not connect: ' . mysql_error());
+   }
+ mysql_select_db($localnome, $con);
+
+?>
+
 <head>
 <meta http-equiv="Content-Language" content="it">
 <link rel="stylesheet" type="text/css" href="../../style.css">
+
 
 
 
@@ -22,33 +51,9 @@ document.onkeypress = stopRKey;
 
 
 <?php
-include("cat.php");
-
-session_start();
-
-if($_POST['reset']=="si"){
-	unset($_SESSION['id_cliente']);
-	unset($_SESSION['operatore']);
-	unset($_SESSION['damese']);
-	unset($_SESSION['daanno']);
-	unset($_SESSION['dagg']);
-	unset($_SESSION['amese']);
-	unset($_SESSION['aanno']);
-	unset($_SESSION['agg']);
-	if(!$_POST['nome']) unset($_POST['id']);
-}
-
-
-$con = mysql_connect($localhost.":".$localporta,$locallogin,$localpass);
-if (!$con)
-  {
-  die('Could not connect: ' . mysql_error());
-   }
- mysql_select_db($localnome, $con);
-
 //echo $id.$data_inizio;
 
-if($_POST['id']){
+if(isset($_POST['id'])){
 	$id_cliente = $_POST['id'];
 	$_SESSION['id_cliente']= $_POST['id'];
 	$query_cliente="id_cliente='$id_cliente'";
@@ -59,7 +64,7 @@ if($_POST['id']){
 	{
 		$ragione_sociale=$rowc['ragione_sociale'];
 	}
-}elseif($_SESSION['id_cliente']){
+}elseif(isset($_SESSION['id_cliente'])){
 	$id_cliente = $_SESSION['id_cliente'];
 	$query_cliente="id_cliente='$id_cliente'";
 	/* $queryc="SELECT ragione_sociale FROM clienti where id='$id_cliente'";
@@ -78,10 +83,10 @@ if($_POST['id']){
 	//ho l'id del Cliente e ricavo tutte le offerte relative
 
 	
-if($_POST['operatore']){
+if(isset($_POST['operatore'])){
 	$operatore=$_POST['operatore'];
 	$_SESSION['operatore']=$_POST['operatore'];
-} elseif($_SESSION['operatore']){
+} elseif(isset($_SESSION['operatore'])){
 	$operatore=$_SESSION['operatore'];
 } 
 
@@ -93,7 +98,7 @@ if(isset($_POST['damese'])){
 	$_SESSION['daanno']=$_POST['daanno'];
 	$_SESSION['dagg']=$_POST['dagg'];
 }
-if($_SESSION['damese']){
+if(isset($_SESSION['damese'])){
 	$damese=$_SESSION['damese'];
 	$daanno=$_SESSION['daanno'];
 	$dagg=$_SESSION['dagg'];
@@ -106,13 +111,13 @@ if(isset($_POST['amese'])){
 	$_SESSION['aanno']=$_POST['aanno'];
 	$_SESSION['agg']=$_POST['agg'];
 }
-if($_SESSION['amese']){
+if(isset($_SESSION['amese'])){
 	$amese=$_SESSION['amese'];
 	$aanno=$_SESSION['aanno'];
 	$agg=$_SESSION['agg'];
 }
 
-if($operatore!=NULL){	
+if(isset($operatore)){
 		if($id_cliente!=NULL)
 			$query_operatore="AND operatore='$operatore'";
 		else 
@@ -122,7 +127,7 @@ if($operatore!=NULL){
 }
 
 
-if($damese!=NULL && $daanno!=NULL && $dagg!=NULL){
+if(isset($damese) && $daanno!=NULL && $dagg!=NULL){
 		$data_inizio="$daanno-$damese-$dagg 00:00:00";
 		if($amese!=NULL && $aanno!=NULL && $agg!=NULL){
 			/* $amese=$_POST['amese'];
@@ -293,7 +298,8 @@ if($query_cliente || $query_operatore || $query_data){
 						<tr>
 							<td align="right">Metratura:</td>
 							<?php
-							if($mt500>0){
+							/*
+                            if($mt500>0){
 							?>
 							<td>500/--&gt;</td>
 							<?php
@@ -303,9 +309,16 @@ if($query_cliente || $query_operatore || $query_data){
 							<td>400/499</td>
 							<?php
 							}
-							 if($mt300>0){
+							if($mt300>0){
 							?>
 							<td>300/399</td>
+							<?php
+							}
+							*/
+
+							if($mt300>0){
+							?>
+							<td>300/--></td>
 							<?php
 							}
 							if($mt200>0){
@@ -337,6 +350,7 @@ if($query_cliente || $query_operatore || $query_data){
 						<tr>
 							<td align="right">Costo:</td>
 							<?php
+                            /*
 							 if($mt500>0){
 							?>
 							<td bgcolor="#414751"> <b> <?php echo $mt500;?> </b> </td>
@@ -347,6 +361,7 @@ if($query_cliente || $query_operatore || $query_data){
 							<td bgcolor="#414751"> <b> <?php echo $mt400;?> </b> </td>
 							<?php
 							}
+                            */
 							if($mt300>0){
 							?>
 							<td bgcolor="#414751"> <b> <?php echo $mt300;?> </b> </td>
@@ -402,7 +417,7 @@ if($query_cliente || $query_operatore || $query_data){
 					</tr>
 					</td>
 				<?php
-			 	}else echo "<font color=#ffffff>L'offerta non è disponibile!</font>"; 
+			 	}else echo "<font color=#ffffff>L'offerta non ï¿½ disponibile!</font>"; 
 			
 			} 
 			$i++;
