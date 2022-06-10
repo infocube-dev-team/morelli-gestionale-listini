@@ -433,7 +433,7 @@ if($_GET['Note_ON']!="ON") $dettagli="-";
 		
 		<br>
 		<br>
-
+    </div>
 		
 		
 
